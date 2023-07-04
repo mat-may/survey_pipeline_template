@@ -37,7 +37,6 @@
    cishouseholds.impute
    cishouseholds.log
    cishouseholds.merge
-   cishouseholds.phm
    cishouseholds.pipeline
    cishouseholds.prediction_checker_class
    cishouseholds.prepare_for_union
