@@ -28,12 +28,8 @@ cishouseholds.pipeline.version\_specific\_processing
    :template: custom-module-template.rst
    :recursive:
 
-   cishouseholds.pipeline.version_specific_processing.digital_transformations
-   cishouseholds.pipeline.version_specific_processing.mult_version
-   cishouseholds.pipeline.version_specific_processing.participant_extract_digital
-   cishouseholds.pipeline.version_specific_processing.participant_extract_phm
-   cishouseholds.pipeline.version_specific_processing.phm_transformations
-   cishouseholds.pipeline.version_specific_processing.v0_transformations
-   cishouseholds.pipeline.version_specific_processing.v1_transformations
-   cishouseholds.pipeline.version_specific_processing.v2_transformations
+   cishouseholds.pipeline.version_specific_processing.multi_version_preprocessing
+   cishouseholds.pipeline.version_specific_processing.test_participant_data_transformations
+   cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_1_transformations
+   cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_2_transformations
 

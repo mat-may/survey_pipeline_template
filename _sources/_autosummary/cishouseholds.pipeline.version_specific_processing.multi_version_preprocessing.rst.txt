@@ -1,0 +1,31 @@
+cishouseholds.pipeline.version\_specific\_processing.multi\_version\_preprocessing
+==================================================================================
+
+.. automodule:: cishouseholds.pipeline.version_specific_processing.multi_version_preprocessing
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      assign_has_been_columns
+      derive_additional_v1_2_columns
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
