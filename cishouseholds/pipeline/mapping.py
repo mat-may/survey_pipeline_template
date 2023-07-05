@@ -1901,7 +1901,7 @@ column_name_maps = {
         "participant_digital_study_cohort": "study_cohort",
         "participant_digital_voucher_preference": "voucher_type_preference",
     },
-    "test_survey_response_data_version_1_name_map": {
+    "test_response_data_v1_name_map": {
         # "PHM-FUP-INT-002": "uac",
         "PHM-FUP-INT-003": "participant_first_name_confirmation",
         "PHM-FUP-INT-004": "participant_first_name_on_behalf",
@@ -2059,7 +2059,7 @@ column_name_maps = {
         "schema_name": "schema_name",
         "qid": "questionnaire_id",
     },
-    "test_survey_response_data_version_2_name_map": {
+    "test_response_data_v2_name_map": {
         "ons_household_id": "ons_household_id",
         "Visit_ID": "visit_id",
         "Visit Status": "household_visit_status",

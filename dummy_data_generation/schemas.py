@@ -662,7 +662,7 @@ def get_test_participant_data_data_description(_, blood_barcodes, swab_barcodes)
     }
 
 
-def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, swab_barcodes):
+def get_test_response_data_v1_data_description(_, blood_barcodes, swab_barcodes):
     return lambda: {  # noqa: E731
         "questionnaire_id": _("random.custom_code", mask="################", digit="#"),
         "portal_id": _("custom_random.random_integer", lower=1000, upper=12000, null_percent=0),
@@ -1251,7 +1251,7 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
     }
 
 
-def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, swab_barcodes):
+def get_test_response_data_v2_data_description(_, blood_barcodes, swab_barcodes):
     return lambda: {  # noqa: E731
         "ons_household_id": _("random.custom_code", mask="############", digit="#"),
         "Visit_ID": _(

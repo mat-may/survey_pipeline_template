@@ -291,7 +291,7 @@ validation_schemas = {
         "participant_digital_study_cohort": string_dict,
         "participant_digital_voucher_preference": string_dict,
     },
-    "test_survey_response_data_version_1_schema": {
+    "test_response_data_v1_schema": {
         "questionnaire_id": string_dict,
         "portal_id": string_dict,
         "form_language_launch": string_dict,
@@ -447,7 +447,7 @@ validation_schemas = {
         "survey_start_datetime": string_dict,
         "schema_name": string_dict,
     },
-    "test_survey_response_data_version_2_schema": {
+    "test_response_data_v2_schema": {
         "ons_household_id": string_dict,
         "Visit_ID": string_dict,
         "Visit Status": string_dict,

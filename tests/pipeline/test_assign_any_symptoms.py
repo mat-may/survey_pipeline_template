@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_1_transformations import (
+from cishouseholds.pipeline.version_specific_processing.test_response_data_v1_transformations import (
     assign_any_symptoms,
 )
 
