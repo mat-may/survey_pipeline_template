@@ -1,6 +1,0 @@
-cishouseholds.pipeline.vaccine\_transformations.deduplication
-=============================================================
-
-.. currentmodule:: cishouseholds.pipeline.vaccine_transformations
-
-.. autofunction:: deduplication

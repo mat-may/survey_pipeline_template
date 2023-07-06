@@ -58,8 +58,6 @@ cishouseholds.edit
       update_strings_to_sentence_case
       update_think_have_covid_symptom_any
       update_to_value_if_any_not_null
-      update_valid_order
-      update_valid_order_2
       update_value_if_multiple_and_ref_in_list
       update_work_facing_now_column
       update_work_main_job_changed

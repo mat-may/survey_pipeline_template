@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_default\_date\_flag
-================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_default_date_flag

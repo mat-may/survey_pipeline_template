@@ -34,7 +34,6 @@ cishouseholds.derive
       assign_date_from_filename
       assign_datetime_from_coalesced_columns_and_log_source
       assign_datetime_from_combined_columns
-      assign_default_date_flag
       assign_distinct_count_in_group
       assign_ethnicity_white
       assign_ever_had_long_term_health_condition_or_disabled
@@ -48,14 +47,10 @@ cishouseholds.derive
       assign_isin_list
       assign_last_non_null_value_from_col_list
       assign_last_visit
-      assign_max_doses
       assign_multigenerational
       assign_named_buckets
-      assign_nth_dose
-      assign_order_number
       assign_outward_postcode
       assign_population_projections
-      assign_poss_1_2
       assign_random_day_in_month
       assign_raw_copies
       assign_regex_from_map
@@ -68,7 +63,6 @@ cishouseholds.derive
       assign_taken_column
       assign_true_if_any
       assign_unique_id_column
-      assign_valid_order
       assign_visit_order
       assign_window_status
       assign_work_health_care
@@ -117,7 +111,6 @@ cishouseholds.derive
       flag_records_for_work_location_student
       get_keys_by_value
       get_matches
-      group_participant_within_date_range
       household_level_populations
       map_options_to_bool_columns
       mean_across_columns

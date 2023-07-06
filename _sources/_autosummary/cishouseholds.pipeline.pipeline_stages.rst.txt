@@ -28,7 +28,6 @@ cishouseholds.pipeline.pipeline\_stages
       execute_job_transformations
       execute_lab_transformations
       execute_post_union_processing
-      execute_vaccine_transformations
       execute_visit_transformations
       filter_dataframe
       generate_dummy_data

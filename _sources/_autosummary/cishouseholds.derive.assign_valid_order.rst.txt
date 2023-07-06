@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_valid\_order
-=========================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_valid_order

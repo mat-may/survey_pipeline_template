@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_max\_doses
-=======================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_max_doses

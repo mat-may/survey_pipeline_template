@@ -1,6 +1,0 @@
-cishouseholds.pipeline.vaccine\_transformations.preprocessing
-=============================================================
-
-.. currentmodule:: cishouseholds.pipeline.vaccine_transformations
-
-.. autofunction:: preprocessing

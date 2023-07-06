@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_nth\_dose
-======================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_nth_dose

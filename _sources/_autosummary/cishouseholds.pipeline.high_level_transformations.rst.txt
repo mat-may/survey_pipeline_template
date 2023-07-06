@@ -18,7 +18,6 @@ cishouseholds.pipeline.high\_level\_transformations
       fill_forwards
       fix_timestamps
       get_differences
-      pivot_vaccine_columns
    
    
 
