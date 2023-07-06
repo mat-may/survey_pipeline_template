@@ -19,7 +19,6 @@ from cishouseholds.expressions import all_columns_null
 from cishouseholds.expressions import any_column_not_null
 from cishouseholds.expressions import any_column_null
 from cishouseholds.expressions import count_occurrence_in_row
-from cishouseholds.expressions import set_date_component
 from cishouseholds.expressions import sum_within_row
 
 
@@ -277,6 +276,17 @@ def remove_incorrect_dates(
         min_date = min_date_dict.get(col, min_date)
         df = df.withColumn(col, F.when((F.col(col) < F.col(visit_date_column)) & (F.col(col) > min_date), F.col(col)))
     return df
+
+
+def set_date_component(date_column: str, date_component: str, set_to: Any):
+    """"""
+    regex_lookup = {"year": r"^\d{4,4}(?=-)", "month": r"(?<=-)\d{2,2}(?=-)", "day": r"(?<=-)\d{2,2}$"}
+    datetime = F.date_format(date_column, "yyyy-MM-dd HH:mm:ss")
+    split_datetime = F.split(datetime, " ")
+    date_lookup = {key: F.regexp_extract(split_datetime.getItem(0), val, 0) for key, val in regex_lookup.items()}
+    date_lookup[date_component] = F.lit(set_to)
+    new_date = F.concat_ws("-", *list(date_lookup.values()))
+    return F.to_timestamp(F.concat_ws(" ", new_date, split_datetime.getItem(1)))
 
 
 def correct_date_ranges(
