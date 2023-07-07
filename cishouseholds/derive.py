@@ -26,15 +26,22 @@ from cishouseholds.merge import null_safe_join
 from cishouseholds.pyspark_utils import get_or_create_spark_session
 
 
-def combine_like_array_columns(df: DataFrame, column_prefix: str):
+def combine_like_array_columns(df: DataFrame, column_prefix: str) -> DataFrame:
     """
     Combine all columns with a given prefix into a single string column with
     name of the 'column_prefix'. subsequently drop all the columns used to create the combined column.
 
     Parameters
     ----------
-    df
-    column_prefix
+    df : DataFrame
+        input df
+    column_prefix : str
+        prefix of columns to combine
+
+    Returns
+    -------
+    DataFrame
+        input df with new column_prefix column of combined values
     """
     cols = [col for col in df.columns if col.startswith(column_prefix)]
     return df.withColumn(column_prefix, F.concat(*[F.col(col) for col in cols])).drop(
@@ -45,23 +52,36 @@ def combine_like_array_columns(df: DataFrame, column_prefix: str):
 def assign_columns_from_array(
     df: DataFrame,
     array_column_name: str,
-    true_false_values: List[Any],
+    default_values: List[Any] = [True, False],
     prefix: Any = None,
     column_name_map: Dict[str, str] = None,
-):
+) -> DataFrame:
     """
-    Convert an array column into a series of columns, optionally apply a prefix to the value in the array
-    before generating the column name.
+    Convert an array column into a series of columns.
+
+    Prior to assigning the column:
+    * the values can be updated from a column_name_map; and/or
+    * have a prefix applied to the value
+
+    And once converted the exploded column values can be customised from default values of [True, False]
 
     Parameters
     ----------
-    df
-    array_column_name
-        the name of the array column to split
-    prefix
-        an optional prefix to apply to each name in the array
-    true_false_values
-        [<true value>,<false value>]
+    df : DataFrame
+        input df
+    array_column_name : str
+        name of array column
+    default_values : List[Any], optional
+        _description_, be default [True, False]
+    prefix : str, optional
+        string prefix, by default None
+    column_name_map : Dict[str, str], optional
+        dict map of values and values to map them to, by default None
+
+    Returns
+    -------
+    DataFrame
+        input df with new column for each item in the array_column
     """
     # array values become rows
     df = df.withColumn("exploded", F.explode(array_column_name))
@@ -74,12 +94,12 @@ def assign_columns_from_array(
 
     df = df.withColumn("exploded", F.lower(F.regexp_replace(F.col("exploded"), r"[^a-zA-Z0-9]{1,}", "_")))
 
-    df = df.withColumn("value", F.lit(true_false_values[0]))
+    df = df.withColumn("value", F.lit(default_values[0]))
     df = (
         df.groupby(*[col for col in df.columns if col not in ["exploded", "value"]])
         .pivot("exploded")
         .agg(F.first("value"))
-        .fillna(true_false_values[1])
+        .fillna(default_values[1])
     )
     return df.drop("exploded", "value")
 
@@ -92,25 +112,31 @@ def assign_datetime_from_combined_columns(
     hour_column: str = None,
     minute_column: str = None,
     second_column: str = None,
-):
+) -> DataFrame:
     """
-    Create a formatted pyspark date column from a series of components.
+    Create a formatted pyspark datetime column from a series of components, requires at least a date column.
 
     Parameters
     ----------
-    df
-    column_name_to_assign
-    date_column
-    am_pm_column
-    hour_column
-        an optional name for a column containing a 1-12 number representing the hour
-        if this column is not specified the hour will default to 0
-    minute_column
-        an optional name for a column containing a 1-12 number representing the minute
-        if this column is not specified the minute will default to 0
-    second_column
-        an optional name for a column containing a 1-12 number representing the second
-        if this column is not specified the second will default to 0
+    df : DataFrame
+        input df
+    column_name_to_assign : str
+        column name to assign in the input df
+    date_column : str
+        column containing 12H date
+    am_pm_column : str
+        column containing AM / PM value
+    hour_column : str, optional
+        an optional name for a column containing a 1-12 number representing the hour, by default None, if this column is not specified the hour will default to 0
+    minute_column : str, optional
+        an optional name for a column containing a 1-12 number representing the minute, by default None, if this column is not specified the hour will default to 0
+    second_column : str, optional
+        an optional name for a column containing a 1-12 number representing the second, by default None, if this column is not specified the hour will default to 0
+
+    Returns
+    -------
+    DataFrame
+        input df with new formatted datetime column
     """
     for col_name, temp_col_name in zip([hour_column, minute_column, second_column], ["_hour", "_min", "_sec"]):
         if col_name is None:
@@ -149,7 +175,7 @@ def assign_regex_from_map_additional_rules(
     first_match_only: Optional[bool] = False,
     overwrite_values: Optional[bool] = False,
     default_value: Optional[Any] = "Don't know",
-):
+) -> DataFrame:
     """
     Apply additional logic around the `assign_regex_from_map` function to allow for increased specificity/.
 
