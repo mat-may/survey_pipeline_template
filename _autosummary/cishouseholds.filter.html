@@ -712,11 +712,6 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.filter.file_exclude.html">
-       cishouseholds.filter.file_exclude
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.filter.filter_all_not_null.html">
        cishouseholds.filter.filter_all_not_null
       </a>
@@ -737,8 +732,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.filter.filter_leave_at_least_1.html">
-       cishouseholds.filter.filter_leave_at_least_1
+      <a class="reference internal" href="cishouseholds.filter.filter_exclude_source_file.html">
+       cishouseholds.filter.filter_exclude_source_file
       </a>
      </li>
     </ul>
@@ -3854,23 +3849,20 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.filter.assign_date_interval_and_flag.html#cishouseholds.filter.assign_date_interval_and_flag" title="cishouseholds.filter.assign_date_interval_and_flag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">assign_date_interval_and_flag</span></code></a>(df, ...[, ...])</p></td>
 <td><p>This function gives the time interval in either hours (by default) or days in a column by given two date columns and says whether it is inside and upper and lower interval.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.filter.file_exclude.html#cishouseholds.filter.file_exclude" title="cishouseholds.filter.file_exclude"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file_exclude</span></code></a>(df, source_file_col, ...)</p></td>
-<td><p>Function to exclude specific files from pipeline processing</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.filter.filter_all_not_null.html#cishouseholds.filter.filter_all_not_null" title="cishouseholds.filter.filter_all_not_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_all_not_null</span></code></a>(df, reference_columns)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.filter.filter_all_not_null.html#cishouseholds.filter.filter_all_not_null" title="cishouseholds.filter.filter_all_not_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_all_not_null</span></code></a>(df, reference_columns)</p></td>
 <td><p>Filter rows which have NULL values in all the specified columns.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.filter.filter_before_date_or_null.html#cishouseholds.filter.filter_before_date_or_null" title="cishouseholds.filter.filter_before_date_or_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_before_date_or_null</span></code></a>(df, date_column, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.filter.filter_before_date_or_null.html#cishouseholds.filter.filter_before_date_or_null" title="cishouseholds.filter.filter_before_date_or_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_before_date_or_null</span></code></a>(df, date_column, ...)</p></td>
 <td><p>Filter rows which have a date before a given <cite>min_date</cite>.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.filter.filter_by_cq_diff.html#cishouseholds.filter.filter_by_cq_diff" title="cishouseholds.filter.filter_by_cq_diff"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_by_cq_diff</span></code></a>(df, comparing_column, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.filter.filter_by_cq_diff.html#cishouseholds.filter.filter_by_cq_diff" title="cishouseholds.filter.filter_by_cq_diff"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_by_cq_diff</span></code></a>(df, comparing_column, ...)</p></td>
 <td><p>This function works out what columns have a float value difference less than 10-^5 or 0.00001</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.filter.filter_exclude_by_pattern.html#cishouseholds.filter.filter_exclude_by_pattern" title="cishouseholds.filter.filter_exclude_by_pattern"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_exclude_by_pattern</span></code></a>(df, column, pattern)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.filter.filter_exclude_by_pattern.html#cishouseholds.filter.filter_exclude_by_pattern" title="cishouseholds.filter.filter_exclude_by_pattern"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_exclude_by_pattern</span></code></a>(df, column, pattern)</p></td>
 <td><p>Function to filter dataframe by excluding pattern in specific column</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.filter.filter_leave_at_least_1.html#cishouseholds.filter.filter_leave_at_least_1" title="cishouseholds.filter.filter_leave_at_least_1"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_leave_at_least_1</span></code></a>(df, ...)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.filter.filter_exclude_source_file.html#cishouseholds.filter.filter_exclude_source_file" title="cishouseholds.filter.filter_exclude_source_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter_exclude_source_file</span></code></a>(df, ...)</p></td>
+<td><p>Function to exclude specific files from pipeline processing</p></td>
 </tr>
 </tbody>
 </table>

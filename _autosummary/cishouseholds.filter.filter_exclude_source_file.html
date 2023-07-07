@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>cishouseholds.filter.file_exclude &#8212; survey_pipeline_template  documentation</title>
+    <title>cishouseholds.filter.filter_exclude_source_file &#8212; survey_pipeline_template  documentation</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -34,8 +34,8 @@
     <script src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="cishouseholds.filter.filter_all_not_null" href="cishouseholds.filter.filter_all_not_null.html" />
-    <link rel="prev" title="cishouseholds.filter.assign_date_interval_and_flag" href="cishouseholds.filter.assign_date_interval_and_flag.html" />
+    <link rel="next" title="cishouseholds.hdfs_utils" href="cishouseholds.hdfs_utils.html" />
+    <link rel="prev" title="cishouseholds.filter.filter_exclude_by_pattern" href="cishouseholds.filter.filter_exclude_by_pattern.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -711,11 +711,6 @@
        cishouseholds.filter.assign_date_interval_and_flag
       </a>
      </li>
-     <li class="toctree-l3 current active">
-      <a class="current reference internal" href="#">
-       cishouseholds.filter.file_exclude
-      </a>
-     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.filter.filter_all_not_null.html">
        cishouseholds.filter.filter_all_not_null
@@ -736,9 +731,9 @@
        cishouseholds.filter.filter_exclude_by_pattern
       </a>
      </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.filter.filter_leave_at_least_1.html">
-       cishouseholds.filter.filter_leave_at_least_1
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="#">
+       cishouseholds.filter.filter_exclude_source_file
       </a>
      </li>
     </ul>
@@ -3842,11 +3837,11 @@
               
               <div>
                 
-  <section id="cishouseholds-filter-file-exclude">
-<h1>cishouseholds.filter.file_exclude<a class="headerlink" href="#cishouseholds-filter-file-exclude" title="Permalink to this headline">¶</a></h1>
+  <section id="cishouseholds-filter-filter-exclude-source-file">
+<h1>cishouseholds.filter.filter_exclude_source_file<a class="headerlink" href="#cishouseholds-filter-filter-exclude-source-file" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
-<dt class="sig sig-object py" id="cishouseholds.filter.file_exclude">
-<span class="sig-prename descclassname"><span class="pre">cishouseholds.filter.</span></span><span class="sig-name descname"><span class="pre">file_exclude</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source_file_col</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">files_to_exclude</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cishouseholds.filter.file_exclude" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="cishouseholds.filter.filter_exclude_source_file">
+<span class="sig-prename descclassname"><span class="pre">cishouseholds.filter.</span></span><span class="sig-name descname"><span class="pre">filter_exclude_source_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source_file_col</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">files_to_exclude</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cishouseholds.filter.filter_exclude_source_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Function to exclude specific files from pipeline processing</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -3867,17 +3862,17 @@
               
               <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="cishouseholds.filter.assign_date_interval_and_flag.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="cishouseholds.filter.filter_exclude_by_pattern.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">cishouseholds.filter.assign_date_interval_and_flag</p>
+            <p class="prev-next-title">cishouseholds.filter.filter_exclude_by_pattern</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="cishouseholds.filter.filter_all_not_null.html" title="next page">
+    <a class='right-next' id="next-link" href="cishouseholds.hdfs_utils.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">cishouseholds.filter.filter_all_not_null</p>
+        <p class="prev-next-title">cishouseholds.hdfs_utils</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
