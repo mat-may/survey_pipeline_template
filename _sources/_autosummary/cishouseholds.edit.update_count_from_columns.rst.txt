@@ -1,0 +1,6 @@
+cishouseholds.edit.update\_count\_from\_columns
+===============================================
+
+.. currentmodule:: cishouseholds.edit
+
+.. autofunction:: update_count_from_columns

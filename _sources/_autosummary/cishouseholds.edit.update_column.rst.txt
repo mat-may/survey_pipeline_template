@@ -1,6 +1,0 @@
-cishouseholds.edit.update\_column
-=================================
-
-.. currentmodule:: cishouseholds.edit
-
-.. autofunction:: update_column

@@ -1,0 +1,6 @@
+cishouseholds.edit.update\_null\_column\_from\_target\_column
+=============================================================
+
+.. currentmodule:: cishouseholds.edit
+
+.. autofunction:: update_null_column_from_target_column
