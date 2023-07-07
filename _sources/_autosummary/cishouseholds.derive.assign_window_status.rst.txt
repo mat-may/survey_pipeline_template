@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_window\_status
-===========================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_window_status

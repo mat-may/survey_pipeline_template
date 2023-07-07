@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_completion\_status
-===============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_completion_status

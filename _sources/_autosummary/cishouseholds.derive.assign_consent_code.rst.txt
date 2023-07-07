@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_consent\_code
-==========================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_consent_code

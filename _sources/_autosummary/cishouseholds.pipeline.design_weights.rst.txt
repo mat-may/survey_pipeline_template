@@ -24,6 +24,8 @@ cishouseholds.pipeline.design\_weights
       calculate_scaled_antibody_design_weights
       calculate_scaled_swab_design_weights
       clean_df
+      derive_country_code
+      household_level_populations
       join_and_process_lookups
       recode_columns
       reformat_age_population_table

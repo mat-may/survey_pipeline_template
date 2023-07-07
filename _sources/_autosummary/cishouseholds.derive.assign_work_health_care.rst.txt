@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_work\_health\_care
-===============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_work_health_care

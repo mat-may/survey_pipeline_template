@@ -1,0 +1,6 @@
+cishouseholds.regex.regex\_flags.flag\_records\_for\_work\_location\_student
+============================================================================
+
+.. currentmodule:: cishouseholds.regex.regex_flags
+
+.. autofunction:: flag_records_for_work_location_student

@@ -1,0 +1,6 @@
+cishouseholds.regex.regex\_flags.flag\_records\_for\_school\_v2\_rules
+======================================================================
+
+.. currentmodule:: cishouseholds.regex.regex_flags
+
+.. autofunction:: flag_records_for_school_v2_rules

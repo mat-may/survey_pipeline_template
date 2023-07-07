@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_work\_person\_facing\_now
-======================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_work_person_facing_now

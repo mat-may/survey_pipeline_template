@@ -1,6 +1,0 @@
-cishouseholds.derive.translate\_column\_regex\_replace
-======================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: translate_column_regex_replace

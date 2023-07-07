@@ -1,6 +1,0 @@
-cishouseholds.derive.derive\_country\_code
-==========================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: derive_country_code

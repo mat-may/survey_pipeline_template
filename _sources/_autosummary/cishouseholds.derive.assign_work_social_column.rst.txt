@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_work\_social\_column
-=================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_work_social_column

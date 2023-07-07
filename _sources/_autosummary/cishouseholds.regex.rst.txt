@@ -36,6 +36,7 @@ cishouseholds.regex
    :recursive:
 
    cishouseholds.regex.healthcare_regex
+   cishouseholds.regex.regex_flags
    cishouseholds.regex.regex_patterns
    cishouseholds.regex.vaccine_regex
 

@@ -1,0 +1,58 @@
+cishouseholds.regex.regex\_flags
+================================
+
+.. automodule:: cishouseholds.regex.regex_flags
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      flag_records_for_childcare_v0_rules
+      flag_records_for_childcare_v1_rules
+      flag_records_for_childcare_v2_b_rules
+      flag_records_for_college_v0_rules
+      flag_records_for_college_v1_rules
+      flag_records_for_college_v2_rules
+      flag_records_for_furlough_rules_v0
+      flag_records_for_furlough_rules_v1_a
+      flag_records_for_furlough_rules_v1_b
+      flag_records_for_furlough_rules_v2_a
+      flag_records_for_furlough_rules_v2_b
+      flag_records_for_not_working_rules_v0
+      flag_records_for_not_working_rules_v1_a
+      flag_records_for_not_working_rules_v1_b
+      flag_records_for_not_working_rules_v2_a
+      flag_records_for_not_working_rules_v2_b
+      flag_records_for_retired_rules
+      flag_records_for_school_v2_rules
+      flag_records_for_self_employed_rules_v0
+      flag_records_for_self_employed_rules_v1_a
+      flag_records_for_self_employed_rules_v1_b
+      flag_records_for_self_employed_rules_v2_a
+      flag_records_for_self_employed_rules_v2_b
+      flag_records_for_uni_v0_rules
+      flag_records_for_uni_v1_rules
+      flag_records_for_uni_v2_rules
+      flag_records_for_work_from_home_rules
+      flag_records_for_work_location_null
+      flag_records_for_work_location_student
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
