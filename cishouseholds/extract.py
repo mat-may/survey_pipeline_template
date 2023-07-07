@@ -21,10 +21,20 @@ def list_contents(path: str, recursive: Optional[bool] = False, date_from_filena
     """
     Read contents of a directory and return the path for each file and
     returns a dataframe of
+
     Parameters
     ----------
-    path : String
-    recursive
+    path : str
+        hdfs file path to search
+    recursive : Optional[bool], optional
+        set whether the contents should be recursive, by default False
+    date_from_filename : Optional[bool], optional
+        set whether to get upload_date column values from filename, by default True
+
+    Returns
+    -------
+    DataFrame
+        Pandas DataFrame containing contents of path with metadata
     """
     command = ["hadoop", "fs", "-ls"]
     if recursive:
@@ -68,15 +78,23 @@ def get_files_by_date(
 
     Parameters
     ----------
-    path
+    path : str
         hdfs file path to search
-    selector
-        options for selection type: latest, after(date), before(date)
-    start_date
+    start_date : Optional[Union[str, datetime]], optional
         date to select files after
-    end_date
+    end_date : Optional[Union[str, datetime]], optional
         date to select files before
+    date_from_filename : bool, optional
+        set whether to get upload_date column values from filename, by default True
+    return_complete_df : bool, optional
+        set whether to return full df or list, by default False
+
+    Returns
+    -------
+    Union[List[str], DataFrame]
+        returns list of files or df of files depending on value for return_complete_df
     """
+
     file_df = list_contents(path, date_from_filename=date_from_filename)
     file_df = file_df.dropna(subset=["upload_date"])
     file_df = file_df.sort_values(["upload_date", "upload_time"])
@@ -95,19 +113,24 @@ def get_files_by_date(
     return file_list
 
 
-def remove_list_items_in_table(item_list: list, table_name: str, item_column: str):
+def remove_list_items_in_table(item_list: list, table_name: str, item_column: str) -> list:
     """
     Returns a list with items removed that exist in a specified table column.
     Used for removed previously processed or errored files.
 
     Parameters
     ----------
-    item_list
+    item_list : list
         items to remove from
-    table_name
+    table_name : str
         name of HIVE table that contains the list of items to remove
-    item_column
+    item_column : str
         name of column in table containing items to remove from list
+
+    Returns
+    -------
+    list
+        item_list of values not in item_column
     """
     table_item_column = extract_from_table(table_name).select(item_column).distinct()
     table_items = column_to_list(table_item_column, item_column)
@@ -118,8 +141,28 @@ def remove_list_items_in_table(item_list: list, table_name: str, item_column: st
 
 def filter_list_items_in_table_when_condition(
     item_list: list, table_name: str, item_column: str, condition_column: str, condition_value: Any
-):
-    """"""
+) -> list:
+    """
+    Returns a list with items removed that exist in a specified table column.
+
+    Parameters
+    ----------
+    item_list : list
+        items to remove from
+    table_name : str
+        name of HIVE table that contains the list of items to remove
+    item_column : str
+        name of column in table containing items to remove from list
+    condition_column : str
+        name of column in HIVE table that the condition should be evaluated on
+    condition_value : Any
+        the value to be evaluated against the condition_column
+
+    Returns
+    -------
+    list
+        item_list of values not in filtered subset of item_column
+    """
     table_item_column = (
         extract_from_table(table_name).filter(F.col(condition_column) == condition_value).select(item_column).distinct()
     )
@@ -137,10 +180,32 @@ def get_files_to_be_processed(
     include_processed=False,
     include_invalid=False,
     date_from_filename=True,
-):
+) -> list:
     """
     Get list of files matching the specified pattern and optionally filter
     to only those that have not been processed or were previously invalid.
+
+    Parameters
+    ----------
+    resource_path : _type_
+        file path to search
+    latest_only : bool, optional
+        set whether only the latest file should be returned, by default False
+    start_date : _type_, optional
+        date to select files after, by default None
+    end_date : _type_, optional
+        date to select files before, by default None
+    include_processed : bool, optional
+        set whether files that have already been processed should be returned, by default False
+    include_invalid : bool, optional
+        set whether files flagged as invalid should be returned, by default False
+    date_from_filename : bool, optional
+        set whether to get upload_date column values from filename, by default True
+
+    Returns
+    -------
+    list
+        list of file paths
     """
     from cishouseholds.pipeline.load import check_table_exists
 

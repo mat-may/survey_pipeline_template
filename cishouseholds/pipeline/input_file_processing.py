@@ -37,6 +37,8 @@ def extract_lookup_csv(
 
     Parameters
     ----------
+    lookup_file_path
+        file path for lookup file to extract
     validation_schema
         schema to map column names to required data type, if type not compatible value set to null
     column_name_map
@@ -108,6 +110,7 @@ def extract_validate_transform_input_data(
     dataset_version
         optional integer to denote the voyager version of the survey file
     survey_table
+        optional boolean toggle to identify whether the output is a survey_table
     """
     if include_hadoop_read_write:
         storage_config = get_config()["storage"]
@@ -161,6 +164,11 @@ def extract_input_data(
         file path or pattern to extract any number of matching files into single dataframe
     validation_schema
         schema to map column names to required data type
+    sep
+        optional value seperator used in the csv file
+        e.g. | or ,
+    source_file_column
+        optional column name in which to store the source file name
     """
     spark_session = get_or_create_spark_session()
     spark_schema = convert_cerberus_schema_to_pyspark(validation_schema) if validation_schema is not None else None
