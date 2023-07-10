@@ -846,23 +846,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_backwards_work_status_v2.html">
-       cishouseholds.impute.fill_backwards_work_status_v2
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_event.html">
-       cishouseholds.impute.fill_forward_event
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change.html">
        cishouseholds.impute.fill_forward_from_last_change
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change_marked_subset.html">
-       cishouseholds.impute.fill_forward_from_last_change_marked_subset
       </a>
      </li>
      <li class="toctree-l3">
@@ -876,18 +861,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column.html">
-       cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_contact.html">
-       cishouseholds.impute.fill_forwards_covid_contact
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_infection.html">
-       cishouseholds.impute.fill_forwards_covid_infection
+      <a class="reference internal" href="cishouseholds.impute.fill_forward_target_columns.html">
+       cishouseholds.impute.fill_forward_target_columns
       </a>
      </li>
      <li class="toctree-l3">
@@ -923,21 +898,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.impute.impute_date_by_k_nearest_neighbours.html">
        cishouseholds.impute.impute_date_by_k_nearest_neighbours
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_latest_date_flag.html">
-       cishouseholds.impute.impute_latest_date_flag
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_outside_uk_columns.html">
-       cishouseholds.impute.impute_outside_uk_columns
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_visit_datetime.html">
-       cishouseholds.impute.impute_visit_datetime
       </a>
      </li>
      <li class="toctree-l3">
@@ -3836,7 +3796,7 @@
 <h1>cishouseholds.pipeline.translate.backup_and_replace_translation_lookup_df<a class="headerlink" href="#cishouseholds-pipeline-translate-backup-and-replace-translation-lookup-df" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
 <dt class="sig sig-object py" id="cishouseholds.pipeline.translate.backup_and_replace_translation_lookup_df">
-<span class="sig-prename descclassname"><span class="pre">cishouseholds.pipeline.translate.</span></span><span class="sig-name descname"><span class="pre">backup_and_replace_translation_lookup_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">new_lookup_df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lookup_directory</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">backup_directory</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">formatted_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'20230710_1015'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cishouseholds.pipeline.translate.backup_and_replace_translation_lookup_df" title="Permalink to this definition">¶</a></dt>
+<span class="sig-prename descclassname"><span class="pre">cishouseholds.pipeline.translate.</span></span><span class="sig-name descname"><span class="pre">backup_and_replace_translation_lookup_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">new_lookup_df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lookup_directory</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">backup_directory</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">formatted_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'20230710_1426'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cishouseholds.pipeline.translate.backup_and_replace_translation_lookup_df" title="Permalink to this definition">¶</a></dt>
 <dd><p>Backs up the lookup_path to the backup_directory with an automatically generated timestamp suffix.
 Writes the new_lookup_df to the lookup_directory</p>
 <p>This uses two rename operations instead of a delete / write_csv_rename operations as there were obstinate

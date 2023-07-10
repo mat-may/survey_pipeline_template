@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>cishouseholds.impute.impute_outside_uk_columns &#8212; survey_pipeline_template  documentation</title>
+    <title>cishouseholds.impute.fill_forward_target_columns &#8212; survey_pipeline_template  documentation</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -34,8 +34,8 @@
     <script src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="cishouseholds.impute.impute_visit_datetime" href="cishouseholds.impute.impute_visit_datetime.html" />
-    <link rel="prev" title="cishouseholds.impute.impute_latest_date_flag" href="cishouseholds.impute.impute_latest_date_flag.html" />
+    <link rel="next" title="cishouseholds.impute.generate_fill_forward_df" href="cishouseholds.impute.generate_fill_forward_df.html" />
+    <link rel="prev" title="cishouseholds.impute.fill_forward_only_to_nulls" href="cishouseholds.impute.fill_forward_only_to_nulls.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -846,23 +846,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_backwards_work_status_v2.html">
-       cishouseholds.impute.fill_backwards_work_status_v2
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_event.html">
-       cishouseholds.impute.fill_forward_event
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change.html">
        cishouseholds.impute.fill_forward_from_last_change
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change_marked_subset.html">
-       cishouseholds.impute.fill_forward_from_last_change_marked_subset
       </a>
      </li>
      <li class="toctree-l3">
@@ -875,19 +860,9 @@
        cishouseholds.impute.fill_forward_only_to_nulls
       </a>
      </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column.html">
-       cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_contact.html">
-       cishouseholds.impute.fill_forwards_covid_contact
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_infection.html">
-       cishouseholds.impute.fill_forwards_covid_infection
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="#">
+       cishouseholds.impute.fill_forward_target_columns
       </a>
      </li>
      <li class="toctree-l3">
@@ -923,21 +898,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.impute.impute_date_by_k_nearest_neighbours.html">
        cishouseholds.impute.impute_date_by_k_nearest_neighbours
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_latest_date_flag.html">
-       cishouseholds.impute.impute_latest_date_flag
-      </a>
-     </li>
-     <li class="toctree-l3 current active">
-      <a class="current reference internal" href="#">
-       cishouseholds.impute.impute_outside_uk_columns
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_visit_datetime.html">
-       cishouseholds.impute.impute_visit_datetime
       </a>
      </li>
      <li class="toctree-l3">
@@ -3832,24 +3792,21 @@
               
               <div>
                 
-  <section id="cishouseholds-impute-impute-outside-uk-columns">
-<h1>cishouseholds.impute.impute_outside_uk_columns<a class="headerlink" href="#cishouseholds-impute-impute-outside-uk-columns" title="Permalink to this headline">¶</a></h1>
+  <section id="cishouseholds-impute-fill-forward-target-columns">
+<h1>cishouseholds.impute.fill_forward_target_columns<a class="headerlink" href="#cishouseholds-impute-fill-forward-target-columns" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
-<dt class="sig sig-object py" id="cishouseholds.impute.impute_outside_uk_columns">
-<span class="sig-prename descclassname"><span class="pre">cishouseholds.impute.</span></span><span class="sig-name descname"><span class="pre">impute_outside_uk_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outside_uk_date_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outside_country_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outside_uk_since_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">visit_datetime_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cishouseholds.impute.impute_outside_uk_columns" title="Permalink to this definition">¶</a></dt>
-<dd><p>Impute columns related to a survey participant being outside the UK</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>df</strong> – </p></li>
-<li><p><strong>outside_uk_date_column</strong> – The column which contains when the participant was outside the UK</p></li>
-<li><p><strong>outside_country_column</strong> – The column which contains the (non-UK) country the participant was in</p></li>
-<li><p><strong>outside_uk_since_column</strong> – The column which contains the date since the participant was outside the UK</p></li>
-<li><p><strong>visit_datetime_column</strong> – Survey visit datetime</p></li>
-<li><p><strong>id_column</strong> – The column to use to partition records</p></li>
-</ul>
-</dd>
-</dl>
+<dt class="sig sig-object py" id="cishouseholds.impute.fill_forward_target_columns">
+<span class="sig-prename descclassname"><span class="pre">cishouseholds.impute.</span></span><span class="sig-name descname"><span class="pre">fill_forward_target_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_indicator_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_date_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_date_tolerance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">detail_columns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant_id_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">event_datetime_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">event_id_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_hdfs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cishouseholds.impute.fill_forward_target_columns" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fill forwards all target columns assocaited with a target event.
+Disambiguate events by earliest recorded expression of an event and
+take the latest event for each visit_datetime forward across all records.
+:param df:
+:param target_indicator_column: column indicating if the targetted event took place
+:param target_date_column: date of the target event
+:param detail_columns: additional columns relating to the target event
+:param participant_id_column:
+:param event_datetime_column:
+:param event_id_column:</p>
 </dd></dl>
 
 </section>
@@ -3860,17 +3817,17 @@
               
               <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="cishouseholds.impute.impute_latest_date_flag.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="cishouseholds.impute.fill_forward_only_to_nulls.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">cishouseholds.impute.impute_latest_date_flag</p>
+            <p class="prev-next-title">cishouseholds.impute.fill_forward_only_to_nulls</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="cishouseholds.impute.impute_visit_datetime.html" title="next page">
+    <a class='right-next' id="next-link" href="cishouseholds.impute.generate_fill_forward_df.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">cishouseholds.impute.impute_visit_datetime</p>
+        <p class="prev-next-title">cishouseholds.impute.generate_fill_forward_df</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

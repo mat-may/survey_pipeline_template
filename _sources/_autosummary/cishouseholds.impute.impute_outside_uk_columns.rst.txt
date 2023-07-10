@@ -1,6 +1,0 @@
-cishouseholds.impute.impute\_outside\_uk\_columns
-=================================================
-
-.. currentmodule:: cishouseholds.impute
-
-.. autofunction:: impute_outside_uk_columns

@@ -34,8 +34,8 @@
     <script src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="cishouseholds.impute.fill_forward_from_last_change_marked_subset" href="cishouseholds.impute.fill_forward_from_last_change_marked_subset.html" />
-    <link rel="prev" title="cishouseholds.impute.fill_forward_event" href="cishouseholds.impute.fill_forward_event.html" />
+    <link rel="next" title="cishouseholds.impute.fill_forward_from_last_change_process" href="cishouseholds.impute.fill_forward_from_last_change_process.html" />
+    <link rel="prev" title="cishouseholds.impute.fill_backwards_overriding_not_nulls" href="cishouseholds.impute.fill_backwards_overriding_not_nulls.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -845,24 +845,9 @@
        cishouseholds.impute.fill_backwards_overriding_not_nulls
       </a>
      </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_backwards_work_status_v2.html">
-       cishouseholds.impute.fill_backwards_work_status_v2
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_event.html">
-       cishouseholds.impute.fill_forward_event
-      </a>
-     </li>
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
        cishouseholds.impute.fill_forward_from_last_change
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change_marked_subset.html">
-       cishouseholds.impute.fill_forward_from_last_change_marked_subset
       </a>
      </li>
      <li class="toctree-l3">
@@ -876,18 +861,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column.html">
-       cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_contact.html">
-       cishouseholds.impute.fill_forwards_covid_contact
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_infection.html">
-       cishouseholds.impute.fill_forwards_covid_infection
+      <a class="reference internal" href="cishouseholds.impute.fill_forward_target_columns.html">
+       cishouseholds.impute.fill_forward_target_columns
       </a>
      </li>
      <li class="toctree-l3">
@@ -923,21 +898,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.impute.impute_date_by_k_nearest_neighbours.html">
        cishouseholds.impute.impute_date_by_k_nearest_neighbours
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_latest_date_flag.html">
-       cishouseholds.impute.impute_latest_date_flag
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_outside_uk_columns.html">
-       cishouseholds.impute.impute_outside_uk_columns
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_visit_datetime.html">
-       cishouseholds.impute.impute_visit_datetime
       </a>
      </li>
      <li class="toctree-l3">
@@ -3836,7 +3796,7 @@
 <h1>cishouseholds.impute.fill_forward_from_last_change<a class="headerlink" href="#cishouseholds-impute-fill-forward-from-last-change" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
 <dt class="sig sig-object py" id="cishouseholds.impute.fill_forward_from_last_change">
-<span class="sig-prename descclassname"><span class="pre">cishouseholds.impute.</span></span><span class="sig-name descname"><span class="pre">fill_forward_from_last_change</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fill_forward_columns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant_id_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">visit_datetime_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">record_changed_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">record_changed_value</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></span><a class="headerlink" href="#cishouseholds.impute.fill_forward_from_last_change" title="Permalink to this definition">¶</a></dt>
+<span class="sig-prename descclassname"><span class="pre">cishouseholds.impute.</span></span><span class="sig-name descname"><span class="pre">fill_forward_from_last_change</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fill_forward_columns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant_id_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">event_datetime_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">record_changed_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">record_changed_value</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pyspark.sql.dataframe.DataFrame</span></span></span><a class="headerlink" href="#cishouseholds.impute.fill_forward_from_last_change" title="Permalink to this definition">¶</a></dt>
 <dd><p>Call the fill forwards from last change function with a subset of the available rows
 to fill forward from. This set is generated by combining rows where record has changed and
 the first row of each participant.</p>
@@ -3845,7 +3805,7 @@ the first row of each participant.</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>fill_forward_columns</strong> – list of column names to include in fill forwards</p></li>
 <li><p><strong>participant_id_column</strong> – column used to identify the group to fill within</p></li>
-<li><p><strong>visit_datetime_column</strong> – column used to order for fill forwards</p></li>
+<li><p><strong>event_datetime_column</strong> – column used to order for fill forwards</p></li>
 <li><p><strong>record_changed_column</strong> – column that indicates a change in the current record</p></li>
 <li><p><strong>record_changed_value</strong> – value in <cite>record_changed_column</cite> that indicates a change in the current record</p></li>
 </ul>
@@ -3861,17 +3821,17 @@ the first row of each participant.</p>
               
               <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="cishouseholds.impute.fill_forward_event.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="cishouseholds.impute.fill_backwards_overriding_not_nulls.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">cishouseholds.impute.fill_forward_event</p>
+            <p class="prev-next-title">cishouseholds.impute.fill_backwards_overriding_not_nulls</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="cishouseholds.impute.fill_forward_from_last_change_marked_subset.html" title="next page">
+    <a class='right-next' id="next-link" href="cishouseholds.impute.fill_forward_from_last_change_process.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">cishouseholds.impute.fill_forward_from_last_change_marked_subset</p>
+        <p class="prev-next-title">cishouseholds.impute.fill_forward_from_last_change_process</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

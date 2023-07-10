@@ -846,23 +846,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_backwards_work_status_v2.html">
-       cishouseholds.impute.fill_backwards_work_status_v2
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_event.html">
-       cishouseholds.impute.fill_forward_event
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change.html">
        cishouseholds.impute.fill_forward_from_last_change
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change_marked_subset.html">
-       cishouseholds.impute.fill_forward_from_last_change_marked_subset
       </a>
      </li>
      <li class="toctree-l3">
@@ -876,18 +861,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column.html">
-       cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_contact.html">
-       cishouseholds.impute.fill_forwards_covid_contact
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_infection.html">
-       cishouseholds.impute.fill_forwards_covid_infection
+      <a class="reference internal" href="cishouseholds.impute.fill_forward_target_columns.html">
+       cishouseholds.impute.fill_forward_target_columns
       </a>
      </li>
      <li class="toctree-l3">
@@ -923,21 +898,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.impute.impute_date_by_k_nearest_neighbours.html">
        cishouseholds.impute.impute_date_by_k_nearest_neighbours
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_latest_date_flag.html">
-       cishouseholds.impute.impute_latest_date_flag
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_outside_uk_columns.html">
-       cishouseholds.impute.impute_outside_uk_columns
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.impute.impute_visit_datetime.html">
-       cishouseholds.impute.impute_visit_datetime
       </a>
      </li>
      <li class="toctree-l3">
@@ -3847,62 +3807,38 @@
 <tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.fill_backwards_overriding_not_nulls.html#cishouseholds.impute.fill_backwards_overriding_not_nulls" title="cishouseholds.impute.fill_backwards_overriding_not_nulls"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_backwards_overriding_not_nulls</span></code></a>(df, ...)</p></td>
 <td><p>Fill/impute missing values working backwards from the latest known non-null value</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.fill_backwards_work_status_v2.html#cishouseholds.impute.fill_backwards_work_status_v2" title="cishouseholds.impute.fill_backwards_work_status_v2"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_backwards_work_status_v2</span></code></a>(df, date, id, ...)</p></td>
-<td><p>This function fills backwards as long as it is within upper and lower date defined by list <cite>date_range</cite>.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_event.html#cishouseholds.impute.fill_forward_event" title="cishouseholds.impute.fill_forward_event"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_event</span></code></a>(df, ...[, use_hdfs])</p></td>
-<td><p>Fill forwards all columns associated with an event.</p></td>
-</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change.html#cishouseholds.impute.fill_forward_from_last_change" title="cishouseholds.impute.fill_forward_from_last_change"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_from_last_change</span></code></a>(df, ...)</p></td>
 <td><p>Call the fill forwards from last change function with a subset of the available rows to fill forward from.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change_marked_subset.html#cishouseholds.impute.fill_forward_from_last_change_marked_subset" title="cishouseholds.impute.fill_forward_from_last_change_marked_subset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_from_last_change_marked_subset</span></code></a>(df, ...)</p></td>
-<td><p>Call the fill forwards from last change function with a subset of the available rows to fill forward from along with a filtered subset of the original dataset.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change_process.html#cishouseholds.impute.fill_forward_from_last_change_process" title="cishouseholds.impute.fill_forward_from_last_change_process"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_from_last_change_process</span></code></a>(df, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_from_last_change_process.html#cishouseholds.impute.fill_forward_from_last_change_process" title="cishouseholds.impute.fill_forward_from_last_change_process"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_from_last_change_process</span></code></a>(df, ...)</p></td>
 <td><p>Fill forwards, by time, a list of columns from records that are indicated to have changed.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_only_to_nulls.html#cishouseholds.impute.fill_forward_only_to_nulls" title="cishouseholds.impute.fill_forward_only_to_nulls"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_only_to_nulls</span></code></a>(df, id, date, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_only_to_nulls.html#cishouseholds.impute.fill_forward_only_to_nulls" title="cishouseholds.impute.fill_forward_only_to_nulls"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_only_to_nulls</span></code></a>(df, id, date, ...)</p></td>
 <td><p>Fill forward to not nulls for the whole dataset.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column.html#cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column" title="cishouseholds.impute.fill_forward_only_to_nulls_in_dataset_based_on_column"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_only_to_nulls_in_dataset_based_on_column</span></code></a>(df, ...)</p></td>
-<td><p>This function will carry forward values windowed by an id ordered by date.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forward_target_columns.html#cishouseholds.impute.fill_forward_target_columns" title="cishouseholds.impute.fill_forward_target_columns"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forward_target_columns</span></code></a>(df, ...[, use_hdfs])</p></td>
+<td><p>Fill forwards all target columns assocaited with a target event.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_contact.html#cishouseholds.impute.fill_forwards_covid_contact" title="cishouseholds.impute.fill_forwards_covid_contact"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forwards_covid_contact</span></code></a>(df, ...)</p></td>
-<td><p>Fill forwards a group covid contact columns.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.fill_forwards_covid_infection.html#cishouseholds.impute.fill_forwards_covid_infection" title="cishouseholds.impute.fill_forwards_covid_infection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fill_forwards_covid_infection</span></code></a>(df, ...)</p></td>
-<td><p>Fill forwards a group of columns.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.generate_fill_forward_df.html#cishouseholds.impute.generate_fill_forward_df" title="cishouseholds.impute.generate_fill_forward_df"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_fill_forward_df</span></code></a>(df, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.generate_fill_forward_df.html#cishouseholds.impute.generate_fill_forward_df" title="cishouseholds.impute.generate_fill_forward_df"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_fill_forward_df</span></code></a>(df, ...)</p></td>
 <td><p>Generate fill-forward dataframe</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.impute_and_flag.html#cishouseholds.impute.impute_and_flag" title="cishouseholds.impute.impute_and_flag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_and_flag</span></code></a>(df, imputation_function, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.impute_and_flag.html#cishouseholds.impute.impute_and_flag" title="cishouseholds.impute.impute_and_flag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_and_flag</span></code></a>(df, imputation_function, ...)</p></td>
 <td><p>Wrapper function for calling imputations, flagging imputed records and recording imputation methods.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.impute_by_distribution.html#cishouseholds.impute.impute_by_distribution" title="cishouseholds.impute.impute_by_distribution"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_by_distribution</span></code></a>(df, ...[, rng_seed])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.impute_by_distribution.html#cishouseholds.impute.impute_by_distribution" title="cishouseholds.impute.impute_by_distribution"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_by_distribution</span></code></a>(df, ...[, rng_seed])</p></td>
 <td><p>Calculate a imputation value from a missing value using a probability threshold determined by the proportion of a sub group.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.impute_by_k_nearest_neighbours.html#cishouseholds.impute.impute_by_k_nearest_neighbours" title="cishouseholds.impute.impute_by_k_nearest_neighbours"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_by_k_nearest_neighbours</span></code></a>(df, ...[, ...])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.impute_by_k_nearest_neighbours.html#cishouseholds.impute.impute_by_k_nearest_neighbours" title="cishouseholds.impute.impute_by_k_nearest_neighbours"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_by_k_nearest_neighbours</span></code></a>(df, ...[, ...])</p></td>
 <td><p>Minimal PySpark implementation of RBEIS, for K-nearest neighbours imputation.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.impute_by_mode.html#cishouseholds.impute.impute_by_mode" title="cishouseholds.impute.impute_by_mode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_by_mode</span></code></a>(df, column_name_to_assign, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.impute_by_mode.html#cishouseholds.impute.impute_by_mode" title="cishouseholds.impute.impute_by_mode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_by_mode</span></code></a>(df, column_name_to_assign, ...)</p></td>
 <td><p>Get imputation value from given column by most commonly occurring value.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.impute_by_ordered_fill_forward.html#cishouseholds.impute.impute_by_ordered_fill_forward" title="cishouseholds.impute.impute_by_ordered_fill_forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_by_ordered_fill_forward</span></code></a>(df, ...[, ...])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.impute_by_ordered_fill_forward.html#cishouseholds.impute.impute_by_ordered_fill_forward" title="cishouseholds.impute.impute_by_ordered_fill_forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_by_ordered_fill_forward</span></code></a>(df, ...[, ...])</p></td>
 <td><p>Impute the last observation of a given field by given identity column.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.impute_date_by_k_nearest_neighbours.html#cishouseholds.impute.impute_date_by_k_nearest_neighbours" title="cishouseholds.impute.impute_date_by_k_nearest_neighbours"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_date_by_k_nearest_neighbours</span></code></a>(df, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.impute_date_by_k_nearest_neighbours.html#cishouseholds.impute.impute_date_by_k_nearest_neighbours" title="cishouseholds.impute.impute_date_by_k_nearest_neighbours"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_date_by_k_nearest_neighbours</span></code></a>(df, ...)</p></td>
 <td><p>Impute dates by K-nearest neighbour</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.impute_latest_date_flag.html#cishouseholds.impute.impute_latest_date_flag" title="cishouseholds.impute.impute_latest_date_flag"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_latest_date_flag</span></code></a>(df, ...)</p></td>
-<td><p>derive a flag based on latest date and im values associated with rows where this flag is 1</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.impute_outside_uk_columns.html#cishouseholds.impute.impute_outside_uk_columns" title="cishouseholds.impute.impute_outside_uk_columns"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_outside_uk_columns</span></code></a>(df, ...)</p></td>
-<td><p>Impute columns related to a survey participant being outside the UK</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cishouseholds.impute.impute_visit_datetime.html#cishouseholds.impute.impute_visit_datetime" title="cishouseholds.impute.impute_visit_datetime"><code class="xref py py-obj docutils literal notranslate"><span class="pre">impute_visit_datetime</span></code></a>(df, ...)</p></td>
-<td><p>Imputer visit datetime columns</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="cishouseholds.impute.merge_previous_imputed_values.html#cishouseholds.impute.merge_previous_imputed_values" title="cishouseholds.impute.merge_previous_imputed_values"><code class="xref py py-obj docutils literal notranslate"><span class="pre">merge_previous_imputed_values</span></code></a>(df, ...)</p></td>
 <td><p>Retrieve and coalesce imputed values and associated flags from a lookup table.</p></td>

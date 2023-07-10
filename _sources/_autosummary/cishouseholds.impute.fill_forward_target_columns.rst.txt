@@ -1,0 +1,6 @@
+cishouseholds.impute.fill\_forward\_target\_columns
+===================================================
+
+.. currentmodule:: cishouseholds.impute
+
+.. autofunction:: fill_forward_target_columns
