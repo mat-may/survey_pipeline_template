@@ -18,7 +18,7 @@ cishouseholds.expressions
       all_columns_null
       all_columns_values_in_list
       all_equal
-      all_equal_or_Null
+      all_equal_or_null
       all_null_over_window
       any_column_equal_value
       any_column_matches_regex
@@ -30,7 +30,6 @@ cishouseholds.expressions
       first_sorted_val_row_wise
       get_nth_row_over_window
       last_sorted_val_row_wise
-      set_date_component
       sum_within_row
    
    

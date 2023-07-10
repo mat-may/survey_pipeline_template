@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>cishouseholds.expressions.set_date_component &#8212; survey_pipeline_template  documentation</title>
+    <title>cishouseholds.expressions.all_equal_or_null &#8212; survey_pipeline_template  documentation</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -34,8 +34,8 @@
     <script src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="cishouseholds.expressions.sum_within_row" href="cishouseholds.expressions.sum_within_row.html" />
-    <link rel="prev" title="cishouseholds.expressions.last_sorted_val_row_wise" href="cishouseholds.expressions.last_sorted_val_row_wise.html" />
+    <link rel="next" title="cishouseholds.expressions.all_null_over_window" href="cishouseholds.expressions.all_null_over_window.html" />
+    <link rel="prev" title="cishouseholds.expressions.all_equal" href="cishouseholds.expressions.all_equal.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -582,9 +582,9 @@
        cishouseholds.expressions.all_equal
       </a>
      </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="cishouseholds.expressions.all_equal_or_Null.html">
-       cishouseholds.expressions.all_equal_or_Null
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="#">
+       cishouseholds.expressions.all_equal_or_null
       </a>
      </li>
      <li class="toctree-l3">
@@ -640,11 +640,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="cishouseholds.expressions.last_sorted_val_row_wise.html">
        cishouseholds.expressions.last_sorted_val_row_wise
-      </a>
-     </li>
-     <li class="toctree-l3 current active">
-      <a class="current reference internal" href="#">
-       cishouseholds.expressions.set_date_component
       </a>
      </li>
      <li class="toctree-l3">
@@ -3837,12 +3832,13 @@
               
               <div>
                 
-  <section id="cishouseholds-expressions-set-date-component">
-<h1>cishouseholds.expressions.set_date_component<a class="headerlink" href="#cishouseholds-expressions-set-date-component" title="Permalink to this headline">¶</a></h1>
+  <section id="cishouseholds-expressions-all-equal-or-null">
+<h1>cishouseholds.expressions.all_equal_or_null<a class="headerlink" href="#cishouseholds-expressions-all-equal-or-null" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
-<dt class="sig sig-object py" id="cishouseholds.expressions.set_date_component">
-<span class="sig-prename descclassname"><span class="pre">cishouseholds.expressions.</span></span><span class="sig-name descname"><span class="pre">set_date_component</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date_column</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date_component</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">set_to</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cishouseholds.expressions.set_date_component" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dt class="sig sig-object py" id="cishouseholds.expressions.all_equal_or_null">
+<span class="sig-prename descclassname"><span class="pre">cishouseholds.expressions.</span></span><span class="sig-name descname"><span class="pre">all_equal_or_null</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">column_list</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">equal_to</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cishouseholds.expressions.all_equal_or_null" title="Permalink to this definition">¶</a></dt>
+<dd><p>Expression that evaluates true if all columns are equal to the specified value OR Null.</p>
+</dd></dl>
 
 </section>
 
@@ -3852,17 +3848,17 @@
               
               <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="cishouseholds.expressions.last_sorted_val_row_wise.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="cishouseholds.expressions.all_equal.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">cishouseholds.expressions.last_sorted_val_row_wise</p>
+            <p class="prev-next-title">cishouseholds.expressions.all_equal</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="cishouseholds.expressions.sum_within_row.html" title="next page">
+    <a class='right-next' id="next-link" href="cishouseholds.expressions.all_null_over_window.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">cishouseholds.expressions.sum_within_row</p>
+        <p class="prev-next-title">cishouseholds.expressions.all_null_over_window</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

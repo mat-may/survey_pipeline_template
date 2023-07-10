@@ -1,6 +1,6 @@
-cishouseholds.expressions.set\_date\_component
+cishouseholds.expressions.all\_equal\_or\_null
 ==============================================
 
 .. currentmodule:: cishouseholds.expressions
 
-.. autofunction:: set_date_component
+.. autofunction:: all_equal_or_null
