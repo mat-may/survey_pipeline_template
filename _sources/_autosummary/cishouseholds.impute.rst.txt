@@ -21,6 +21,7 @@ cishouseholds.impute
       fill_forward_only_to_nulls
       fill_forward_target_columns
       generate_fill_forward_df
+      generate_sample_proportional_to_size_udf
       impute_and_flag
       impute_by_distribution
       impute_by_k_nearest_neighbours
@@ -29,6 +30,7 @@ cishouseholds.impute
       impute_date_by_k_nearest_neighbours
       merge_previous_imputed_values
       post_imputation_wrapper
+      sample_proportional_to_size_udf
       weighted_distance
    
    

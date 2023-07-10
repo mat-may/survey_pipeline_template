@@ -1,0 +1,6 @@
+cishouseholds.merge.add\_after
+==============================
+
+.. currentmodule:: cishouseholds.merge
+
+.. autofunction:: add_after

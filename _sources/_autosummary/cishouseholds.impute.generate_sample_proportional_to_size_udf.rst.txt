@@ -1,0 +1,6 @@
+cishouseholds.impute.generate\_sample\_proportional\_to\_size\_udf
+==================================================================
+
+.. currentmodule:: cishouseholds.impute
+
+.. autofunction:: generate_sample_proportional_to_size_udf

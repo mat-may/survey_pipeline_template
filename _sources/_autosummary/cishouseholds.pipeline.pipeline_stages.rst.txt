@@ -18,7 +18,6 @@ cishouseholds.pipeline.pipeline\_stages
       backup_files
       blind_csv_to_table
       calculate_household_level_populations
-      check_predictions
       compare
       create_vaccine_regex_lookup
       csv_to_table

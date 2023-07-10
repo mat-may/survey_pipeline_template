@@ -38,11 +38,8 @@
    cishouseholds.log
    cishouseholds.merge
    cishouseholds.pipeline
-   cishouseholds.prediction_checker_class
-   cishouseholds.prepare_for_union
    cishouseholds.pyspark_utils
    cishouseholds.regex
-   cishouseholds.udfs
    cishouseholds.validate
    cishouseholds.validate_class
 
