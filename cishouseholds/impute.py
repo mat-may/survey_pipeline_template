@@ -319,7 +319,7 @@ def fill_backwards_overriding_not_nulls(
     return df
 
 
-def impute_binary_by_distribution(
+def impute_by_distribution(
     df: DataFrame,
     column_name_to_assign: str,
     reference_column: str,
