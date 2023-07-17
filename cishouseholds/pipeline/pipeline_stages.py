@@ -39,7 +39,6 @@ from cishouseholds.pipeline.design_weights import household_level_populations
 from cishouseholds.pipeline.generate_outputs import generate_sample
 from cishouseholds.pipeline.generate_outputs import map_output_values_and_column_names
 from cishouseholds.pipeline.generate_outputs import write_csv_rename
-from cishouseholds.pipeline.high_level_transformations import generate_comparison_tables
 from cishouseholds.pipeline.input_file_processing import extract_input_data
 from cishouseholds.pipeline.input_file_processing import extract_lookup_csv
 from cishouseholds.pipeline.input_file_processing import extract_validate_transform_input_data
@@ -70,6 +69,7 @@ from cishouseholds.pipeline.mapping import soc_regex_map
 from cishouseholds.pipeline.post_union_processing import post_union_processing
 from cishouseholds.pipeline.reporting import count_variable_option
 from cishouseholds.pipeline.reporting import ExcelReport
+from cishouseholds.pipeline.reporting import generate_comparison_tables
 from cishouseholds.pipeline.reporting import generate_error_table
 from cishouseholds.pipeline.timestamp_map import csv_datetime_maps
 from cishouseholds.pipeline.validation_calls import validation_ETL
