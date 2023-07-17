@@ -88,7 +88,7 @@ def multiple_visit_1_day(df: DataFrame, participant_id: str, visit_id: str, date
 def generate_error_table(table_name: str, error_priority_map: dict) -> DataFrame:
     """
     Generates tables of errors and their respective counts present in
-    current and previous pipeline run ordered by a custome priorty ranking
+    current and previous pipeline run ordered by a custom priorty ranking
     set in pipeline config.
 
     Parameters
@@ -113,6 +113,101 @@ def generate_error_table(table_name: str, error_priority_map: dict) -> DataFrame
     df = df.withColumn("ORDER", F.col("validation_check_failures"))
     df = update_column_values_from_map(df, "ORDER", error_priority_map, default_value=9999)
     return df.orderBy("ORDER").drop("ORDER")
+
+
+def generate_comparison_tables(
+    baseline_df: DataFrame, comparison_df: DataFrame, unique_id_column: str, diff_sample_size: int = 10
+) -> DataFrame:
+    """
+    Compares two dataframes, checking each column and row for each unique id in the baseline dataframe against
+    matching columns and unique ids in the comparison df.
+
+    Returns two dataframes describing the differences found.
+
+    The first, counts_df, contains the count of uniqueids in each column that are different between the two dataframes,
+    this is presented as both 'difference_count' and 'difference_count_non_null_change' which only counts instances
+    where the value for the unique id was not null in the baseline_df.
+
+    The second, diffs_df, contains diff_sample_size unique ids for each column that is not identical in both the baseline
+    and comparison dataframes.
+
+    Parameters
+    ----------
+    baseline_df : DataFrame
+        baseline dataframe to compare against, only unique ids and columns in this dataframe will be compared
+    comparison_df : DataFrame
+        comparison dataframe to compare against the baseline_df
+    unique_id_column : str
+        unique id column to use as a reference between both the baseline_df and comparison_df
+    diff_sample_size : int, optional
+        number of unique ids to return for non-identical columns in diffs_df output, by default 10
+
+    Returns
+    -------
+    counts_df : DataFrame
+        _description_
+    diffs_df : DataFrame
+
+    """
+    window = Window.partitionBy("column_name").orderBy("column_name")
+    cols_to_check = [col for col in baseline_df.columns if col in comparison_df.columns and col != unique_id_column]
+
+    for col in cols_to_check:
+        baseline_df = baseline_df.withColumnRenamed(col, f"{col}_ref")
+
+    df = baseline_df.join(comparison_df, on=unique_id_column, how="left")
+
+    diffs_df = df.select(
+        [
+            F.when(F.col(col).eqNullSafe(F.col(f"{col}_ref")), None).otherwise(F.col(unique_id_column)).alias(col)
+            for col in cols_to_check
+        ]
+    )
+    diffs_df = diffs_df.select(
+        F.explode(
+            F.array(
+                [
+                    F.struct(F.lit(col).alias("column_name"), F.col(col).alias(unique_id_column))
+                    for col in diffs_df.columns
+                ]
+            )
+        ).alias("kvs")
+    )
+    diffs_df = (
+        diffs_df.select("kvs.column_name", f"kvs.{unique_id_column}")
+        .filter(F.col(unique_id_column).isNotNull())
+        .withColumn("ROW", F.row_number().over(window))
+        .filter(F.col("ROW") < diff_sample_size)
+    ).drop("ROW")
+
+    counts_df = df.select(
+        *[
+            F.sum(F.when(F.col(c).eqNullSafe(F.col(f"{c}_ref")), 0).otherwise(1)).alias(c).cast("integer")
+            for c in cols_to_check
+        ],
+        *[
+            F.sum(F.when((~F.col(c).eqNullSafe(F.col(f"{c}_ref"))) & (F.col(f"{c}_ref").isNotNull()), 1).otherwise(0))
+            .alias(f"{c}_non_improved")
+            .cast("integer")
+            for c in cols_to_check
+        ],
+    )
+    counts_df = counts_df.select(
+        F.explode(
+            F.array(
+                [
+                    F.struct(
+                        F.lit(col).alias("column_name"),
+                        F.col(col).alias("difference_count"),
+                        F.col(f"{col}_non_improved").alias("difference_count_non_null_change"),
+                    )
+                    for col in [c for c in counts_df.columns if not c.endswith("_non_improved")]
+                ]
+            )
+        ).alias("kvs")
+    )
+    counts_df = counts_df.select("kvs.column_name", "kvs.difference_count", "kvs.difference_count_non_improved")
+    return counts_df, diffs_df
 
 
 def count_variable_option(df: DataFrame, column_inv: str, column_value: str):
