@@ -32,7 +32,6 @@ cishouseholds.pipeline.pipeline\_stages
       generate_dummy_data
       generate_input_processing_function
       join_lookup_table
-      lab_report
       phm_output_report
       phm_validation_report
       process_soc_deltas

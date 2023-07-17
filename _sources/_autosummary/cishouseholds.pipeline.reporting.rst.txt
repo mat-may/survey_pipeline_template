@@ -16,9 +16,8 @@ cishouseholds.pipeline.reporting
    
       count_variable_option
       dfs_to_bytes_excel
+      generate_comparison_tables
       generate_error_table
-      generate_lab_report
-      multiple_visit_1_day
    
    
 
