@@ -71,7 +71,6 @@ from cishouseholds.pipeline.post_union_processing import post_union_processing
 from cishouseholds.pipeline.reporting import count_variable_option
 from cishouseholds.pipeline.reporting import ExcelReport
 from cishouseholds.pipeline.reporting import generate_error_table
-from cishouseholds.pipeline.reporting import generate_lab_report
 from cishouseholds.pipeline.timestamp_map import csv_datetime_maps
 from cishouseholds.pipeline.validation_calls import validation_ETL
 from cishouseholds.pipeline.validation_schema import soc_schema
@@ -1107,15 +1106,6 @@ def phm_validation_report(
     report = ExcelReport(output_directory=output_directory, output_file_prefix="phm_validation_output")
     report.create_validated_file_list(df=df, source_file_column="survey_response_source_file", sheet_name_prefix="all")
     report.write_excel_output()
-
-
-@register_pipeline_stage("lab_report")
-def lab_report(input_survey_table: str, swab_report_table: str, blood_report_table: str) -> DataFrame:
-    """Generate reports of most recent 7 days of swab and blood data"""
-    survey_responses_df = extract_from_table(input_survey_table).orderBy("file_date")
-    swab_df, blood_df = generate_lab_report(survey_responses_df)
-    update_table(swab_df, swab_report_table, "overwrite")
-    update_table(blood_df, blood_report_table, "overwrite")
 
 
 @register_pipeline_stage("filter_dataframe")
