@@ -18,25 +18,38 @@ from cishouseholds.pyspark_utils import get_or_create_spark_session
 from cishouseholds.validate import validate_processed_files
 
 
-def generate_lab_report(df: DataFrame) -> DataFrame:
+def count_variable_option(df: DataFrame, column_inv: str, column_value: str):
     """
-    Generate lab report of latest 7 days of results
+    Counts occurence of a specific value in a column
+
+    Parameters
+    --------
+    df
+        Dataframe
+    column_inv
+        column you want the value count from
+    column_value
+        value you want counting in the specified column
+
     """
-    current_date = F.lit(df.orderBy(F.desc("file_date")).head().file_date)
-    df = df.filter(F.date_sub(current_date, 7) < F.col("survey_completed_datetime"))
-    swab_df = df.select("swab_sample_barcode", "swab_taken_datetime", "survey_completed_datetime").filter(
-        ~(
-            ((F.col("swab_taken_datetime").isNull()) & (F.col("survey_completed_datetime").isNull()))
-            | F.col("swab_sample_barcode").isNull()
-        )
-    )
-    blood_df = df.select("blood_sample_barcode", "blood_taken_datetime", "survey_completed_datetime").filter(
-        ~(
-            ((F.col("blood_taken_datetime").isNull()) & (F.col("survey_completed_datetime").isNull()))
-            | F.col("blood_sample_barcode").isNull()
-        )
-    )
-    return swab_df, blood_df
+
+    df_filt = df.withColumn("col_value", F.when(F.col(column_inv) == column_value, F.lit(1)).otherwise(0))
+    sum_value = df.count() - df_filt.filter(df_filt["col_value"] == 0).count()
+
+    count_data = [
+        # fmt:off
+        (column_inv, column_value, sum_value)
+        # fmt:on
+    ]
+
+    schema = """
+            column_name string,
+            column_value string,
+            count integer
+            """
+
+    output_df = get_or_create_spark_session().createDataFrame(data=count_data, schema=schema)
+    return output_df
 
 
 def dfs_to_bytes_excel(sheet_df_map: Dict[str, DataFrame]) -> BytesIO:
@@ -55,34 +68,6 @@ def dfs_to_bytes_excel(sheet_df_map: Dict[str, DataFrame]) -> BytesIO:
         for sheet, df in sheet_df_map.items():
             df.toPandas().to_excel(writer, sheet_name=sheet, index=False)
     return output
-
-
-def multiple_visit_1_day(df: DataFrame, participant_id: str, visit_id: str, date_column: str, datetime_column: str):
-    """
-    Returns a dataframe containing participants reported to have been visited multiple times in 1 day.
-
-    Parameters
-    ----------
-    df
-        The input dataframe to process
-    participant_id
-        The column name containing participant ids
-    visit_id
-        The column name containing visit ids
-    date_column
-        The column name containing visit date
-    datetime_column
-        The column name containing visit datetime
-    """
-    window = Window.partitionBy(participant_id, date_column)  # .orderBy(date_column, datetime_column)
-
-    df = df.withColumn("FLAG", F.count(visit_id).over(window))
-    df_multiple_visit = df.filter(F.col("FLAG") > 1)  # get only multiple visit
-    df_multiple_visit = df_multiple_visit.withColumn(
-        "FLAG", F.rank().over(window.orderBy(date_column, F.desc(datetime_column)))
-    )
-    df_multiple_visit = df_multiple_visit.filter(F.col("FLAG") == 1)
-    return df_multiple_visit.drop("FLAG")
 
 
 def generate_error_table(table_name: str, error_priority_map: dict) -> DataFrame:
@@ -208,40 +193,6 @@ def generate_comparison_tables(
     )
     counts_df = counts_df.select("kvs.column_name", "kvs.difference_count", "kvs.difference_count_non_improved")
     return counts_df, diffs_df
-
-
-def count_variable_option(df: DataFrame, column_inv: str, column_value: str):
-    """
-    Counts occurence of a specific value in a column
-
-    Parameters
-    --------
-    df
-        Dataframe
-    column_inv
-        column you want the value count from
-    column_value
-        value you want counting in the specified column
-
-    """
-
-    df_filt = df.withColumn("col_value", F.when(F.col(column_inv) == column_value, F.lit(1)).otherwise(0))
-    sum_value = df.count() - df_filt.filter(df_filt["col_value"] == 0).count()
-
-    count_data = [
-        # fmt:off
-        (column_inv, column_value, sum_value)
-        # fmt:on
-    ]
-
-    schema = """
-            column_name string,
-            column_value string,
-            count integer
-            """
-
-    output_df = get_or_create_spark_session().createDataFrame(data=count_data, schema=schema)
-    return output_df
 
 
 class ExcelReport:
