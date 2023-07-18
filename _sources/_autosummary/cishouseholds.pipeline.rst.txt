@@ -38,7 +38,6 @@ cishouseholds.pipeline
    cishouseholds.pipeline.config
    cishouseholds.pipeline.covid_event_transformations
    cishouseholds.pipeline.demographic_transformations
-   cishouseholds.pipeline.design_weights
    cishouseholds.pipeline.generate_outputs
    cishouseholds.pipeline.input_file_processing
    cishouseholds.pipeline.input_file_stages

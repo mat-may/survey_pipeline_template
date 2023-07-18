@@ -1,6 +1,0 @@
-cishouseholds.pipeline.pipeline\_stages.calculate\_household\_level\_populations
-================================================================================
-
-.. currentmodule:: cishouseholds.pipeline.pipeline_stages
-
-.. autofunction:: calculate_household_level_populations

@@ -1,6 +1,0 @@
-cishouseholds.pipeline.design\_weights.clean\_df
-================================================
-
-.. currentmodule:: cishouseholds.pipeline.design_weights
-
-.. autofunction:: clean_df

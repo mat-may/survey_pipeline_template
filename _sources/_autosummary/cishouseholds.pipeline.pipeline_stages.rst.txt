@@ -17,7 +17,6 @@ cishouseholds.pipeline.pipeline\_stages
       aggregated_output
       backup_files
       blind_csv_to_table
-      calculate_household_level_populations
       compare
       create_vaccine_regex_lookup
       csv_to_table
@@ -39,7 +38,6 @@ cishouseholds.pipeline.pipeline\_stages
       register_pipeline_stage
       report
       sample_df
-      sample_file_ETL
       table_to_table
       tables_to_csv
       union_historical_visits
