@@ -73,7 +73,7 @@ from cishouseholds.pipeline.timestamp_map import csv_datetime_maps
 from cishouseholds.pipeline.validation_calls import validation_ETL
 from cishouseholds.pipeline.validation_schema import soc_schema
 from cishouseholds.pipeline.validation_schema import validation_schemas
-from cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_1_transformations import (
+from cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v1 import (
     clean_survey_responses_version_phm,
 )
 from cishouseholds.pipeline.visit_transformations import visit_transformations

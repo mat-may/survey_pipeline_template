@@ -8,19 +8,19 @@ from cishouseholds.pipeline.timestamp_map import test_survey_response_data_versi
 from cishouseholds.pipeline.timestamp_map import test_survey_response_data_version_2_datetime_map
 from cishouseholds.pipeline.timestamp_map import test_swab_sample_results_datetime_map
 from cishouseholds.pipeline.validation_schema import validation_schemas
-from cishouseholds.pipeline.version_specific_processing.test_participant_data_transformations import (
+from cishouseholds.pipeline.version_specific_processing.example_participant_data import (
     transform_participant_extract_digital,
 )
-from cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_1_transformations import (
+from cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v1 import (
     clean_survey_responses_version_phm,
 )
-from cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_1_transformations import (
+from cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v1 import (
     phm_transformations,
 )
-from cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_2_transformations import (
+from cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v2 import (
     clean_survey_responses_version_2,
 )
-from cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_2_transformations import (
+from cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v2 import (
     transform_survey_responses_version_2_delta,
 )
 
