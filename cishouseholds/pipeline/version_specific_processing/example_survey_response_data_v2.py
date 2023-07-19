@@ -3,12 +3,9 @@ import pyspark.sql.functions as F
 from pyspark.sql import DataFrame
 
 from cishouseholds.derive import assign_column_uniform_value
-from cishouseholds.derive import assign_isin_list
 from cishouseholds.derive import assign_raw_copies
 from cishouseholds.derive import assign_taken_column
 from cishouseholds.edit import apply_value_map_multiple_columns
-from cishouseholds.edit import assign_from_map
-from cishouseholds.edit import edit_to_sum_or_max_value
 from cishouseholds.edit import update_column_values_from_map
 
 
@@ -128,42 +125,7 @@ def derive_work_status_columns(df: DataFrame) -> DataFrame:
 
 def clean_survey_responses_version_2(df: DataFrame) -> DataFrame:
 
-    # Map to digital from raw V2 values, before editing them to V1 below
-    df = assign_from_map(
-        df,
-        "self_isolating_reason_detailed",
-        "self_isolating_reason",
-        {
-            "Yes for other reasons (e.g. going into hospital or quarantining)": "Due to increased risk of getting COVID-19 such as having been in contact with a known case or quarantining after travel abroad",
-            # noqa: E501
-            "Yes for other reasons related to reducing your risk of getting COVID-19 (e.g. going into hospital or shielding)": "Due to reducing my risk of getting COVID-19 such as going into hospital or shielding",
-            # noqa: E501
-            "Yes for other reasons related to you having had an increased risk of getting COVID-19 (e.g. having been in contact with a known case or quarantining after travel abroad)": "Due to increased risk of getting COVID-19 such as having been in contact with a known case or quarantining after travel abroad",
-            # noqa: E501
-            "Yes because you live with someone who has/has had symptoms but you haven’t had them yourself": "I haven't had any symptoms but I live with someone who has or has had symptoms or a positive test",
-            # noqa: E501
-            "Yes because you live with someone who has/has had symptoms or a positive test but you haven’t had symptoms yourself": "I haven't had any symptoms but I live with someone who has or has had symptoms or a positive test",
-            # noqa: E501
-            "Yes because you live with someone who has/has had symptoms but you haven't had them yourself": "I haven't had any symptoms but I live with someone who has or has had symptoms or a positive test",
-            # noqa: E501
-            "Yes because you have/have had symptoms of COVID-19": "I have or have had symptoms of COVID-19 or a positive test",
-            "Yes because you have/have had symptoms of COVID-19 or a positive test": "I have or have had symptoms of COVID-19 or a positive test",
-        },
-    )
-
-    v2_times_value_map = {
-        "None": 0,
-        "1": 1,
-        "2": 2,
-        "3": 3,
-        "4": 4,
-        "5": 5,
-        "6": 6,
-        "7 times or more": 7,
-        "Participant Would Not/Could Not Answer": None,
-    }
     column_editing_map = {
-        "deferred": {"Deferred 1": "Deferred"},
         "work_location": {
             "Work from home (in the same grounds or building as your home)": "Working from home",
             "Working from home (in the same grounds or building as your home)": "Working from home",
@@ -174,11 +136,6 @@ def clean_survey_responses_version_2(df: DataFrame) -> DataFrame:
             "Both (working from home and working somewhere else)": "Both (from home and somewhere else)",
             "Both (work from home and work somewhere else)": "Both (from home and somewhere else)",
         },
-        "times_outside_shopping_or_socialising_last_7_days": v2_times_value_map,
-        "times_shopping_last_7_days": v2_times_value_map,
-        "times_socialising_last_7_days": v2_times_value_map,
-        "times_hour_or_longer_another_home_last_7_days": v2_times_value_map,
-        "times_hour_or_longer_another_person_your_home_last_7_days": v2_times_value_map,
         "work_sector": {
             "Social Care": "Social care",
             "Transport (incl. storage or logistic)": "Transport (incl. storage, logistic)",
@@ -219,52 +176,10 @@ def clean_survey_responses_version_2(df: DataFrame) -> DataFrame:
             "Yes always": "Yes, always",
             "Yes sometimes": "Yes, sometimes",
         },
-        "face_covering_other_enclosed_places": {
-            "My face is already covered for other reasons (e.g. religious or cultural reasons)": "My face is already covered",
-            "Yes at work/school only": "Yes, at work/school only",
-            "Yes in other situations only (including public transport/shops)": "Yes, in other situations only",
-            "Yes usually both at work/school and in other situations": "Yes, usually both Work/school/other",
-            "Yes always": "Yes, always",
-            "Yes sometimes": "Yes, sometimes",
-        },
         "face_covering_work_or_education": {
             "My face is already covered for other reasons (e.g. religious or cultural reasons)": "My face is already covered",
             "Yes always": "Yes, always",
             "Yes sometimes": "Yes, sometimes",
-        },
-        "other_antibody_test_results": {
-            "One or more negative tests but none positive": "Any tests negative, but none positive",
-            "One or more negative tests but none were positive": "Any tests negative, but none positive",
-            "All tests failed": "All Tests failed",
-        },
-        "other_antibody_test_location": {
-            "Private Lab": "Private lab",
-            "Home Test": "Home test",
-            "In the NHS (e.g. GP or hospital)": "In the NHS (e.g. GP, hospital)",
-        },
-        "other_covid_infection_test_results": {
-            "One or more negative tests but none positive": "Any tests negative, but none positive",
-            "One or more negative tests but none were positive": "Any tests negative, but none positive",
-            "All tests failed": "All Tests failed",
-            "Positive": "One or more positive test(s)",
-            "Negative": "Any tests negative, but none positive",
-            "Void": "All Tests failed",
-        },
-        "illness_reduces_activity_or_ability": {
-            "Yes a little": "Yes, a little",
-            "Yes a lot": "Yes, a lot",
-            "Participant Would Not/Could Not Answer": None,
-        },
-        "participant_visit_status": {"Participant did not attend": "Patient did not attend", "Canceled": "Cancelled"},
-        "self_isolating_reason": {
-            "Yes for other reasons (e.g. going into hospital or quarantining)": "Yes, for other reasons (e.g. going into hospital, quarantining)",
-            "Yes for other reasons related to reducing your risk of getting COVID-19 (e.g. going into hospital or shielding)": "Yes, for other reasons (e.g. going into hospital, quarantining)",
-            "Yes for other reasons related to you having had an increased risk of getting COVID-19 (e.g. having been in contact with a known case or quarantining after travel abroad)": "Yes, for other reasons (e.g. going into hospital, quarantining)",
-            "Yes because you live with someone who has/has had symptoms but you haven’t had them yourself": "Yes, someone you live with had symptoms",
-            "Yes because you live with someone who has/has had symptoms or a positive test but you haven’t had symptoms yourself": "Yes, someone you live with had symptoms",
-            "Yes because you live with someone who has/has had symptoms but you haven't had them yourself": "Yes, someone you live with had symptoms",
-            "Yes because you have/have had symptoms of COVID-19": "Yes, you have/have had symptoms",
-            "Yes because you have/have had symptoms of COVID-19 or a positive test": "Yes, you have/have had symptoms",
         },
         "ability_to_socially_distance_at_work_or_education": {
             "Difficult to maintain 2 meters - but I can usually be at least 1m from other people": "Difficult to maintain 2m, but can be 1m",
@@ -288,20 +203,10 @@ def clean_survey_responses_version_2(df: DataFrame) -> DataFrame:
             "Underground or Metro or Light Rail or Tram": "Underground, metro, light rail, tram",
             "Other Method": "Other method",
         },
-        "last_covid_contact_type": {
-            "In your own household": "Living in your own home",
-            "Outside your household": "Outside your home",
-        },
-        "last_suspected_covid_contact_type": {
-            "In your own household": "Living in your own home",
-            "Outside your household": "Outside your home",
-        },
     }
     df = apply_value_map_multiple_columns(df, column_editing_map)
-    df = df.withColumn("deferred", F.when(F.col("deferred").isNull(), "NA").otherwise(F.col("deferred")))
 
     df = df.withColumn("swab_sample_barcode", F.upper(F.col("swab_sample_barcode")))
-    df = df.withColumn("blood_sample_barcode", F.upper(F.col("blood_sample_barcode")))
     return df
 
 
@@ -314,30 +219,8 @@ def transform_survey_responses_version_2_delta(df: DataFrame) -> DataFrame:
     df = assign_raw_copies(df, [column for column in raw_copy_list if column in df.columns])
 
     df = assign_taken_column(df=df, column_name_to_assign="swab_taken", reference_column="swab_sample_barcode")
-    df = assign_taken_column(df=df, column_name_to_assign="blood_taken", reference_column="blood_sample_barcode")
 
     df = assign_column_uniform_value(df, "survey_response_dataset_major_version", 2)
 
-    # After editing to V1 values in cleaning
-    df = assign_isin_list(
-        df=df,
-        column_name_to_assign="self_isolating",
-        reference_column="self_isolating_reason",
-        values_list=[
-            "Yes, for other reasons (e.g. going into hospital, quarantining)",
-            "Yes, you have/have had symptoms",
-            "Yes, someone you live with had symptoms",
-        ],
-        true_false_values=["Yes", "No"],
-    )
-    df = edit_to_sum_or_max_value(
-        df=df,
-        column_name_to_update="times_outside_shopping_or_socialising_last_7_days",
-        columns_to_sum=[
-            "times_shopping_last_7_days",
-            "times_socialising_last_7_days",
-        ],
-        max_value=7,
-    )
     df = derive_work_status_columns(df)
     return df
