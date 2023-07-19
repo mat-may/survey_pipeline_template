@@ -11,10 +11,7 @@ from cishouseholds.pipeline.version_specific_processing.example_participant_data
     transform_participant_extract_digital,
 )
 from cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v1 import (
-    clean_survey_responses_version_phm,
-)
-from cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v1 import (
-    phm_transformations,
+    example_survey_response_data_v1_transformations,
 )
 from cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v2 import (
     clean_survey_responses_version_2,
@@ -47,8 +44,7 @@ test_survey_response_data_version_1_parameters = {
     "column_name_map": column_name_maps["test_survey_response_data_version_1_name_map"],
     "datetime_column_map": test_survey_response_data_version_1_datetime_map,
     "transformation_functions": [
-        clean_survey_responses_version_phm,
-        phm_transformations,
+        example_survey_response_data_v1_transformations,
     ],
     "sep": "|",
     "cast_to_double_list": test_survey_response_data_cast_to_double,
