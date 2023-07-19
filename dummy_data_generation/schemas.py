@@ -1331,27 +1331,3 @@ def get_test_swab_sample_results_data_description(_, swab_barcodes):
         "CH4-Cq": _("float_number", start=15.0, end=30.0, precision=12),
         "voidReason": _("choice", items=[None, "reason 1", "reason 2", "reason 3", "reason 4"]),
     }
-
-
-def get_test_blood_sample_results_data_description(_, blood_barcodes):
-    return lambda: {  # noqa: E731
-        "Serum Source ID": _(
-            "discrete_distribution",
-            population=blood_barcodes,
-            weights=[1 / len(blood_barcodes)] * len(blood_barcodes),
-            null_prop=0.2,
-        ),
-        "Blood Sample Type": _("choice", items=["Capillary"]),
-        "Plate Barcode": _("random.custom_code", mask="ONS_######&&", digit="#", char="&"),
-        "Well ID": _("random.custom_code", mask="&##", digit="#", char="&"),
-        "Detection": _("choice", items=["DETECTED", "Failed", "NOT detected"]),
-        "Monoclonal quantitation (Colourimetric)": _("float_number", start=0.0, end=78000.0, precision=4),
-        "Monoclonal bounded quantitation (Colourimetric)": _("text.sentence"),
-        "Monoclonal undiluted quantitation (Colourimetric)": _(
-            "custom_random.random_integer", lower=0, upper=360000, null_percent=0
-        ),
-        "Date ELISA Result record created": _("datetime.formatted_datetime", fmt="%Y-%m-%d", start=2019, end=2024),
-        "Date Samples Arrayed Oxford": _("datetime.formatted_datetime", fmt="%Y-%m-%d", start=2019, end=2024),
-        "Date Samples Received Oxford": _("datetime.formatted_datetime", fmt="%Y-%m-%d", start=2019, end=2024),
-        "Voyager Date Created": _("choice", items=[None]),
-    }

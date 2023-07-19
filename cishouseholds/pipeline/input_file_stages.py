@@ -2,7 +2,6 @@ from cishouseholds.pipeline.mapping import column_name_maps
 from cishouseholds.pipeline.mapping import test_participant_data_cast_to_double
 from cishouseholds.pipeline.mapping import test_survey_response_data_cast_to_double
 from cishouseholds.pipeline.pipeline_stages import generate_input_processing_function
-from cishouseholds.pipeline.timestamp_map import test_blood_sample_results_datetime_map
 from cishouseholds.pipeline.timestamp_map import test_participant_data_datetime_map
 from cishouseholds.pipeline.timestamp_map import test_survey_response_data_version_1_datetime_map
 from cishouseholds.pipeline.timestamp_map import test_survey_response_data_version_2_datetime_map
@@ -88,25 +87,10 @@ test_swab_sample_results_parameters = {
     "write_mode": "append",
 }
 
-test_blood_sample_results_parameters = {
-    "stage_name": "test_blood_sample_results_ETL",
-    "dataset_name": "test_blood_sample_results",
-    "id_column": "antibody_test_well_id",
-    "validation_schema": validation_schemas["test_blood_sample_results_schema"],
-    "datetime_column_map": test_blood_sample_results_datetime_map,
-    "column_name_map": column_name_maps["test_blood_sample_results_name_map"],
-    "transformation_functions": [],
-    "sep": "|",
-    "cast_to_double_list": ["Monoclonal undiluted quantitation (Colourimetric)"],
-    "source_file_column": "blood_results_source_file",
-    "write_mode": "append",
-}
-
 for parameters in [
     test_participant_data_parameters,
     test_survey_response_data_version_1_parameters,
     test_survey_response_data_version_2_parameters,
     test_swab_sample_results_parameters,
-    test_blood_sample_results_parameters,
 ]:
     generate_input_processing_function(**parameters)  # type:ignore

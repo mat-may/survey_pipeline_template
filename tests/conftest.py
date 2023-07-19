@@ -18,7 +18,6 @@ from pytest_regressions.data_regression import RegressionYamlDumper
 
 from cishouseholds.hdfs_utils import copy_local_to_hdfs
 from cishouseholds.pipeline.input_file_stages import generate_input_processing_function
-from cishouseholds.pipeline.input_file_stages import test_blood_sample_results_parameters
 from cishouseholds.pipeline.input_file_stages import test_participant_data_parameters
 from cishouseholds.pipeline.input_file_stages import test_survey_response_data_version_1_parameters
 from cishouseholds.pipeline.input_file_stages import test_survey_response_data_version_2_parameters
@@ -26,10 +25,9 @@ from cishouseholds.pipeline.input_file_stages import test_swab_sample_results_pa
 from cishouseholds.pyspark_utils import running_in_dev_test
 from dummy_data_generation.helpers import CustomRandom
 from dummy_data_generation.helpers_weight import Distribution
-from dummy_data_generation.schemas import get_test_blood_sample_results_data_description
+from dummy_data_generation.schemas import get_example_survey_response_data_v1_data_description
+from dummy_data_generation.schemas import get_example_survey_response_data_v2_data_description
 from dummy_data_generation.schemas import get_test_participant_data_data_description
-from dummy_data_generation.schemas import get_test_survey_response_data_version_1_data_description
-from dummy_data_generation.schemas import get_test_survey_response_data_version_2_data_description
 from dummy_data_generation.schemas import get_test_swab_sample_results_data_description
 
 
@@ -122,7 +120,7 @@ def test_survey_response_data_version_1_data_description(pandas_df_to_temporary_
     Generate dummy survey responses for phm.
     """
     schema = Schema(
-        schema=get_test_survey_response_data_version_1_data_description(
+        schema=get_example_survey_response_data_v1_data_description(
             create_mimesis_field(), blood_barcodes, swab_barcodes
         )
     )
@@ -141,7 +139,7 @@ def test_survey_response_data_version_2_data_description(pandas_df_to_temporary_
     Generate dummy survey responses v2 delta.
     """
     schema = Schema(
-        schema=get_test_survey_response_data_version_2_data_description(
+        schema=get_example_survey_response_data_v2_data_description(
             create_mimesis_field(), blood_barcodes, swab_barcodes
         )
     )
@@ -164,21 +162,6 @@ def test_swab_sample_results_output(pandas_df_to_temporary_csv, swab_barcodes):
     csv_file_path = pandas_df_to_temporary_csv(pandas_df, sep=",")
     processing_function = generate_input_processing_function(
         **test_swab_sample_results_parameters, include_hadoop_read_write=False
-    )
-    processed_df = processing_function(resource_path=csv_file_path)
-    return processed_df
-
-
-@pytest.fixture(scope="session")
-def test_blood_sample_results_output(pandas_df_to_temporary_csv, blood_barcodes):
-    """
-    Generate glasgow lab results_output.
-    """
-    schema = Schema(schema=get_test_blood_sample_results_data_description(create_mimesis_field(), blood_barcodes))
-    pandas_df = pd.DataFrame(schema.create(iterations=10))
-    csv_file_path = pandas_df_to_temporary_csv(pandas_df, sep="|")
-    processing_function = generate_input_processing_function(
-        **test_blood_sample_results_parameters, include_hadoop_read_write=False
     )
     processed_df = processing_function(resource_path=csv_file_path)
     return processed_df
