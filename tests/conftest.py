@@ -92,20 +92,20 @@ def swab_barcodes():
     """
     Generate a set of random formatted barcodes
 
-    `count` should equal the number of unique barcodes required across all survey versions e.g. 4 x 10 = 40
+    `count` should equal the number of unique barcodes required across all survey versions e.g. 2 x 30 = 60
     """
-    return generate_barcodes(40, format="SWT########")
+    return generate_barcodes(60, format="SWT########")
 
 
 @pytest.fixture(scope="session")
 def test_participant_data_ETL_output(pandas_df_to_temporary_csv, blood_barcodes, swab_barcodes):
     """
-    Generate dummy survey responses digital.
+    Generate dummy data for the example participant data.
     """
     schema = Schema(
         schema=get_test_participant_data_data_description(create_mimesis_field(), blood_barcodes, swab_barcodes)
     )
-    pandas_df = pd.DataFrame(schema.create(iterations=10))
+    pandas_df = pd.DataFrame(schema.create(iterations=30))
     csv_file_path = pandas_df_to_temporary_csv(pandas_df, sep="|")
     processing_function = generate_input_processing_function(
         **test_participant_data_parameters, include_hadoop_read_write=False
@@ -117,14 +117,14 @@ def test_participant_data_ETL_output(pandas_df_to_temporary_csv, blood_barcodes,
 @pytest.fixture(scope="session")
 def test_survey_response_data_version_1_data_description(pandas_df_to_temporary_csv, blood_barcodes, swab_barcodes):
     """
-    Generate dummy survey responses for phm.
+    Generate dummy data for the example survey responses data v1.
     """
     schema = Schema(
         schema=get_example_survey_response_data_v1_data_description(
             create_mimesis_field(), blood_barcodes, swab_barcodes
         )
     )
-    pandas_df = pd.DataFrame(schema.create(iterations=10))
+    pandas_df = pd.DataFrame(schema.create(iterations=30))
     csv_file_path = pandas_df_to_temporary_csv(pandas_df, sep="|")
     processing_function = generate_input_processing_function(
         **test_survey_response_data_version_1_parameters, include_hadoop_read_write=False
@@ -136,14 +136,14 @@ def test_survey_response_data_version_1_data_description(pandas_df_to_temporary_
 @pytest.fixture(scope="session")
 def test_survey_response_data_version_2_data_description(pandas_df_to_temporary_csv, blood_barcodes, swab_barcodes):
     """
-    Generate dummy survey responses v2 delta.
+    Generate dummy data for the example survey responses data v2.
     """
     schema = Schema(
         schema=get_example_survey_response_data_v2_data_description(
             create_mimesis_field(), blood_barcodes, swab_barcodes
         )
     )
-    pandas_df = pd.DataFrame(schema.create(iterations=10))
+    pandas_df = pd.DataFrame(schema.create(iterations=30))
     csv_file_path = pandas_df_to_temporary_csv(pandas_df, sep="|")
     processing_function = generate_input_processing_function(
         **test_survey_response_data_version_2_parameters, include_hadoop_read_write=False
@@ -155,10 +155,10 @@ def test_survey_response_data_version_2_data_description(pandas_df_to_temporary_
 @pytest.fixture(scope="session")
 def test_swab_sample_results_output(pandas_df_to_temporary_csv, swab_barcodes):
     """
-    Generate glasgow lab results_output.
+    Generate dummy data for example swab sample results
     """
     schema = Schema(schema=get_test_swab_sample_results_data_description(create_mimesis_field(), swab_barcodes))
-    pandas_df = pd.DataFrame(schema.create(iterations=10))
+    pandas_df = pd.DataFrame(schema.create(iterations=60))
     csv_file_path = pandas_df_to_temporary_csv(pandas_df, sep=",")
     processing_function = generate_input_processing_function(
         **test_swab_sample_results_parameters, include_hadoop_read_write=False
