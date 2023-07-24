@@ -8,9 +8,9 @@ csv_datetime_maps = {
     },
 }
 
-test_swab_sample_results_datetime_map = {"yyyy-MM-dd HH:mm:ss 'UTC'": ["pcr_result_recorded_datetime"]}
+example_swab_sample_results_datetime_map = {"yyyy-MM-dd HH:mm:ss 'UTC'": ["pcr_result_recorded_datetime"]}
 
-test_participant_data_datetime_map = {
+example_participant_data_datetime_map = {
     "yyyy-MM-dd'T'HH:mm:ss'Z'": [
         "participant_completion_window_start_datetime",
         "participant_completion_window_end_datetime",
@@ -82,7 +82,7 @@ test_participant_data_datetime_map = {
     ],
 }
 
-test_survey_response_data_version_1_datetime_map = {
+example_survey_response_data_v1_datetime_map = {
     "yyyy-MM-dd": [
         "swab_taken_date",
         "swab_return_date",
@@ -106,7 +106,7 @@ test_survey_response_data_version_1_datetime_map = {
     "yyyy-MM-dd'T'HH:mm:ss": ["survey_start_datetime"],
 }
 
-test_survey_response_data_version_2_datetime_map = {
+example_survey_response_data_v2_datetime_map = {
     "yyyy-MM-dd": [
         "swab_taken_date",
         "swab_return_date",
