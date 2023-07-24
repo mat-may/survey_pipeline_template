@@ -5,21 +5,11 @@ from cishouseholds.derive import assign_column_from_mapped_list_key
 from cishouseholds.edit import apply_value_map_multiple_columns
 
 
-def transform_participant_extract_digital(df: DataFrame) -> DataFrame:
+def transform_example_participant_extract(df: DataFrame) -> DataFrame:
     """
-    transform and process participant extract data received from cis digital
+    Transform and process example participant extract data
     """
     col_val_map = {
-        "voucher_type_preference": {
-            "Letter": "Paper",
-            "Email": "email_address",
-        },
-        "participant_withdrawal_reason": {
-            "Moving Location": "Moving location",
-            "Bad experience with tester / survey": "Bad experience with interviewer/survey",
-            "Swab / blood process too distressing": "Swab/blood process too distressing",
-            "Do NOT Reinstate": "",
-        },
         "ethnicity": {
             "African": "Black,Caribbean,African-African",
             "Caribbean": "Black,Caribbean,Afro-Caribbean",

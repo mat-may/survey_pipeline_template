@@ -14,7 +14,7 @@ from cishouseholds.pipeline.mapping import transformation_maps
 
 def example_survey_response_data_v1_transformations(df: DataFrame) -> DataFrame:
     """
-    Wrapper function for
+    Wrapper function for example survey response data v1 transformations
     """
     df = pre_processing(df)
     df = derive_additional_columns(df)
