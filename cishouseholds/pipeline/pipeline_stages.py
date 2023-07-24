@@ -79,10 +79,10 @@ from cishouseholds.validate import check_lookup_table_joined_columns_unique
 from cishouseholds.validate import normalise_schema
 from cishouseholds.validate import validate_processed_files
 from dummy_data_generation.generate_data import generate_cis_soc_data
+from dummy_data_generation.generate_data import generate_example_participant_data
+from dummy_data_generation.generate_data import generate_example_survey_response_v1_data
+from dummy_data_generation.generate_data import generate_example_survey_response_v2_data
 from dummy_data_generation.generate_data import generate_nims_table
-from dummy_data_generation.generate_data import generate_test_participant_data
-from dummy_data_generation.generate_data import generate_test_survey_response_version_1_data
-from dummy_data_generation.generate_data import generate_test_survey_response_version_2_data
 
 # from cishouseholds.validate import validate_files
 
@@ -308,14 +308,10 @@ def generate_dummy_data(output_directory):
     file_date = datetime.strftime(file_datetime, format="%Y%m%d")
 
     generate_cis_soc_data(directory=cis_soc_directory, file_date=file_date, records=50)
-    generate_test_participant_data(
-        directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[], blood_barcodes=[]
-    )
-    generate_test_survey_response_version_1_data(
-        directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[], blood_barcodes=[]
-    )
-    v2 = generate_test_survey_response_version_2_data(
-        directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[], blood_barcodes=[]
+    generate_example_participant_data(directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[])
+    generate_example_survey_response_v1_data(directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[])
+    v2 = generate_example_survey_response_v2_data(
+        directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[]
     )
 
     participant_ids = v2["Participant_id"].unique().tolist()

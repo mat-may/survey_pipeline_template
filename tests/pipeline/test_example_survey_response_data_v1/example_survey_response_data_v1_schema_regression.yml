@@ -120,6 +120,10 @@ fields:
   nullable: true
   type: string
 - metadata: {}
+  name: swab_sample_barcode
+  nullable: true
+  type: string
+- metadata: {}
   name: swab_sample_barcode_correct
   nullable: true
   type: string

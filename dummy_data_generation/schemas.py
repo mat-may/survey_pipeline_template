@@ -389,10 +389,9 @@ def get_nims_data_description(_, participant_ids=[]):
     }
 
 
-def get_test_participant_data_data_description(_, blood_barcodes, swab_barcodes):
+def get_example_participant_data_data_description(_, swab_barcodes):
     return lambda: {  # noqa: E731
         "ons_household_id": _("random.custom_code", mask="############", digit="#"),
-        "participant_survey_status": _("choice", items=["Active", "Complete", "Withdrawn"]),
         "withdrawn_reason": _(
             "choice",
             items=[
@@ -416,7 +415,6 @@ def get_test_participant_data_data_description(_, blood_barcodes, swab_barcodes)
             ],
         ),
         "participant_id": _("random.custom_code", mask="DHR-############", digit="#"),  # Also DHRF-##########
-        "participant_id_numeric": _("custom_random.random_integer", lower=10000000, upper=99999999, null_percent=0),
         "title": _("choice", items=["Dr.", "Miss.", "Mr.", "Mrs.", "Ms.", "Prof.", None]),
         "first_name": _("person.first_name"),
         "middle_name": _("person.first_name"),
@@ -459,210 +457,17 @@ def get_test_participant_data_data_description(_, blood_barcodes, swab_barcodes)
             ],
         ),
         "ethnicity_other": _("text.sentence"),
-        "original_invite_cohort": _("text.sentence"),
-        "consent_contact_extra_research_yn": _("choice", items=yes_no_none_choice),
-        "consent_use_of_surplus_blood_samples_yn": _("choice", items=yes_no_none_choice),
-        "consent_blood_samples_if_positive_yn": _("choice", items=yes_no_none_choice),
-        "existing_participant_digital_opt_in_status": _(
-            "choice",
-            items=[
-                "Participant Opted In",
-                "Participant Opted Out",
-                None,
-            ],
-        ),
-        "existing_participant_digital_opt_in_datetime": _(
-            "datetime.formatted_datetime",
-            start=2020,
-            end=2022,
-            fmt=digital_datetime_format,
-        ),
-        "nhs_data_share": _("choice", items=yes_no_none_choice),
-        "nhs_share_opt_out_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_date_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "household_invited_to_digital": _("choice", items=yes_no_none_choice),
-        "household_digital_enrolment_invited_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "participant_invited_to_digital": _("choice", items=yes_no_none_choice),
-        "participant_enrolled_digital": _("choice", items=yes_no_none_choice),
-        "participant_digital_enrolment_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "datetime.formatted_datetime",
-                    start=2020,
-                    end=2022,
-                    fmt=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "digital_entry_pack_sent_datetime": _(
-            "datetime.formatted_datetime",
-            start=2020,
-            end=2022,
-            fmt=digital_datetime_format,
-        ),
-        "digital_entry_pack_status": _("text.sentence"),  # TODO Check this doesn't have picklist values
-        "existing_participant_digital_opt_in_reminder_1_due_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "existing_participant_digital_opt_in_reminder_1_sent_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "existing_participant_digital_opt_in_reminder_1_status": _(
-            "text.sentence"
-        ),  # TODO Check this doesn't have picklist values
-        "existing_participant_digital_opt_in_reminder_2_due_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "existing_participant_digital_opt_in_reminder_2_sent_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "existing_participant_digital_opt_in_reminder_2_status": _(
-            "text.sentence"
-        ),  # TODO Check this doesn't have picklist values
-        "household_digital_opt_in_invitation_sent": _("choice", items=yes_no_none_choice),
-        "household_digital_opt_in_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "household_digital_enrollment_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
         "street": _("text.sentence"),
         "city": _("text.sentence"),
         "county": _("text.sentence"),
         "postcode": _("text.sentence"),
-        "household_members_under_2_years": _("choice", items=yes_no_none_choice),
-        "infant_1": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_2": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_3": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_4": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_5": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_6": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_7": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_8": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "household_members_over_2_and_not_present": _("choice", items=yes_no_none_choice),
-        "person_1": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_2": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_3": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_4": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_5": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_6": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_7": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_8": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_1_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person1_reason_for_not_consenting": _("text.sentence"),
-        "person_2_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person2_reason_for_not_consenting": _("text.sentence"),
-        "person_3_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person3_reason_for_not_consenting": _("text.sentence"),
-        "person_4_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person4_reason_for_not_consenting": _("text.sentence"),
-        "person_5_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person5_reason_for_not_consenting": _("text.sentence"),
-        "person_6_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person6_reason_for_not_consenting": _("text.sentence"),
-        "person_7_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person7_reason_for_not_consenting": _("text.sentence"),
-        "person_8_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person8_reason_for_not_consenting": _("text.sentence"),
-        "person_9_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person9_reason_for_not_consenting": _("text.sentence"),
-        "count_of_non_consenting": _("custom_random.random_integer", lower=1, upper=9, null_percent=0.9),
-        "participant_digital_type_preference": _("text.sentence"),
-        "participant_digital_communication_preference": _("text.sentence"),
-        "participant_digital_sample_return_preference": _("text.sentence"),
-        "participant_digital_language_preference": _("text.sentence"),
-        "participant_digital_study_cohort": _("text.sentence"),
-        "participant_digital_voucher_preference": _("text.sentence"),
+        "communication_preference": _("text.sentence"),
+        "sample_return_preference": _("text.sentence"),
+        "language_preference": _("text.sentence"),
     }
 
 
-def get_example_survey_response_data_v1_data_description(_, blood_barcodes, swab_barcodes):
+def get_example_survey_response_data_v1_data_description(_, swab_barcodes):
     return lambda: {  # noqa: E731
         "survey_start_datetime": _(
             "discrete_distribution",
@@ -860,6 +665,12 @@ def get_example_survey_response_data_v1_data_description(_, blood_barcodes, swab
                 None,
             ],
         ),
+        "swab_sample_barcode": _(
+            "discrete_distribution",
+            population=swab_barcodes,
+            weights=[1 / len(swab_barcodes)] * len(swab_barcodes),
+            null_prop=0.2,
+        ),
         "swab_sample_barcode_correct": _("choice", items=yes_no_none_choice),
         "swab_sample_barcode_user_entered": _("random.custom_code", mask="SWT########", digit="#"),
         "swab_taken_date": _(
@@ -947,7 +758,7 @@ def get_example_survey_response_data_v1_data_description(_, blood_barcodes, swab
     }
 
 
-def get_example_survey_response_data_v2_data_description(_, blood_barcodes, swab_barcodes):
+def get_example_survey_response_data_v2_data_description(_, swab_barcodes):
     return lambda: {  # noqa: E731
         "Visit_Date_Time": _(
             "custom_random.random_date",
@@ -1305,7 +1116,7 @@ def get_example_survey_response_data_v2_data_description(_, blood_barcodes, swab
     }
 
 
-def get_test_swab_sample_results_data_description(_, swab_barcodes):
+def get_example_swab_sample_results_data_description(_, swab_barcodes):
     return lambda: {  # noqa: E731
         "Sample": _(
             "discrete_distribution",
