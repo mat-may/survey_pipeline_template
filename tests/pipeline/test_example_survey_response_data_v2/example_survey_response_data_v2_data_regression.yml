@@ -1,0 +1,3489 @@
+- ability_to_socially_distance_at_work_or_education: Very difficult to be more than
+    1m away
+  been_outside_uk: null
+  been_outside_uk_last_country: Costa Rica
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 04/01/2022
+  cis_covid_vaccine_date_2: 02/01/2022
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: 05/01/2022
+  cis_covid_vaccine_number_of_doses: '1'
+  cis_covid_vaccine_number_of_doses_raw: '1'
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: Other / specify
+  cis_covid_vaccine_type_1: Moderna
+  cis_covid_vaccine_type_2: Moderna
+  cis_covid_vaccine_type_3: Moderna
+  cis_covid_vaccine_type_4: Oxford/AstraZeneca
+  cis_covid_vaccine_type_other: Let them eat cake.
+  cis_covid_vaccine_type_other_1: Elementary, my dear Watson.
+  cis_covid_vaccine_type_other_2: You're gonna need a bigger boat.
+  cis_covid_vaccine_type_other_3: Elementary, my dear Watson.
+  cis_covid_vaccine_type_other_4: Elementary, my dear Watson.
+  face_covering_other_enclosed_places: Participant Would Not/Could Not Answer
+  face_covering_outside_of_home: Yes, usually both Work/school/other
+  face_covering_work_or_education: Yes, always
+  household_visit_status: Completed
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '788221784619'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: 06/01/2022
+  other_covid_infection_test_results: One or more negative tests but none positive
+  participant_id: DHR-898807398882
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT86970071
+  swab_taken: 'Yes'
+  think_had_covid: null
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: null
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: 'No'
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: null
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: 'Yes'
+  think_have_covid_symptom_loss_of_appetite: null
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: 'Yes'
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: null
+  think_have_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: null
+  visit_datetime: '2022-01-05T03:06:43.000Z'
+  visit_id: DHVF-0138926395
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Secondary
+  work_in_additional_paid_employment: 'Yes'
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: Its main implementation is the Glasgow Haskell Compiler.
+  work_main_job_title: The Galactic Empire is nearing completion of the Death Star,
+    a space station with the power to destroy entire planets.
+  work_not_from_home_days_per_week: Participant Would Not/Could Not Answer
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Transport (incl. storage, logistic)
+  work_sector_other: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are
+    D1, D2, ... Dn.
+  work_status_v0: null
+  work_status_v1: null
+  work_status_v2: null
+- ability_to_socially_distance_at_work_or_education: Difficult to maintain 2m, but
+    can be 1m
+  been_outside_uk: 'Yes'
+  been_outside_uk_last_country: Greece
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 08/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: 04/01/2022
+  cis_covid_vaccine_date_4: 02/01/2022
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: null
+  cis_covid_vaccine_type_1: Oxford/AstraZeneca
+  cis_covid_vaccine_type_2: Pfizer/BioNTech
+  cis_covid_vaccine_type_3: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_4: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_other: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_1: Ask not what your country can do for you; ask what
+    you can do for your country.
+  cis_covid_vaccine_type_other_2: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_3: Houston, we have a problem.
+  cis_covid_vaccine_type_other_4: The only thing we have to fear is fear itself.
+  face_covering_other_enclosed_places: Participant Would Not/Could Not Answer
+  face_covering_outside_of_home: Yes, at work/school only
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Completed
+  illness_lasting_over_12_months: null
+  illness_reduces_activity_or_ability: Yes, a little
+  ons_household_id: '507215072283'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: One or more positive test(s)
+  participant_id: DHR-190811216007
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: null
+  swab_taken: 'No'
+  think_had_covid: 'Yes'
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: 'Yes'
+  think_had_covid_symptom_fatigue: 'No'
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: 'Yes'
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'Yes'
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: 'No'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: 'Yes'
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: null
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'Yes'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: 'Yes'
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: 'No'
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: null
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: null
+  transport_to_work_or_education: On foot
+  visit_datetime: '2022-01-05T02:59:22.000Z'
+  visit_id: DHVF-1590785490
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: 'No'
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: 'Yes'
+  work_location: Both (from home and somewhere else)
+  work_main_job_changed: null
+  work_main_job_role: Haskell features a type system with type inference and lazy
+    evaluation.
+  work_main_job_title: Type classes first appeared in the Haskell programming language.
+  work_not_from_home_days_per_week: '3'
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Other occupation sector
+  work_sector_other: The Galactic Empire is nearing completion of the Death Star,
+    a space station with the power to destroy entire planets.
+  work_status_v0: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v1: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v2: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+- ability_to_socially_distance_at_work_or_education: Very difficult to be more than
+    1m away
+  been_outside_uk: 'Yes'
+  been_outside_uk_last_country: Sweden
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'No'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 01/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Sinopharm
+  cis_covid_vaccine_type_1: Pfizer/BioNTech
+  cis_covid_vaccine_type_2: null
+  cis_covid_vaccine_type_3: null
+  cis_covid_vaccine_type_4: Moderna
+  cis_covid_vaccine_type_other: Ask not what your country can do for you; ask what
+    you can do for your country.
+  cis_covid_vaccine_type_other_1: A census taker once tried to test me. I ate his
+    liver with some fava beans and a nice Chianti.
+  cis_covid_vaccine_type_other_2: They call me *Mister* Tibbs!
+  cis_covid_vaccine_type_other_3: Elementary, my dear Watson.
+  cis_covid_vaccine_type_other_4: You're gonna need a bigger boat.
+  face_covering_other_enclosed_places: null
+  face_covering_outside_of_home: Participant Would Not/Could Not Answer
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Partially Completed
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Yes, a little
+  ons_household_id: '137521669540'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: 07/01/2022
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: null
+  participant_id: DHR-043209859962
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: null
+  swab_taken: 'No'
+  think_had_covid: null
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: null
+  think_had_covid_symptom_headache: null
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: 'Yes'
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: 'Yes'
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: 'Yes'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: 'No'
+  think_have_covid: 'Yes'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'No'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'Yes'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: 'Yes'
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: null
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: null
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: null
+  think_have_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: null
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: null
+  visit_datetime: '2022-01-01T20:56:13.000Z'
+  visit_id: DHVF-3368362985
+  which_symptoms_last_7_days: Fever
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: 'No'
+  work_location: Working from home
+  work_main_job_changed: 'No'
+  work_main_job_role: The Galactic Empire is nearing completion of the Death Star,
+    a space station with the power to destroy entire planets.
+  work_main_job_title: Its main implementation is the Glasgow Haskell Compiler.
+  work_not_from_home_days_per_week: '4'
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Financial services incl. insurance
+  work_sector_other: Where are my pants?
+  work_status_v0: Student
+  work_status_v1: 5y and older in full-time education
+  work_status_v2: 4-5y and older at school/home-school
+- ability_to_socially_distance_at_work_or_education: Easy to maintain 2m
+  been_outside_uk: null
+  been_outside_uk_last_country: Tuvalu
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 06/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: 07/01/2022
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: Moderna
+  cis_covid_vaccine_type_1: Moderna
+  cis_covid_vaccine_type_2: Don't know type
+  cis_covid_vaccine_type_3: Moderna
+  cis_covid_vaccine_type_4: Don't know type
+  cis_covid_vaccine_type_other: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_1: A census taker once tried to test me. I ate his
+    liver with some fava beans and a nice Chianti.
+  cis_covid_vaccine_type_other_2: Get your stinking paws off me, you damned dirty
+    ape.
+  cis_covid_vaccine_type_other_3: A census taker once tried to test me. I ate his
+    liver with some fava beans and a nice Chianti.
+  cis_covid_vaccine_type_other_4: The only thing we have to fear is fear itself.
+  face_covering_other_enclosed_places: Participant Would Not/Could Not Answer
+  face_covering_outside_of_home: Yes, usually both Work/school/other
+  face_covering_work_or_education: Participant Would Not/Could Not Answer
+  household_visit_status: Household did not attend
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '695986758587'
+  other_covid_infection_test: null
+  other_covid_infection_test_first_positive_date: 09/01/2022
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: Waiting for all results
+  participant_id: DHR-422675620223
+  samples_taken_datetime: '2022-01-03T08:53:31.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT49605737
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'No'
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: 'Yes'
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_had_covid_symptom_noisy_breathing: null
+  think_had_covid_symptom_palpitations: 'Yes'
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: 'No'
+  think_have_covid: 'No'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: 'No'
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: 'Yes'
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-08T21:11:03.000Z'
+  visit_id: DHVF-4956873037
+  which_symptoms_last_7_days: null
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Secondary
+  work_in_additional_paid_employment: 'No'
+  work_location: Working from home
+  work_main_job_changed: 'No'
+  work_main_job_role: Atoms can contain any character if they are enclosed within
+    single quotes and an escape convention exists which allows any character to be
+    used within an atom.
+  work_main_job_title: Initially composing light-hearted and irreverent works, he
+    also wrote serious, sombre and religious pieces beginning in the 1930s.
+  work_not_from_home_days_per_week: Participant Would Not/Could Not Answer
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Armed forces
+  work_sector_other: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are
+    D1, D2, ... Dn.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: Nauru
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 08/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: 06/01/2022
+  cis_covid_vaccine_date_4: 02/01/2022
+  cis_covid_vaccine_number_of_doses: '1'
+  cis_covid_vaccine_number_of_doses_raw: '1'
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: Don't know type
+  cis_covid_vaccine_type_1: Don't know type
+  cis_covid_vaccine_type_2: Oxford/AstraZeneca
+  cis_covid_vaccine_type_3: Pfizer/BioNTech
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: Here's looking at you, kid.
+  cis_covid_vaccine_type_other_1: Frankly, my dear, I don't give a damn.
+  cis_covid_vaccine_type_other_2: '"You''ve got to ask yourself one question: ""Do
+    I feel lucky?"" Well, do ya? Punk!"'
+  cis_covid_vaccine_type_other_3: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_4: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  face_covering_other_enclosed_places: My face is already covered for other reasons
+    (e.g. religious or cultural reasons)
+  face_covering_outside_of_home: Yes, at work/school only
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: null
+  illness_reduces_activity_or_ability: Yes, a little
+  ons_household_id: '686104320534'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: 03/01/2022
+  other_covid_infection_test_last_negative_date: 01/01/2022
+  other_covid_infection_test_results: One or more negative tests but none positive
+  participant_id: DHR-080886545784
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT57818711
+  swab_taken: 'Yes'
+  think_had_covid: 'Yes'
+  think_had_covid_any_symptoms: 'Yes'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: 'Yes'
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: 'Yes'
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: 'No'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'Yes'
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: null
+  think_have_covid: 'Yes'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: 'Yes'
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: null
+  transport_to_work_or_education: On foot
+  visit_datetime: '2022-01-08T03:57:44.000Z'
+  visit_id: DHVF-5124451324
+  which_symptoms_last_7_days: null
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Other
+  work_in_additional_paid_employment: 'No'
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: The Galactic Empire is nearing completion of the Death Star,
+    a space station with the power to destroy entire planets.
+  work_main_job_title: Erlang is known for its designs that are well suited for systems.
+  work_not_from_home_days_per_week: '3'
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Social care
+  work_sector_other: Type classes first appeared in the Haskell programming language.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: Easy to maintain 2m
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: Canada
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'No'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 02/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: 05/01/2022
+  cis_covid_vaccine_date_4: 03/01/2022
+  cis_covid_vaccine_number_of_doses: '1'
+  cis_covid_vaccine_number_of_doses_raw: '1'
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: null
+  cis_covid_vaccine_type_1: Oxford/AstraZeneca
+  cis_covid_vaccine_type_2: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_3: Don't know type
+  cis_covid_vaccine_type_4: Don't know type
+  cis_covid_vaccine_type_other: They call me *Mister* Tibbs!
+  cis_covid_vaccine_type_other_1: Ask not what your country can do for you; ask what
+    you can do for your country.
+  cis_covid_vaccine_type_other_2: The only thing we have to fear is fear itself.
+  cis_covid_vaccine_type_other_3: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_4: Frankly, my dear, I don't give a damn.
+  face_covering_other_enclosed_places: Yes always
+  face_covering_outside_of_home: null
+  face_covering_work_or_education: Yes, sometimes
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: null
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '011652671671'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: One or more negative tests but none were positive
+  participant_id: DHR-891036937066
+  samples_taken_datetime: '2022-01-09T12:32:27.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT97051560
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: 'Yes'
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: 'No'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: null
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'No'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'Yes'
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: 'No'
+  think_have_covid_symptom_noisy_breathing: null
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: Bus, minibus, coach
+  visit_datetime: '2022-01-08T21:39:00.000Z'
+  visit_id: DHVF-5388196874
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Other
+  work_in_additional_paid_employment: 'No'
+  work_location: null
+  work_main_job_changed: 'Yes'
+  work_main_job_role: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are
+    D1, D2, ... Dn.
+  work_main_job_title: Do you have any idea why this is not working?
+  work_not_from_home_days_per_week: null
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Teaching and education
+  work_sector_other: Tuples are containers for a fixed number of Erlang data types.
+  work_status_v0: Student
+  work_status_v1: 5y and older in full-time education
+  work_status_v2: 4-5y and older at school/home-school
+- ability_to_socially_distance_at_work_or_education: Very difficult to be more than
+    1m away
+  been_outside_uk: null
+  been_outside_uk_last_country: null
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: 02/01/2022
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: 09/01/2022
+  cis_covid_vaccine_number_of_doses: '1'
+  cis_covid_vaccine_number_of_doses_raw: '1'
+  cis_covid_vaccine_offered: 'Yes'
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: From a research study/trial
+  cis_covid_vaccine_type_1: null
+  cis_covid_vaccine_type_2: Pfizer/BioNTech
+  cis_covid_vaccine_type_3: Don't know type
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: They call me *Mister* Tibbs!
+  cis_covid_vaccine_type_other_1: Those who refuse to learn from history are condemned
+    to repeat it.
+  cis_covid_vaccine_type_other_2: You're gonna need a bigger boat.
+  cis_covid_vaccine_type_other_3: Houston, we have a problem.
+  cis_covid_vaccine_type_other_4: Let them eat cake.
+  face_covering_other_enclosed_places: My face is already covered for other reasons
+    (e.g. religious or cultural reasons)
+  face_covering_outside_of_home: Yes, in other situations only
+  face_covering_work_or_education: Yes, always
+  household_visit_status: Partially Completed
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: null
+  ons_household_id: '557410386890'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: 05/01/2022
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: Waiting for all results
+  participant_id: DHR-825533331515
+  samples_taken_datetime: '2022-01-01T16:15:09.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT25968799
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: null
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: null
+  think_had_covid_symptom_loss_of_smell: 'Yes'
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: 'No'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: 'Yes'
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: 'No'
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'No'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: 'Yes'
+  think_have_covid_symptom_difficulty_concentrating: 'Yes'
+  think_have_covid_symptom_fatigue: null
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: 'No'
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: On foot
+  visit_datetime: '2022-01-01T02:05:19.000Z'
+  visit_id: DHVF-6174774956
+  which_symptoms_last_7_days: null
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: 'No'
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: null
+  work_main_job_role: The sequential subset of Erlang supports eager evaluation, single
+    assignment, and dynamic typing.
+  work_main_job_title: The sequential subset of Erlang supports eager evaluation,
+    single assignment, and dynamic typing.
+  work_not_from_home_days_per_week: '7'
+  work_nursing_or_residential_care_home: null
+  work_sector: null
+  work_sector_other: '"Messages can be sent to and received from ports, but these
+    messages must obey the so-called ""port protocol."""'
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: Easy to maintain 2m
+  been_outside_uk: null
+  been_outside_uk_last_country: Eswatini
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: 'Yes'
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: Pfizer/BioNTech
+  cis_covid_vaccine_type_1: Pfizer/BioNTech
+  cis_covid_vaccine_type_2: Pfizer/BioNTech
+  cis_covid_vaccine_type_3: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_4: Oxford/AstraZeneca
+  cis_covid_vaccine_type_other: Get your stinking paws off me, you damned dirty ape.
+  cis_covid_vaccine_type_other_1: The only thing we have to fear is fear itself.
+  cis_covid_vaccine_type_other_2: '"You''ve got to ask yourself one question: ""Do
+    I feel lucky?"" Well, do ya? Punk!"'
+  cis_covid_vaccine_type_other_3: Here's looking at you, kid.
+  cis_covid_vaccine_type_other_4: Elementary, my dear Watson.
+  face_covering_other_enclosed_places: Yes sometimes
+  face_covering_outside_of_home: Participant Would Not/Could Not Answer
+  face_covering_work_or_education: Never
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '433945965413'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: 03/01/2022
+  other_covid_infection_test_results: null
+  participant_id: DHR-767259461962
+  samples_taken_datetime: '2022-01-02T17:05:06.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: null
+  swab_taken: 'No'
+  think_had_covid: 'Yes'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'Yes'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: null
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: 'Yes'
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: 'Yes'
+  think_have_covid_symptom_cough: 'Yes'
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: 'Yes'
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-03T05:42:35.000Z'
+  visit_id: DHVF-7528925395
+  which_symptoms_last_7_days: Muscle ache
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: null
+  work_in_additional_paid_employment: 'No'
+  work_location: Working from home
+  work_main_job_changed: 'Yes'
+  work_main_job_role: In 1989 the building was heavily damaged by fire, but it has
+    since been restored.
+  work_main_job_title: '"Messages can be sent to and received from ports, but these
+    messages must obey the so-called ""port protocol."""'
+  work_not_from_home_days_per_week: '0'
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Other occupation sector
+  work_sector_other: Ports are created with the built-in function open_port.
+  work_status_v0: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v1: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v2: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+- ability_to_socially_distance_at_work_or_education: Very difficult to be more than
+    1m away
+  been_outside_uk: null
+  been_outside_uk_last_country: Romania
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'No'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: 07/01/2022
+  cis_covid_vaccine_date_3: 05/01/2022
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: '2'
+  cis_covid_vaccine_number_of_doses_raw: '2'
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: From a research study/trial
+  cis_covid_vaccine_type_1: Moderna
+  cis_covid_vaccine_type_2: Moderna
+  cis_covid_vaccine_type_3: Oxford/AstraZeneca
+  cis_covid_vaccine_type_4: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_other: Frankly, my dear, I don't give a damn.
+  cis_covid_vaccine_type_other_1: Mr. Gorbachev, open this gate! Mr. Gorbachev, tear
+    down this wall!
+  cis_covid_vaccine_type_other_2: Get your stinking paws off me, you damned dirty
+    ape.
+  cis_covid_vaccine_type_other_3: Here's looking at you, kid.
+  cis_covid_vaccine_type_other_4: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  face_covering_other_enclosed_places: Never
+  face_covering_outside_of_home: Participant Would Not/Could Not Answer
+  face_covering_work_or_education: Participant Would Not/Could Not Answer
+  household_visit_status: Completed
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Yes, a little
+  ons_household_id: '377500166264'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: 01/01/2022
+  other_covid_infection_test_last_negative_date: 07/01/2022
+  other_covid_infection_test_results: One or more negative tests but none were positive
+  participant_id: DHR-427142646035
+  samples_taken_datetime: '2022-01-01T19:56:11.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: null
+  swab_taken: 'No'
+  think_had_covid: null
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: 'Yes'
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: null
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_had_covid_symptom_noisy_breathing: null
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: null
+  think_have_covid: null
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: 'Yes'
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: null
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: 'Yes'
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: 'No'
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: 'No'
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: null
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: null
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-08T14:45:30.000Z'
+  visit_id: DHVF-7588080098
+  which_symptoms_last_7_days: Muscle ache
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: Where are my pants?
+  work_main_job_title: I don't even care.
+  work_not_from_home_days_per_week: '1'
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Civil service or Local Government
+  work_sector_other: Where are my pants?
+  work_status_v0: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v1: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v2: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: Brunei
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: 08/01/2022
+  cis_covid_vaccine_date_4: 02/01/2022
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: Novavax
+  cis_covid_vaccine_type_1: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_2: Pfizer/BioNTech
+  cis_covid_vaccine_type_3: Don't know type
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: '"You''ve got to ask yourself one question: ""Do I
+    feel lucky?"" Well, do ya? Punk!"'
+  cis_covid_vaccine_type_other_1: Houston, we have a problem.
+  cis_covid_vaccine_type_other_2: Ask not what your country can do for you; ask what
+    you can do for your country.
+  cis_covid_vaccine_type_other_3: You're gonna need a bigger boat.
+  cis_covid_vaccine_type_other_4: Ask not what your country can do for you; ask what
+    you can do for your country.
+  face_covering_other_enclosed_places: Yes sometimes
+  face_covering_outside_of_home: Yes, at work/school only
+  face_covering_work_or_education: null
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '539176725448'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: 09/01/2022
+  other_covid_infection_test_results: null
+  participant_id: DHR-936679226110
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT20922815
+  swab_taken: 'Yes'
+  think_had_covid: null
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: 'Yes'
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: null
+  think_had_covid_symptom_loss_of_appetite: null
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: 'No'
+  think_have_covid: 'No'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: 'No'
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: 'No'
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: null
+  think_have_covid_symptom_nausea_or_vomiting: 'No'
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-01T15:18:18.000Z'
+  visit_id: DHVF-7669456980
+  which_symptoms_last_7_days: Muscle ache
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Other
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'No'
+  work_main_job_role: The arguments can be primitive data types or compound data types.
+  work_main_job_title: They are written as strings of consecutive alphanumeric characters,
+    the first character being lowercase.
+  work_not_from_home_days_per_week: '3'
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Teaching and education
+  work_sector_other: It is also a garbage-collected runtime system.
+  work_status_v0: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v1: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v2: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: null
+  been_outside_uk_last_country: Comoros
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 06/01/2022
+  cis_covid_vaccine_date_2: 03/01/2022
+  cis_covid_vaccine_date_3: 05/01/2022
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Oxford/AstraZeneca
+  cis_covid_vaccine_type_1: Pfizer/BioNTech
+  cis_covid_vaccine_type_2: null
+  cis_covid_vaccine_type_3: null
+  cis_covid_vaccine_type_4: Moderna
+  cis_covid_vaccine_type_other: Elementary, my dear Watson.
+  cis_covid_vaccine_type_other_1: Those who refuse to learn from history are condemned
+    to repeat it.
+  cis_covid_vaccine_type_other_2: Those who refuse to learn from history are condemned
+    to repeat it.
+  cis_covid_vaccine_type_other_3: Let them eat cake.
+  cis_covid_vaccine_type_other_4: Frankly, my dear, I don't give a damn.
+  face_covering_other_enclosed_places: Participant Would Not/Could Not Answer
+  face_covering_outside_of_home: My face is already covered
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Completed
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Yes, a little
+  ons_household_id: '313678796352'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: 06/01/2022
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: All tests failed
+  participant_id: DHR-621837588986
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT95621033
+  swab_taken: 'Yes'
+  think_had_covid: 'Yes'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: 'Yes'
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: 'No'
+  think_had_covid_which_symptoms: 'No'
+  think_have_covid: null
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'No'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: 'Yes'
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: 'No'
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: null
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: Car or van
+  visit_datetime: '2022-01-02T00:55:57.000Z'
+  visit_id: DHVF-8541607243
+  which_symptoms_last_7_days: Fever
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: null
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'No'
+  work_main_job_role: Its main implementation is the Glasgow Haskell Compiler.
+  work_main_job_title: Its main implementation is the Glasgow Haskell Compiler.
+  work_not_from_home_days_per_week: '6'
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Health care
+  work_sector_other: I don't even care.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: Philippines
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: From a research study/trial
+  cis_covid_vaccine_type_1: Don't know type
+  cis_covid_vaccine_type_2: null
+  cis_covid_vaccine_type_3: Pfizer/BioNTech
+  cis_covid_vaccine_type_4: Oxford/AstraZeneca
+  cis_covid_vaccine_type_other: Here's looking at you, kid.
+  cis_covid_vaccine_type_other_1: Mr. Gorbachev, open this gate! Mr. Gorbachev, tear
+    down this wall!
+  cis_covid_vaccine_type_other_2: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_3: One morning I shot an elephant in my pajamas. How
+    he got in my pajamas, I don't know.
+  cis_covid_vaccine_type_other_4: Elementary, my dear Watson.
+  face_covering_other_enclosed_places: My face is already covered for other reasons
+    (e.g. religious or cultural reasons)
+  face_covering_outside_of_home: Participant Would Not/Could Not Answer
+  face_covering_work_or_education: Yes, sometimes
+  household_visit_status: Completed
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '955705581901'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: 09/01/2022
+  other_covid_infection_test_results: One or more positive test(s)
+  participant_id: DHR-562182564559
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: null
+  swab_taken: 'No'
+  think_had_covid: 'Yes'
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'No'
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: 'Yes'
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: 'No'
+  think_had_covid_which_symptoms: null
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'Yes'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_have_covid_symptom_noisy_breathing: null
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: null
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: null
+  visit_datetime: '2022-01-06T11:34:20.000Z'
+  visit_id: DHVF-9902298831
+  which_symptoms_last_7_days: Fever
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: null
+  work_main_job_role: Haskell features a type system with type inference and lazy
+    evaluation.
+  work_main_job_title: Initially composing light-hearted and irreverent works, he
+    also wrote serious, sombre and religious pieces beginning in the 1930s.
+  work_not_from_home_days_per_week: '7'
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Armed forces
+  work_sector_other: Make me a sandwich.
+  work_status_v0: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v1: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v2: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+- ability_to_socially_distance_at_work_or_education: Very difficult to be more than
+    1m away
+  been_outside_uk: 'Yes'
+  been_outside_uk_last_country: Togo
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 08/01/2022
+  cis_covid_vaccine_date_2: 08/01/2022
+  cis_covid_vaccine_date_3: 03/01/2022
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: Moderna
+  cis_covid_vaccine_type_1: null
+  cis_covid_vaccine_type_2: Don't know type
+  cis_covid_vaccine_type_3: null
+  cis_covid_vaccine_type_4: Oxford/AstraZeneca
+  cis_covid_vaccine_type_other: Houston, we have a problem.
+  cis_covid_vaccine_type_other_1: They call me *Mister* Tibbs!
+  cis_covid_vaccine_type_other_2: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_3: Houston, we have a problem.
+  cis_covid_vaccine_type_other_4: Those who refuse to learn from history are condemned
+    to repeat it.
+  face_covering_other_enclosed_places: Not going to other enclosed public spaces or
+    using public transport
+  face_covering_outside_of_home: Yes, in other situations only
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Household did not attend
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: '894756224036'
+  other_covid_infection_test: null
+  other_covid_infection_test_first_positive_date: 03/01/2022
+  other_covid_infection_test_last_negative_date: 01/01/2022
+  other_covid_infection_test_results: One or more positive test(s)
+  participant_id: DHR-414160350614
+  samples_taken_datetime: '2022-01-08T00:10:59.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT38629340
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: null
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: 'Yes'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: 'Yes'
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: 'Yes'
+  think_have_covid_symptom_cough: 'Yes'
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_have_covid_symptom_noisy_breathing: null
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: On foot
+  visit_datetime: '2022-01-05T20:30:21.000Z'
+  visit_id: DVH-0323737820
+  which_symptoms_last_7_days: Fever
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Secondary
+  work_in_additional_paid_employment: 'Yes'
+  work_location: Working from home
+  work_main_job_changed: null
+  work_main_job_role: Where are my pants?
+  work_main_job_title: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are
+    D1, D2, ... Dn.
+  work_not_from_home_days_per_week: '6'
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Arts,Entertainment or Recreation
+  work_sector_other: Any element of a tuple can be accessed in constant time.
+  work_status_v0: null
+  work_status_v1: null
+  work_status_v2: null
+- ability_to_socially_distance_at_work_or_education: Difficult to maintain 2m, but
+    can be 1m
+  been_outside_uk: null
+  been_outside_uk_last_country: Canada
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 08/01/2022
+  cis_covid_vaccine_date_2: 02/01/2022
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: '2'
+  cis_covid_vaccine_number_of_doses_raw: '2'
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Other / specify
+  cis_covid_vaccine_type_1: Don't know type
+  cis_covid_vaccine_type_2: Moderna
+  cis_covid_vaccine_type_3: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_4: Pfizer/BioNTech
+  cis_covid_vaccine_type_other: A census taker once tried to test me. I ate his liver
+    with some fava beans and a nice Chianti.
+  cis_covid_vaccine_type_other_1: A census taker once tried to test me. I ate his
+    liver with some fava beans and a nice Chianti.
+  cis_covid_vaccine_type_other_2: One morning I shot an elephant in my pajamas. How
+    he got in my pajamas, I don't know.
+  cis_covid_vaccine_type_other_3: Mr. Gorbachev, open this gate! Mr. Gorbachev, tear
+    down this wall!
+  cis_covid_vaccine_type_other_4: Elementary, my dear Watson.
+  face_covering_other_enclosed_places: null
+  face_covering_outside_of_home: null
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Household did not attend
+  illness_lasting_over_12_months: null
+  illness_reduces_activity_or_ability: Yes, a little
+  ons_household_id: '220896143564'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: One or more positive test(s)
+  participant_id: DHR-281342559296
+  samples_taken_datetime: '2022-01-06T05:06:10.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT79358109
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: null
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: 'No'
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: 'Yes'
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: 'No'
+  think_have_covid: null
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'No'
+  think_have_covid_symptom_anxiety: 'Yes'
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'Yes'
+  think_have_covid_symptom_diarrhoea: 'Yes'
+  think_have_covid_symptom_difficulty_concentrating: 'Yes'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: null
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: 'Yes'
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: null
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: null
+  visit_datetime: '2022-01-09T17:14:28.000Z'
+  visit_id: DVH-2567064927
+  which_symptoms_last_7_days: Fever
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Other
+  work_in_additional_paid_employment: 'Yes'
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'No'
+  work_main_job_role: The Galactic Empire is nearing completion of the Death Star,
+    a space station with the power to destroy entire planets.
+  work_main_job_title: Ports are created with the built-in function open_port.
+  work_not_from_home_days_per_week: null
+  work_nursing_or_residential_care_home: null
+  work_sector: Teaching and education
+  work_sector_other: Do you come here often?
+  work_status_v0: null
+  work_status_v1: null
+  work_status_v2: null
+- ability_to_socially_distance_at_work_or_education: Easy to maintain 2m
+  been_outside_uk: null
+  been_outside_uk_last_country: Guatemala
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 08/01/2022
+  cis_covid_vaccine_date_2: 01/01/2022
+  cis_covid_vaccine_date_3: 08/01/2022
+  cis_covid_vaccine_date_4: 07/01/2022
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: Novavax
+  cis_covid_vaccine_type_1: Moderna
+  cis_covid_vaccine_type_2: Oxford/AstraZeneca
+  cis_covid_vaccine_type_3: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: Those who refuse to learn from history are condemned
+    to repeat it.
+  cis_covid_vaccine_type_other_1: Frankly, my dear, I don't give a damn.
+  cis_covid_vaccine_type_other_2: '"You''ve got to ask yourself one question: ""Do
+    I feel lucky?"" Well, do ya? Punk!"'
+  cis_covid_vaccine_type_other_3: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_4: A census taker once tried to test me. I ate his
+    liver with some fava beans and a nice Chianti.
+  face_covering_other_enclosed_places: My face is already covered for other reasons
+    (e.g. religious or cultural reasons)
+  face_covering_outside_of_home: Yes, in other situations only
+  face_covering_work_or_education: Never
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: 021263322966
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: 05/01/2022
+  other_covid_infection_test_last_negative_date: 02/01/2022
+  other_covid_infection_test_results: null
+  participant_id: DHR-171396568720
+  samples_taken_datetime: '2022-01-01T05:43:54.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: null
+  swab_taken: 'No'
+  think_had_covid: 'Yes'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: null
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: null
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'Yes'
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: null
+  think_had_covid_symptom_palpitations: 'Yes'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_had_covid_symptom_shortness_of_breath: 'Yes'
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: 'Yes'
+  think_have_covid: null
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'No'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'Yes'
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: 'Yes'
+  think_have_covid_symptom_diarrhoea: 'Yes'
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: null
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-05T13:09:24.000Z'
+  visit_id: DVH-3229836394
+  which_symptoms_last_7_days: Fever
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: null
+  work_main_job_role: Make me a sandwich.
+  work_main_job_title: I don't even care.
+  work_not_from_home_days_per_week: '2'
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Social care
+  work_sector_other: '"Messages can be sent to and received from ports, but these
+    messages must obey the so-called ""port protocol."""'
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: 'Yes'
+  been_outside_uk_last_country: Bosnia and Herzegovina
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: 03/01/2022
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: Don't know type
+  cis_covid_vaccine_type_1: Pfizer/BioNTech
+  cis_covid_vaccine_type_2: Pfizer/BioNTech
+  cis_covid_vaccine_type_3: Moderna
+  cis_covid_vaccine_type_4: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_other: Those who refuse to learn from history are condemned
+    to repeat it.
+  cis_covid_vaccine_type_other_1: Get your stinking paws off me, you damned dirty
+    ape.
+  cis_covid_vaccine_type_other_2: Houston, we have a problem.
+  cis_covid_vaccine_type_other_3: They call me *Mister* Tibbs!
+  cis_covid_vaccine_type_other_4: A census taker once tried to test me. I ate his
+    liver with some fava beans and a nice Chianti.
+  face_covering_other_enclosed_places: Not going to other enclosed public spaces or
+    using public transport
+  face_covering_outside_of_home: 'No'
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Partially Completed
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: '890407714528'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: 06/01/2022
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: null
+  participant_id: DHR-425723964512
+  samples_taken_datetime: '2022-01-04T09:45:48.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: null
+  swab_taken: 'No'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: 'Yes'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'No'
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: 'Yes'
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'Yes'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'Yes'
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: 'Yes'
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: 'Yes'
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: 'No'
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-09T18:11:34.000Z'
+  visit_id: DVH-3522062980
+  which_symptoms_last_7_days: Weakness/tiredness
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: 'No'
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'No'
+  work_main_job_role: The Galactic Empire is nearing completion of the Death Star,
+    a space station with the power to destroy entire planets.
+  work_main_job_title: Initially composing light-hearted and irreverent works, he
+    also wrote serious, sombre and religious pieces beginning in the 1930s.
+  work_not_from_home_days_per_week: null
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: null
+  work_sector_other: Haskell is a standardized, general-purpose purely functional
+    programming language, with non-strict semantics and strong static typing.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: null
+  been_outside_uk_last_country: Pakistan
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'No'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: 09/01/2022
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Moderna
+  cis_covid_vaccine_type_1: null
+  cis_covid_vaccine_type_2: Moderna
+  cis_covid_vaccine_type_3: null
+  cis_covid_vaccine_type_4: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_other: Frankly, my dear, I don't give a damn.
+  cis_covid_vaccine_type_other_1: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_2: One morning I shot an elephant in my pajamas. How
+    he got in my pajamas, I don't know.
+  cis_covid_vaccine_type_other_3: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_4: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  face_covering_other_enclosed_places: Not going to other enclosed public spaces or
+    using public transport
+  face_covering_outside_of_home: Yes, at work/school only
+  face_covering_work_or_education: Yes, always
+  household_visit_status: Completed
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: '876960826911'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: 02/01/2022
+  other_covid_infection_test_last_negative_date: 09/01/2022
+  other_covid_infection_test_results: One or more positive test(s)
+  participant_id: DHR-152672624980
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: null
+  swab_taken: 'No'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: null
+  think_had_covid_symptom_headache: null
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: 'Yes'
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: 'No'
+  think_had_covid_which_symptoms: 'Yes'
+  think_have_covid: 'No'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: 'Yes'
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'Yes'
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: null
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: Bicycle
+  visit_datetime: '2022-01-03T01:28:27.000Z'
+  visit_id: DVH-4207627540
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Secondary
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'No'
+  work_main_job_role: The sequential subset of Erlang supports eager evaluation, single
+    assignment, and dynamic typing.
+  work_main_job_title: Do you have any idea why this is not working?
+  work_not_from_home_days_per_week: Participant Would Not/Could Not Answer
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Food production, agriculture, farming
+  work_sector_other: He looked inquisitively at his keyboard and wrote another sentence.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: Very difficult to be more than
+    1m away
+  been_outside_uk: null
+  been_outside_uk_last_country: Belize
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: 02/01/2022
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: null
+  cis_covid_vaccine_type_1: null
+  cis_covid_vaccine_type_2: Oxford/AstraZeneca
+  cis_covid_vaccine_type_3: null
+  cis_covid_vaccine_type_4: Moderna
+  cis_covid_vaccine_type_other: The only thing we have to fear is fear itself.
+  cis_covid_vaccine_type_other_1: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_2: The only thing we have to fear is fear itself.
+  cis_covid_vaccine_type_other_3: Those who refuse to learn from history are condemned
+    to repeat it.
+  cis_covid_vaccine_type_other_4: A census taker once tried to test me. I ate his
+    liver with some fava beans and a nice Chianti.
+  face_covering_other_enclosed_places: Participant Would Not/Could Not Answer
+  face_covering_outside_of_home: My face is already covered
+  face_covering_work_or_education: Participant Would Not/Could Not Answer
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '446490060265'
+  other_covid_infection_test: null
+  other_covid_infection_test_first_positive_date: 06/01/2022
+  other_covid_infection_test_last_negative_date: 01/01/2022
+  other_covid_infection_test_results: One or more negative tests but none were positive
+  participant_id: DHR-395460786772
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT53000597
+  swab_taken: 'Yes'
+  think_had_covid: null
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: null
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: 'Yes'
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: 'No'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: null
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: null
+  think_have_covid: 'No'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'Yes'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'Yes'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: null
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: null
+  think_have_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: null
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-08T12:05:20.000Z'
+  visit_id: DVH-4234404631
+  which_symptoms_last_7_days: null
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Other
+  work_in_additional_paid_employment: 'Yes'
+  work_location: Both (from home and somewhere else)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: '"Messages can be sent to and received from ports, but these
+    messages must obey the so-called ""port protocol."""'
+  work_main_job_title: The sequential subset of Erlang supports eager evaluation,
+    single assignment, and dynamic typing.
+  work_not_from_home_days_per_week: '5'
+  work_nursing_or_residential_care_home: null
+  work_sector: Transport (incl. storage, logistic)
+  work_sector_other: Erlang is a general-purpose, concurrent, functional programming
+    language.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: Very difficult to be more than
+    1m away
+  been_outside_uk: null
+  been_outside_uk_last_country: Cyprus
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 03/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: 01/01/2022
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_1: Moderna
+  cis_covid_vaccine_type_2: Moderna
+  cis_covid_vaccine_type_3: Moderna
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_1: '"You''ve got to ask yourself one question: ""Do
+    I feel lucky?"" Well, do ya? Punk!"'
+  cis_covid_vaccine_type_other_2: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_3: Frankly, my dear, I don't give a damn.
+  cis_covid_vaccine_type_other_4: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  face_covering_other_enclosed_places: Yes always
+  face_covering_outside_of_home: 'No'
+  face_covering_work_or_education: Yes, always
+  household_visit_status: Household did not attend
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: null
+  ons_household_id: '592089341934'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: 03/01/2022
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: null
+  participant_id: DHR-081467947140
+  samples_taken_datetime: '2022-01-09T09:53:47.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT67267249
+  swab_taken: 'Yes'
+  think_had_covid: null
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: 'No'
+  think_had_covid_symptom_fever: null
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: 'Yes'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: null
+  think_have_covid: 'No'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: 'No'
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: null
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: 'No'
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: null
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: null
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-05T16:55:15.000Z'
+  visit_id: DVH-4490349806
+  which_symptoms_last_7_days: Muscle ache
+  work_direct_contact_patients_or_clients: 'No'
+  work_health_care_area: Other
+  work_in_additional_paid_employment: 'Yes'
+  work_location: null
+  work_main_job_changed: 'No'
+  work_main_job_role: '"Messages can be sent to and received from ports, but these
+    messages must obey the so-called ""port protocol."""'
+  work_main_job_title: Do you have any idea why this is not working?
+  work_not_from_home_days_per_week: '7'
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Information technology and communication
+  work_sector_other: Erlang is known for its designs that are well suited for systems.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: Difficult to maintain 2m, but
+    can be 1m
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: Vietnam
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 02/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: 09/01/2022
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Novavax
+  cis_covid_vaccine_type_1: Moderna
+  cis_covid_vaccine_type_2: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_3: Don't know type
+  cis_covid_vaccine_type_4: Oxford/AstraZeneca
+  cis_covid_vaccine_type_other: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_1: Get your stinking paws off me, you damned dirty
+    ape.
+  cis_covid_vaccine_type_other_2: Frankly, my dear, I don't give a damn.
+  cis_covid_vaccine_type_other_3: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_4: Frankly, my dear, I don't give a damn.
+  face_covering_other_enclosed_places: Participant Would Not/Could Not Answer
+  face_covering_outside_of_home: null
+  face_covering_work_or_education: Never
+  household_visit_status: Dispatched
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: '456442497105'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: 05/01/2022
+  other_covid_infection_test_last_negative_date: 03/01/2022
+  other_covid_infection_test_results: One or more positive test(s)
+  participant_id: DHR-638762102480
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT77079278
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: null
+  think_had_covid_symptom_cough: 'Yes'
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: Maybe
+  think_have_covid: 'Yes'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'No'
+  think_have_covid_symptom_anxiety: 'Yes'
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: null
+  think_have_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: null
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: null
+  transport_to_work_or_education: Car or van
+  visit_datetime: '2022-01-08T17:55:42.000Z'
+  visit_id: DVH-4616426077
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: Atoms are used within a program to denote distinguished values.
+  work_main_job_title: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are
+    D1, D2, ... Dn.
+  work_not_from_home_days_per_week: '3'
+  work_nursing_or_residential_care_home: null
+  work_sector: Armed forces
+  work_sector_other: Where are my pants?
+  work_status_v0: null
+  work_status_v1: null
+  work_status_v2: null
+- ability_to_socially_distance_at_work_or_education: Easy to maintain 2m
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: Saudi Arabia
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: 07/01/2022
+  cis_covid_vaccine_date_4: 05/01/2022
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: 'Yes'
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: Sputnik
+  cis_covid_vaccine_type_1: Moderna
+  cis_covid_vaccine_type_2: Pfizer/BioNTech
+  cis_covid_vaccine_type_3: Moderna
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: A census taker once tried to test me. I ate his liver
+    with some fava beans and a nice Chianti.
+  cis_covid_vaccine_type_other_1: Those who refuse to learn from history are condemned
+    to repeat it.
+  cis_covid_vaccine_type_other_2: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_3: Let them eat cake.
+  cis_covid_vaccine_type_other_4: Houston, we have a problem.
+  face_covering_other_enclosed_places: Never
+  face_covering_outside_of_home: Participant Would Not/Could Not Answer
+  face_covering_work_or_education: Yes, always
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: null
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: 001674039598
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: 01/01/2022
+  other_covid_infection_test_last_negative_date: 01/01/2022
+  other_covid_infection_test_results: Waiting for all results
+  participant_id: DHR-076526144982
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT77079278
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: null
+  think_had_covid_symptom_cough: 'Yes'
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: 'No'
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: 'Yes'
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: 'Yes'
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: 'Yes'
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: 'Yes'
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: 'No'
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: 'Yes'
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: null
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'Yes'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: null
+  visit_datetime: '2022-01-04T01:29:38.000Z'
+  visit_id: DVH-5198266175
+  which_symptoms_last_7_days: null
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Secondary
+  work_in_additional_paid_employment: 'No'
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: Ports are created with the built-in function open_port.
+  work_main_job_title: Erlang is known for its designs that are well suited for systems.
+  work_not_from_home_days_per_week: '7'
+  work_nursing_or_residential_care_home: null
+  work_sector: Arts,Entertainment or Recreation
+  work_sector_other: Do you come here often?
+  work_status_v0: Student
+  work_status_v1: 5y and older in full-time education
+  work_status_v2: 4-5y and older at school/home-school
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: 'Yes'
+  been_outside_uk_last_country: Yemen
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Don't know type
+  cis_covid_vaccine_type_1: Moderna
+  cis_covid_vaccine_type_2: null
+  cis_covid_vaccine_type_3: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_1: You're gonna need a bigger boat.
+  cis_covid_vaccine_type_other_2: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_3: You're gonna need a bigger boat.
+  cis_covid_vaccine_type_other_4: Let them eat cake.
+  face_covering_other_enclosed_places: Participant Would Not/Could Not Answer
+  face_covering_outside_of_home: Yes, usually both Work/school/other
+  face_covering_work_or_education: My face is already covered
+  household_visit_status: Completed
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: '919192147365'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: 08/01/2022
+  other_covid_infection_test_last_negative_date: 04/01/2022
+  other_covid_infection_test_results: All tests failed
+  participant_id: DHR-352709577630
+  samples_taken_datetime: '2022-01-01T10:10:37.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT82431564
+  swab_taken: 'Yes'
+  think_had_covid: null
+  think_had_covid_any_symptoms: 'Yes'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: 'Yes'
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: 'Yes'
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: null
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: 'No'
+  think_had_covid_which_symptoms: Maybe
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: 'No'
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-01T19:38:11.000Z'
+  visit_id: DVH-6338733442
+  which_symptoms_last_7_days: Weakness/tiredness
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Secondary
+  work_in_additional_paid_employment: 'Yes'
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'No'
+  work_main_job_role: I don't even care.
+  work_main_job_title: The sequential subset of Erlang supports eager evaluation,
+    single assignment, and dynamic typing.
+  work_not_from_home_days_per_week: Participant Would Not/Could Not Answer
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Other occupation sector
+  work_sector_other: Atoms are used within a program to denote distinguished values.
+  work_status_v0: null
+  work_status_v1: null
+  work_status_v2: null
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: Vietnam
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: 04/01/2022
+  cis_covid_vaccine_date_3: 01/01/2022
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Sinopharm
+  cis_covid_vaccine_type_1: null
+  cis_covid_vaccine_type_2: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_3: Oxford/AstraZeneca
+  cis_covid_vaccine_type_4: Don't know type
+  cis_covid_vaccine_type_other: Frankly, my dear, I don't give a damn.
+  cis_covid_vaccine_type_other_1: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_2: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_3: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_4: The only thing we have to fear is fear itself.
+  face_covering_other_enclosed_places: My face is already covered for other reasons
+    (e.g. religious or cultural reasons)
+  face_covering_outside_of_home: Yes, in other situations only
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: '882749582259'
+  other_covid_infection_test: null
+  other_covid_infection_test_first_positive_date: 08/01/2022
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: All tests failed
+  participant_id: DHR-415355431652
+  samples_taken_datetime: '2022-01-08T12:34:55.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT77079278
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: 'Yes'
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: 'No'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'Yes'
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: 'Yes'
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: 'Yes'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: null
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: null
+  visit_datetime: '2022-01-09T23:50:42.000Z'
+  visit_id: DVH-7077836894
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: null
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: Initially composing light-hearted and irreverent works, he also
+    wrote serious, sombre and religious pieces beginning in the 1930s.
+  work_main_job_title: She spent her earliest years reading classic literature, and
+    writing poetry.
+  work_not_from_home_days_per_week: '6'
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Health care
+  work_sector_other: They are written as strings of consecutive alphanumeric characters,
+    the first character being lowercase.
+  work_status_v0: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v1: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v2: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+- ability_to_socially_distance_at_work_or_education: Difficult to maintain 2m, but
+    can be 1m
+  been_outside_uk: null
+  been_outside_uk_last_country: East Timor
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'No'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 09/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: 04/01/2022
+  cis_covid_vaccine_date_4: 05/01/2022
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: Other / specify
+  cis_covid_vaccine_type_1: Pfizer/BioNTech
+  cis_covid_vaccine_type_2: Pfizer/BioNTech
+  cis_covid_vaccine_type_3: Oxford/AstraZeneca
+  cis_covid_vaccine_type_4: Oxford/AstraZeneca
+  cis_covid_vaccine_type_other: You're gonna need a bigger boat.
+  cis_covid_vaccine_type_other_1: Those who refuse to learn from history are condemned
+    to repeat it.
+  cis_covid_vaccine_type_other_2: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_3: Mr. Gorbachev, open this gate! Mr. Gorbachev, tear
+    down this wall!
+  cis_covid_vaccine_type_other_4: Mr. Gorbachev, open this gate! Mr. Gorbachev, tear
+    down this wall!
+  face_covering_other_enclosed_places: Yes sometimes
+  face_covering_outside_of_home: Yes, at work/school only
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: null
+  illness_reduces_activity_or_ability: Yes, a little
+  ons_household_id: '792854472880'
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: 02/01/2022
+  other_covid_infection_test_results: One or more positive test(s)
+  participant_id: DHR-824630812738
+  samples_taken_datetime: '2022-01-04T19:23:52.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT58568144
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'No'
+  think_had_covid_symptom_cough: 'Yes'
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: null
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: 'No'
+  think_had_covid_which_symptoms: null
+  think_have_covid: 'No'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: 'Yes'
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: 'Yes'
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: 'Yes'
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: 'No'
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'No'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Car or van
+  visit_datetime: '2022-01-08T20:26:43.000Z'
+  visit_id: DVH-7209074766
+  which_symptoms_last_7_days: Weakness/tiredness
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: null
+  work_in_additional_paid_employment: null
+  work_location: null
+  work_main_job_changed: 'No'
+  work_main_job_role: Its main implementation is the Glasgow Haskell Compiler.
+  work_main_job_title: The Galactic Empire is nearing completion of the Death Star,
+    a space station with the power to destroy entire planets.
+  work_not_from_home_days_per_week: '2'
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Other occupation sector
+  work_sector_other: Erlang is a general-purpose, concurrent, functional programming
+    language.
+  work_status_v0: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v1: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v2: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+- ability_to_socially_distance_at_work_or_education: Easy to maintain 2m
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: Kiribati
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: null
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: Pfizer/BioNTech
+  cis_covid_vaccine_type_1: Oxford/AstraZeneca
+  cis_covid_vaccine_type_2: Don't know type
+  cis_covid_vaccine_type_3: Moderna
+  cis_covid_vaccine_type_4: Pfizer/BioNTech
+  cis_covid_vaccine_type_other: They call me *Mister* Tibbs!
+  cis_covid_vaccine_type_other_1: They call me *Mister* Tibbs!
+  cis_covid_vaccine_type_other_2: The only thing we have to fear is fear itself.
+  cis_covid_vaccine_type_other_3: You're gonna need a bigger boat.
+  cis_covid_vaccine_type_other_4: Houston, we have a problem.
+  face_covering_other_enclosed_places: My face is already covered for other reasons
+    (e.g. religious or cultural reasons)
+  face_covering_outside_of_home: Yes, in other situations only
+  face_covering_work_or_education: null
+  household_visit_status: Household did not attend
+  illness_lasting_over_12_months: null
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '614936688833'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: 09/01/2022
+  other_covid_infection_test_results: One or more positive test(s)
+  participant_id: DHR-778006997406
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT32952643
+  swab_taken: 'Yes'
+  think_had_covid: null
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: null
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'No'
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: 'Yes'
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'Yes'
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: 'No'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: null
+  think_had_covid_symptom_palpitations: 'Yes'
+  think_had_covid_symptom_runny_nose_or_sneezing: null
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: null
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: 'No'
+  think_have_covid_symptom_any: 'Yes'
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'Yes'
+  think_have_covid_symptom_difficulty_concentrating: 'Yes'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'Yes'
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'No'
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: null
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: null
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: Car or van
+  visit_datetime: '2022-01-09T20:49:36.000Z'
+  visit_id: DVH-8469072315
+  which_symptoms_last_7_days: Muscle ache
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Secondary
+  work_in_additional_paid_employment: null
+  work_location: Both (from home and somewhere else)
+  work_main_job_changed: 'No'
+  work_main_job_role: Type classes first appeared in the Haskell programming language.
+  work_main_job_title: She spent her earliest years reading classic literature, and
+    writing poetry.
+  work_not_from_home_days_per_week: '0'
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Social care
+  work_sector_other: In 1989 the building was heavily damaged by fire, but it has
+    since been restored.
+  work_status_v0: Student
+  work_status_v1: 5y and older in full-time education
+  work_status_v2: 4-5y and older at school/home-school
+- ability_to_socially_distance_at_work_or_education: Difficult to maintain 2m, but
+    can be 1m
+  been_outside_uk: 'Yes'
+  been_outside_uk_last_country: Sri Lanka
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: null
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: 09/01/2022
+  cis_covid_vaccine_date_3: 08/01/2022
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: '1'
+  cis_covid_vaccine_number_of_doses_raw: '1'
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'No'
+  cis_covid_vaccine_type: Sputnik
+  cis_covid_vaccine_type_1: Oxford/AstraZeneca
+  cis_covid_vaccine_type_2: Pfizer/BioNTech
+  cis_covid_vaccine_type_3: Don't know type
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: A census taker once tried to test me. I ate his liver
+    with some fava beans and a nice Chianti.
+  cis_covid_vaccine_type_other_1: Mr. Gorbachev, open this gate! Mr. Gorbachev, tear
+    down this wall!
+  cis_covid_vaccine_type_other_2: Frankly, my dear, I don't give a damn.
+  cis_covid_vaccine_type_other_3: You're gonna need a bigger boat.
+  cis_covid_vaccine_type_other_4: Mr. Gorbachev, open this gate! Mr. Gorbachev, tear
+    down this wall!
+  face_covering_other_enclosed_places: My face is already covered for other reasons
+    (e.g. religious or cultural reasons)
+  face_covering_outside_of_home: null
+  face_covering_work_or_education: null
+  household_visit_status: Completed
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: '357600627698'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: All tests failed
+  participant_id: DHR-351396359337
+  samples_taken_datetime: '2022-01-08T18:45:17.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT53000597
+  swab_taken: 'Yes'
+  think_had_covid: null
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: null
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: 'Yes'
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: null
+  think_had_covid_symptom_headache: 'No'
+  think_had_covid_symptom_loss_of_appetite: 'No'
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: null
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: 'No'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: null
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_had_covid_symptom_shortness_of_breath: 'Yes'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: 'No'
+  think_have_covid: 'Yes'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: 'Yes'
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: null
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: 'No'
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: 'Yes'
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: null
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Bicycle
+  visit_datetime: '2022-01-09T08:51:15.000Z'
+  visit_id: DVH-8687656433
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: null
+  work_health_care_area: Secondary
+  work_in_additional_paid_employment: 'Yes'
+  work_location: null
+  work_main_job_changed: 'No'
+  work_main_job_role: The arguments can be primitive data types or compound data types.
+  work_main_job_title: It is also a garbage-collected runtime system.
+  work_not_from_home_days_per_week: Participant Would Not/Could Not Answer
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Other occupation sector
+  work_sector_other: Ports are used to communicate with the external world.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: Difficult to maintain 2m, but
+    can be 1m
+  been_outside_uk: null
+  been_outside_uk_last_country: Turkey
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'No'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: null
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: 01/01/2022
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: '2'
+  cis_covid_vaccine_number_of_doses_raw: '2'
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: Other / specify
+  cis_covid_vaccine_type_1: Don't know type
+  cis_covid_vaccine_type_2: Don't know type
+  cis_covid_vaccine_type_3: Moderna
+  cis_covid_vaccine_type_4: null
+  cis_covid_vaccine_type_other: Houston, we have a problem.
+  cis_covid_vaccine_type_other_1: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_2: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_3: They call me *Mister* Tibbs!
+  cis_covid_vaccine_type_other_4: Here's looking at you, kid.
+  face_covering_other_enclosed_places: Never
+  face_covering_outside_of_home: Yes, in other situations only
+  face_covering_work_or_education: null
+  household_visit_status: Completed
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: null
+  ons_household_id: '602276804025'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: 07/01/2022
+  other_covid_infection_test_last_negative_date: 07/01/2022
+  other_covid_infection_test_results: One or more negative tests but none were positive
+  participant_id: DHR-016525808631
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT65364846
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: 'Yes'
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: 'Yes'
+  think_had_covid_symptom_fatigue: 'No'
+  think_had_covid_symptom_fever: 'Yes'
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: 'No'
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: 'Yes'
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: null
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: Maybe
+  think_have_covid: 'Yes'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'No'
+  think_have_covid_symptom_anxiety: 'Yes'
+  think_have_covid_symptom_any: 'Yes'
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'Yes'
+  think_have_covid_symptom_difficulty_concentrating: 'Yes'
+  think_have_covid_symptom_fatigue: null
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: null
+  think_have_covid_symptom_loss_of_smell: null
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: 'No'
+  think_have_covid_symptom_more_trouble_sleeping: 'No'
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: 'No'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: null
+  visit_datetime: '2022-01-06T18:06:58.000Z'
+  visit_id: DVH-9300868759
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: null
+  work_location: null
+  work_main_job_changed: 'No'
+  work_main_job_role: Its main implementation is the Glasgow Haskell Compiler.
+  work_main_job_title: Where are my pants?
+  work_not_from_home_days_per_week: null
+  work_nursing_or_residential_care_home: 'No'
+  work_sector: Transport (incl. storage, logistic)
+  work_sector_other: Haskell is a standardized, general-purpose purely functional
+    programming language, with non-strict semantics and strong static typing.
+  work_status_v0: null
+  work_status_v1: null
+  work_status_v2: null
+- ability_to_socially_distance_at_work_or_education: Difficult to maintain 2m, but
+    can be 1m
+  been_outside_uk: null
+  been_outside_uk_last_country: Bosnia and Herzegovina
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 06/01/2022
+  cis_covid_vaccine_date_2: null
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: null
+  cis_covid_vaccine_number_of_doses_raw: null
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: Moderna
+  cis_covid_vaccine_type_1: Pfizer/BioNTech
+  cis_covid_vaccine_type_2: null
+  cis_covid_vaccine_type_3: Moderna
+  cis_covid_vaccine_type_4: Moderna
+  cis_covid_vaccine_type_other: '"You''ve got to ask yourself one question: ""Do I
+    feel lucky?"" Well, do ya? Punk!"'
+  cis_covid_vaccine_type_other_1: Here's looking at you, kid.
+  cis_covid_vaccine_type_other_2: Houston, we have a problem.
+  cis_covid_vaccine_type_other_3: Get your stinking paws off me, you damned dirty
+    ape.
+  cis_covid_vaccine_type_other_4: Here's looking at you, kid.
+  face_covering_other_enclosed_places: Yes always
+  face_covering_outside_of_home: Yes, in other situations only
+  face_covering_work_or_education: Yes, always
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: 'No'
+  illness_reduces_activity_or_ability: Yes, a lot
+  ons_household_id: '737221115712'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: One or more negative tests but none were positive
+  participant_id: DHR-479521121052
+  samples_taken_datetime: '2022-01-03T00:32:04.000Z'
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT85683977
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: null
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'Yes'
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: null
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: 'No'
+  think_had_covid_symptom_difficulty_concentrating: 'No'
+  think_had_covid_symptom_fatigue: 'Yes'
+  think_had_covid_symptom_fever: null
+  think_had_covid_symptom_headache: 'Yes'
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: 'Yes'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: null
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: null
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: 'No'
+  think_had_covid_symptom_sore_throat: null
+  think_had_covid_symptom_vertigo_or_dizziness: 'Yes'
+  think_had_covid_which_symptoms: null
+  think_have_covid: null
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: 'Yes'
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: null
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: null
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: 'Yes'
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'Yes'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: 'No'
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: 'Yes'
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: null
+  visit_datetime: '2022-01-02T02:08:12.000Z'
+  visit_id: DVH-9561848544
+  which_symptoms_last_7_days: Sore  Throat
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Other
+  work_in_additional_paid_employment: 'No'
+  work_location: Both (from home and somewhere else)
+  work_main_job_changed: null
+  work_main_job_role: Any element of a tuple can be accessed in constant time.
+  work_main_job_title: Do you come here often?
+  work_not_from_home_days_per_week: '6'
+  work_nursing_or_residential_care_home: 'Yes'
+  work_sector: Manufacturing or construction
+  work_sector_other: Ports are created with the built-in function open_port.
+  work_status_v0: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v1: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+  work_status_v2: Attending university (including if temporarily absent)Self-employed
+    and currently working (include if on leave or sick leave for less than 4 weeks)
+- ability_to_socially_distance_at_work_or_education: null
+  been_outside_uk: null
+  been_outside_uk_last_country: Papua New Guinea
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'No'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 06/01/2022
+  cis_covid_vaccine_date_2: 06/01/2022
+  cis_covid_vaccine_date_3: 04/01/2022
+  cis_covid_vaccine_date_4: null
+  cis_covid_vaccine_number_of_doses: '2'
+  cis_covid_vaccine_number_of_doses_raw: '2'
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: null
+  cis_covid_vaccine_type: From a research study/trial
+  cis_covid_vaccine_type_1: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_2: Moderna
+  cis_covid_vaccine_type_3: null
+  cis_covid_vaccine_type_4: Oxford/AstraZeneca
+  cis_covid_vaccine_type_other: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_1: Mama always said life was like a box of chocolates.
+    You never know what you're gonna get.
+  cis_covid_vaccine_type_other_2: I'm gonna make him an offer he can't refuse.
+  cis_covid_vaccine_type_other_3: Get your stinking paws off me, you damned dirty
+    ape.
+  cis_covid_vaccine_type_other_4: '"You''ve got to ask yourself one question: ""Do
+    I feel lucky?"" Well, do ya? Punk!"'
+  face_covering_other_enclosed_places: Not going to other enclosed public spaces or
+    using public transport
+  face_covering_outside_of_home: Yes, at work/school only
+  face_covering_work_or_education: Not going to place of work or education
+  household_visit_status: Household did not attend
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: '634570271159'
+  other_covid_infection_test: 'No'
+  other_covid_infection_test_first_positive_date: null
+  other_covid_infection_test_last_negative_date: null
+  other_covid_infection_test_results: All tests failed
+  participant_id: DHR-598284873191
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT82431564
+  swab_taken: 'Yes'
+  think_had_covid: 'Yes'
+  think_had_covid_any_symptoms: 'Yes'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: 'No'
+  think_had_covid_symptom_anxiety: 'No'
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: 'Yes'
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: null
+  think_had_covid_symptom_loss_of_appetite: null
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: null
+  think_had_covid_symptom_low_mood: null
+  think_had_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: 'Yes'
+  think_had_covid_symptom_nausea_or_vomiting: 'No'
+  think_had_covid_symptom_noisy_breathing: null
+  think_had_covid_symptom_palpitations: 'No'
+  think_had_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: 'Yes'
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: 'Yes'
+  think_have_covid: 'Yes'
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: 'No'
+  think_have_covid_symptom_any: 'Yes'
+  think_have_covid_symptom_chest_pain: 'No'
+  think_have_covid_symptom_cough: null
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: null
+  think_have_covid_symptom_fever: 'No'
+  think_have_covid_symptom_headache: null
+  think_have_covid_symptom_loss_of_appetite: 'No'
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: null
+  think_have_covid_symptom_low_mood: null
+  think_have_covid_symptom_memory_loss_or_confusion: 'Yes'
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: null
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'Yes'
+  think_have_covid_symptom_palpitations: null
+  think_have_covid_symptom_runny_nose_or_sneezing: 'No'
+  think_have_covid_symptom_shortness_of_breath: null
+  think_have_covid_symptom_sore_throat: 'No'
+  think_have_covid_symptom_vertigo_or_dizziness: 'No'
+  transport_to_work_or_education: Other method
+  visit_datetime: '2022-01-02T16:08:17.000Z'
+  visit_id: DVH-9879983705
+  which_symptoms_last_7_days: Weakness/tiredness
+  work_direct_contact_patients_or_clients: 'Yes'
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: 'Yes'
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: Ports are created with the built-in function open_port.
+  work_main_job_title: Any element of a tuple can be accessed in constant time.
+  work_not_from_home_days_per_week: '1'
+  work_nursing_or_residential_care_home: null
+  work_sector: Information technology and communication
+  work_sector_other: Any element of a tuple can be accessed in constant time.
+  work_status_v0: Employed
+  work_status_v1: Employed and currently working
+  work_status_v2: Employed and currently working
+- ability_to_socially_distance_at_work_or_education: Easy to maintain 2m
+  been_outside_uk: 'No'
+  been_outside_uk_last_country: St Kitts and Nevis
+  been_outside_uk_last_return_date: null
+  been_outside_uk_since_april_2020: 'Yes'
+  cis_covid_vaccine_date: null
+  cis_covid_vaccine_date_1: 02/01/2022
+  cis_covid_vaccine_date_2: 03/01/2022
+  cis_covid_vaccine_date_3: null
+  cis_covid_vaccine_date_4: 06/01/2022
+  cis_covid_vaccine_number_of_doses: 3 or more
+  cis_covid_vaccine_number_of_doses_raw: 3 or more
+  cis_covid_vaccine_offered: 'No'
+  cis_covid_vaccine_received: 'Yes'
+  cis_covid_vaccine_type: Sputnik
+  cis_covid_vaccine_type_1: Pfizer/BioNTech
+  cis_covid_vaccine_type_2: Oxford/AstraZeneca
+  cis_covid_vaccine_type_3: Don't know type
+  cis_covid_vaccine_type_4: Janssen/Johnson&Johnson
+  cis_covid_vaccine_type_other: Mr. Gorbachev, open this gate! Mr. Gorbachev, tear
+    down this wall!
+  cis_covid_vaccine_type_other_1: Here's looking at you, kid.
+  cis_covid_vaccine_type_other_2: Elementary, my dear Watson.
+  cis_covid_vaccine_type_other_3: Elementary, my dear Watson.
+  cis_covid_vaccine_type_other_4: Houston, we have a problem.
+  face_covering_other_enclosed_places: My face is already covered for other reasons
+    (e.g. religious or cultural reasons)
+  face_covering_outside_of_home: Yes, in other situations only
+  face_covering_work_or_education: null
+  household_visit_status: Withdrawn
+  illness_lasting_over_12_months: 'Yes'
+  illness_reduces_activity_or_ability: Not at all
+  ons_household_id: 044476904382
+  other_covid_infection_test: 'Yes'
+  other_covid_infection_test_first_positive_date: 06/01/2022
+  other_covid_infection_test_last_negative_date: 04/01/2022
+  other_covid_infection_test_results: null
+  participant_id: DHR-144229485098
+  samples_taken_datetime: null
+  survey_response_dataset_major_version: 2
+  swab_sample_barcode: SWT57818711
+  swab_taken: 'Yes'
+  think_had_covid: 'No'
+  think_had_covid_any_symptoms: 'No'
+  think_had_covid_onset_date: null
+  think_had_covid_symptom_abdominal_pain: null
+  think_had_covid_symptom_anxiety: 'Yes'
+  think_had_covid_symptom_chest_pain: 'Yes'
+  think_had_covid_symptom_cough: null
+  think_had_covid_symptom_diarrhoea: null
+  think_had_covid_symptom_difficulty_concentrating: null
+  think_had_covid_symptom_fatigue: null
+  think_had_covid_symptom_fever: 'No'
+  think_had_covid_symptom_headache: null
+  think_had_covid_symptom_loss_of_appetite: 'Yes'
+  think_had_covid_symptom_loss_of_smell: null
+  think_had_covid_symptom_loss_of_taste: 'No'
+  think_had_covid_symptom_low_mood: 'No'
+  think_had_covid_symptom_memory_loss_or_confusion: 'No'
+  think_had_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_had_covid_symptom_muscle_ache: null
+  think_had_covid_symptom_nausea_or_vomiting: 'Yes'
+  think_had_covid_symptom_noisy_breathing: 'No'
+  think_had_covid_symptom_palpitations: null
+  think_had_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_had_covid_symptom_shortness_of_breath: null
+  think_had_covid_symptom_sore_throat: 'No'
+  think_had_covid_symptom_vertigo_or_dizziness: null
+  think_had_covid_which_symptoms: null
+  think_have_covid: Participant Would Not/Could Not Answer
+  think_have_covid_onset_date: null
+  think_have_covid_symptom_abdominal_pain: null
+  think_have_covid_symptom_anxiety: null
+  think_have_covid_symptom_any: 'No'
+  think_have_covid_symptom_chest_pain: null
+  think_have_covid_symptom_cough: 'No'
+  think_have_covid_symptom_diarrhoea: 'No'
+  think_have_covid_symptom_difficulty_concentrating: 'No'
+  think_have_covid_symptom_fatigue: 'No'
+  think_have_covid_symptom_fever: null
+  think_have_covid_symptom_headache: 'Yes'
+  think_have_covid_symptom_loss_of_appetite: null
+  think_have_covid_symptom_loss_of_smell: 'No'
+  think_have_covid_symptom_loss_of_taste: 'No'
+  think_have_covid_symptom_low_mood: 'Yes'
+  think_have_covid_symptom_memory_loss_or_confusion: null
+  think_have_covid_symptom_more_trouble_sleeping: 'Yes'
+  think_have_covid_symptom_muscle_ache: null
+  think_have_covid_symptom_nausea_or_vomiting: null
+  think_have_covid_symptom_noisy_breathing: 'No'
+  think_have_covid_symptom_palpitations: 'Yes'
+  think_have_covid_symptom_runny_nose_or_sneezing: 'Yes'
+  think_have_covid_symptom_shortness_of_breath: 'No'
+  think_have_covid_symptom_sore_throat: 'Yes'
+  think_have_covid_symptom_vertigo_or_dizziness: 'Yes'
+  transport_to_work_or_education: Bicycle
+  visit_datetime: '2022-01-01T17:14:06.000Z'
+  visit_id: DVH-9981424039
+  which_symptoms_last_7_days: Fever
+  work_direct_contact_patients_or_clients: 'No'
+  work_health_care_area: Primary care (e.g. GP, dentist)
+  work_in_additional_paid_employment: null
+  work_location: Working somewhere else (not your home)
+  work_main_job_changed: 'Yes'
+  work_main_job_role: Atoms can contain any character if they are enclosed within
+    single quotes and an escape convention exists which allows any character to be
+    used within an atom.
+  work_main_job_title: In 1989 the building was heavily damaged by fire, but it has
+    since been restored.
+  work_not_from_home_days_per_week: up to 1
+  work_nursing_or_residential_care_home: null
+  work_sector: Arts,Entertainment or Recreation
+  work_sector_other: Its main implementation is the Glasgow Haskell Compiler.
+  work_status_v0: null
+  work_status_v1: null
+  work_status_v2: null

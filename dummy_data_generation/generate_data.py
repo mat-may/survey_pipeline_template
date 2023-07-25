@@ -17,10 +17,10 @@ from dummy_data_generation.helpers import code_mask
 from dummy_data_generation.helpers import CustomRandom
 from dummy_data_generation.helpers_weight import Distribution
 from dummy_data_generation.schemas import get_cis_soc_data_description
+from dummy_data_generation.schemas import get_example_participant_data_data_description
+from dummy_data_generation.schemas import get_example_survey_response_data_v1_data_description
+from dummy_data_generation.schemas import get_example_survey_response_data_v2_data_description
 from dummy_data_generation.schemas import get_nims_data_description
-from dummy_data_generation.schemas import get_test_participant_data_data_description
-from dummy_data_generation.schemas import get_test_survey_response_data_version_1_data_description
-from dummy_data_generation.schemas import get_test_survey_response_data_version_2_data_description
 
 
 _ = Field("en-gb", seed=42, providers=[Distribution, CustomRandom])
@@ -48,41 +48,31 @@ def generate_cis_soc_data(directory, file_date, records):
     return cis_soc_data
 
 
-def generate_test_participant_data(directory, file_date, records, swab_barcodes, blood_barcodes):
+def generate_example_participant_data(directory, file_date, records, swab_barcodes):
     """
-    Generate survey v0 data.
+    Generate example participant data
     """
-    schema = Schema(
-        schema=get_test_participant_data_data_description(_, blood_barcodes=blood_barcodes, swab_barcodes=swab_barcodes)
-    )
+    schema = Schema(schema=get_example_participant_data_data_description(_, swab_barcodes=swab_barcodes))
     survey_responses = pd.DataFrame(schema.create(iterations=records))
     write_output(survey_responses, directory / f"ONS_Datafile_{file_date}.csv", "|")
     return survey_responses
 
 
-def generate_test_survey_response_version_1_data(directory, file_date, records, swab_barcodes, blood_barcodes):
+def generate_example_survey_response_v1_data(directory, file_date, records, swab_barcodes):
     """
-    Generate survey population health monitoring data.
+    Generate example survey response data in the v1 schema
     """
-    schema = Schema(
-        schema=get_test_survey_response_data_version_1_data_description(
-            _, swab_barcodes=swab_barcodes, blood_barcodes=blood_barcodes
-        )
-    )
+    schema = Schema(schema=get_example_survey_response_data_v1_data_description(_, swab_barcodes=swab_barcodes))
     survey_responses = pd.DataFrame(schema.create(iterations=records))
     write_output(survey_responses, directory / f"ONSE_PHM_responses_{file_date}_000000.txt", "|")
     return survey_responses
 
 
-def generate_test_survey_response_version_2_data(directory, file_date, records, swab_barcodes, blood_barcodes):
+def generate_example_survey_response_v2_data(directory, file_date, records, swab_barcodes):
     """
-    Generate survey v2 data.
+    Generate example survey response data in the v2 schema
     """
-    schema = Schema(
-        schema=get_test_survey_response_data_version_2_data_description(
-            _, blood_barcodes=blood_barcodes, swab_barcodes=swab_barcodes
-        )
-    )
+    schema = Schema(schema=get_example_survey_response_data_v2_data_description(_, swab_barcodes=swab_barcodes))
     survey_responses = pd.DataFrame(schema.create(iterations=records))
     write_output(survey_responses, directory / f"ONSECRF5_Datafile_{file_date}.csv", "|")
     return survey_responses

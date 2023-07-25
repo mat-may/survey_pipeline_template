@@ -389,10 +389,9 @@ def get_nims_data_description(_, participant_ids=[]):
     }
 
 
-def get_test_participant_data_data_description(_, blood_barcodes, swab_barcodes):
+def get_example_participant_data_data_description(_, swab_barcodes):
     return lambda: {  # noqa: E731
         "ons_household_id": _("random.custom_code", mask="############", digit="#"),
-        "participant_survey_status": _("choice", items=["Active", "Complete", "Withdrawn"]),
         "withdrawn_reason": _(
             "choice",
             items=[
@@ -416,7 +415,6 @@ def get_test_participant_data_data_description(_, blood_barcodes, swab_barcodes)
             ],
         ),
         "participant_id": _("random.custom_code", mask="DHR-############", digit="#"),  # Also DHRF-##########
-        "participant_id_numeric": _("custom_random.random_integer", lower=10000000, upper=99999999, null_percent=0),
         "title": _("choice", items=["Dr.", "Miss.", "Mr.", "Mrs.", "Ms.", "Prof.", None]),
         "first_name": _("person.first_name"),
         "middle_name": _("person.first_name"),
@@ -459,215 +457,31 @@ def get_test_participant_data_data_description(_, blood_barcodes, swab_barcodes)
             ],
         ),
         "ethnicity_other": _("text.sentence"),
-        "original_invite_cohort": _("text.sentence"),
-        "consent_contact_extra_research_yn": _("choice", items=yes_no_none_choice),
-        "consent_use_of_surplus_blood_samples_yn": _("choice", items=yes_no_none_choice),
-        "consent_blood_samples_if_positive_yn": _("choice", items=yes_no_none_choice),
-        "existing_participant_digital_opt_in_status": _(
-            "choice",
-            items=[
-                "Participant Opted In",
-                "Participant Opted Out",
-                None,
-            ],
-        ),
-        "existing_participant_digital_opt_in_datetime": _(
-            "datetime.formatted_datetime",
-            start=2020,
-            end=2022,
-            fmt=digital_datetime_format,
-        ),
-        "nhs_data_share": _("choice", items=yes_no_none_choice),
-        "nhs_share_opt_out_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_date_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "household_invited_to_digital": _("choice", items=yes_no_none_choice),
-        "household_digital_enrolment_invited_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "participant_invited_to_digital": _("choice", items=yes_no_none_choice),
-        "participant_enrolled_digital": _("choice", items=yes_no_none_choice),
-        "participant_digital_enrolment_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "datetime.formatted_datetime",
-                    start=2020,
-                    end=2022,
-                    fmt=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "digital_entry_pack_sent_datetime": _(
-            "datetime.formatted_datetime",
-            start=2020,
-            end=2022,
-            fmt=digital_datetime_format,
-        ),
-        "digital_entry_pack_status": _("text.sentence"),  # TODO Check this doesn't have picklist values
-        "existing_participant_digital_opt_in_reminder_1_due_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "existing_participant_digital_opt_in_reminder_1_sent_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "existing_participant_digital_opt_in_reminder_1_status": _(
-            "text.sentence"
-        ),  # TODO Check this doesn't have picklist values
-        "existing_participant_digital_opt_in_reminder_2_due_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "existing_participant_digital_opt_in_reminder_2_sent_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "existing_participant_digital_opt_in_reminder_2_status": _(
-            "text.sentence"
-        ),  # TODO Check this doesn't have picklist values
-        "household_digital_opt_in_invitation_sent": _("choice", items=yes_no_none_choice),
-        "household_digital_opt_in_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "household_digital_enrollment_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=digital_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
         "street": _("text.sentence"),
         "city": _("text.sentence"),
         "county": _("text.sentence"),
         "postcode": _("text.sentence"),
-        "household_members_under_2_years": _("choice", items=yes_no_none_choice),
-        "infant_1": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_2": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_3": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_4": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_5": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_6": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_7": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "infant_8": _("custom_random.random_integer", lower=1, upper=8, null_percent=0.9),
-        "household_members_over_2_and_not_present": _("choice", items=yes_no_none_choice),
-        "person_1": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_2": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_3": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_4": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_5": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_6": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_7": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_8": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person_1_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person1_reason_for_not_consenting": _("text.sentence"),
-        "person_2_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person2_reason_for_not_consenting": _("text.sentence"),
-        "person_3_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person3_reason_for_not_consenting": _("text.sentence"),
-        "person_4_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person4_reason_for_not_consenting": _("text.sentence"),
-        "person_5_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person5_reason_for_not_consenting": _("text.sentence"),
-        "person_6_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person6_reason_for_not_consenting": _("text.sentence"),
-        "person_7_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person7_reason_for_not_consenting": _("text.sentence"),
-        "person_8_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person8_reason_for_not_consenting": _("text.sentence"),
-        "person_9_not_consenting_age": _("custom_random.random_integer", lower=16, upper=100, null_percent=0.9),
-        "person9_reason_for_not_consenting": _("text.sentence"),
-        "count_of_non_consenting": _("custom_random.random_integer", lower=1, upper=9, null_percent=0.9),
-        "participant_digital_type_preference": _("text.sentence"),
-        "participant_digital_communication_preference": _("text.sentence"),
-        "participant_digital_sample_return_preference": _("text.sentence"),
-        "participant_digital_language_preference": _("text.sentence"),
-        "participant_digital_study_cohort": _("text.sentence"),
-        "participant_digital_voucher_preference": _("text.sentence"),
+        "communication_preference": _("text.sentence"),
+        "sample_return_preference": _("text.sentence"),
+        "language_preference": _("text.sentence"),
     }
 
 
-def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, swab_barcodes):
+def get_example_survey_response_data_v1_data_description(_, swab_barcodes):
     return lambda: {  # noqa: E731
-        "questionnaire_id": _("random.custom_code", mask="################", digit="#"),
-        "portal_id": _("custom_random.random_integer", lower=1000, upper=12000, null_percent=0),
-        "form_language_launch": _("choice", items=["en", "cy"]),
-        "form_language_submitted": _("choice", items=["en", "cy"]),
+        "survey_start_datetime": _(
+            "discrete_distribution",
+            population=[
+                _(
+                    "custom_random.random_date",
+                    start=start_date_list,
+                    end=end_date_list,
+                    format=phm_long_datetime_format,
+                ),
+                None,
+            ],
+            weights=[0.9, 0.1],
+        ),
         "survey_completed_datetime": _(
             "discrete_distribution",
             population=[
@@ -681,51 +495,10 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
             ],
             weights=[0.9, 0.1],
         ),
-        # "uac": _("random.custom_code", mask="################", digit="#"),
-        # "household_completion_window_id": _("random.custom_code", mask="####", digit="#"),
-        # "ons_household_id": _("random.custom_code", mask="############", digit="#"),
-        # "cohort": _("choice", items=["Swab Only", "Fingerprick and Swab", None]),
-        # "participant_under_16": _("choice", items=yes_no_none_choice),
+        "ons_household_id": _("random.custom_code", mask="############", digit="#"),
         "participant_id": _("random.custom_code", mask="DHR-############", digit="#"),  # Also DHRF-##########
         "participant_completion_window_id": _("random.custom_code", mask="####", digit="#"),
-        "participant_first_name_confirmation": _("choice", items=yes_no_none_choice),
-        "participant_first_name_on_behalf": _("choice", items=yes_no_none_choice),
-        "problem_with_survey_access_helpline": _("choice", items=["Continue", None]),
-        "cohort_type_phm": _(
-            "choice", items=["Do this questionnaire only", "Do this questionnaire and take a swab sample"]
-        ),
-        "swab_taken": _("choice", items=yes_no_none_choice),
-        "swab_not_taken_reason": _(
-            "choice",
-            items=[
-                "I am near the end of my testing window and my swab test kit has not arrived",
-                "I did not want to take it this month",
-                "I tried but could not take it",
-                "The swab test kit arrived both damaged and with parts missing",
-                "The swab test kit arrived damaged",
-                "The swab test kit arrived with parts missing",
-                None,
-            ],
-        ),
-        "swab_sample_barcode_correct": _("choice", items=yes_no_none_choice),
-        "swab_sample_barcode_user_entered": _("random.custom_code", mask="SWT########", digit="#"),
-        "swab_taken_date": _(
-            "custom_random.random_date",
-            start=start_date_list,
-            end=end_date_list,
-            format=phm_date_format,
-        ),
-        "swab_taken_time_hour": _("custom_random.random_integer", lower=0, upper=12, null_percent=0),
-        "swab_taken_time_minute": _("choice", items=[0, 15, 30, 45]),
-        "swab_taken_am_pm": _("choice", items=["AM", "PM"]),
-        "swab_returned": _("choice", items=yes_no_none_choice),
-        "swab_return_date": _(
-            "custom_random.random_date",
-            start=start_date_list,
-            end=end_date_list,
-            format=phm_date_format,
-        ),
-        "swab_return_future_date": _(
+        "participant_completion_window_start_date": _(
             "discrete_distribution",
             population=[
                 _(
@@ -738,53 +511,7 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
             ],
             weights=[0.9, 0.1],
         ),
-        "blood_taken": _("choice", items=yes_no_none_choice),
-        "blood_not_taken_reason": _(
-            "choice",
-            items=[
-                "I am near the end of my testing window and my swab test kit has not arrived",
-                "I asked not to receive a blood test kit this month",
-                "I decided not to take it this month",
-                "I tried but could not take it",
-                "The blood test kit arrived both damaged and with parts missing",
-                "The blood test kit arrived damaged",
-                "The blood test kit arrived with parts missing",
-                None,
-            ],
-        ),
-        "blood_not_taken_could_not_reason": _(
-            "random.choices",
-            population=[
-                "I couldn't get enough blood into the pot",
-                "The pot spilled",
-                "I had bruising or pain",
-                "I felt unwell",
-                "Other please specify",
-                "There were issues with the kit",
-                None,
-            ],
-            k=1,
-        ),
-        "blood_not_taken_could_not_other": _("text.sentence"),
-        "blood_sample_barcode_correct": _("choice", items=yes_no_none_choice),
-        "blood_sample_barcode_user_entered": _("random.custom_code", mask="BLT########", digit="#"),
-        "blood_taken_date": _(
-            "custom_random.random_date",
-            start=start_date_list,
-            end=end_date_list,
-            format=phm_date_format,
-        ),
-        "blood_taken_time_hour": _("custom_random.random_integer", lower=0, upper=12, null_percent=0),
-        "blood_taken_time_minute": _("choice", items=[0, 15, 30, 45]),
-        "blood_taken_am_pm": _("choice", items=["AM", "PM"]),
-        "blood_returned": _("choice", items=yes_no_none_choice),
-        "blood_return_date": _(
-            "custom_random.random_date",
-            start=start_date_list,
-            end=end_date_list,
-            format=phm_date_format,
-        ),
-        "blood_return_future_date": _(
+        "participant_completion_window_end_date": _(
             "discrete_distribution",
             population=[
                 _(
@@ -797,9 +524,6 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
             ],
             weights=[0.9, 0.1],
         ),
-        "questionnaire_started_no_incentive": _("choice", items=yes_no_none_choice),
-        "test_kit_info_end_of_survey": _("choice", items=["Continue", None]),
-        "aged_16_or_over": _("choice", items=yes_no_none_choice),
         "work_status_digital": _(
             "choice",
             items=[
@@ -919,13 +643,7 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
             ],
         ),
         "think_have_covid_any_symptom_list_1": _("random.choices", population=symptoms_list_1, k=1),
-        "think_have_covid_no_symptoms_list_1": _("choice", items=["None of these symptoms", None]),
         "think_have_covid_any_symptom_list_2": _("random.choices", population=symptoms_list_2, k=1),
-        "think_have_covid_no_symptoms_list_2": _("choice", items=["None of these symptoms", None]),
-        "think_have_any_symptom_new_or_worse_list_1": _("random.choices", population=symptoms_list_1, k=2),
-        "think_have_no_symptoms_new_or_worse_list_1": _("choice", items=["None of these symptoms", None]),
-        "think_have_any_symptom_new_or_worse_list_2": _("random.choices", population=symptoms_list_2, k=3),
-        "think_have_no_symptoms_new_or_worse_list_2": _("choice", items=["None of these symptoms", None]),
         "think_have_covid_onset_date": _(
             "discrete_distribution",
             population=[
@@ -934,47 +652,44 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
             ],
             weights=[0.5, 0.5],
         ),
-        "illness_lasting_over_12_months": _("choice", items=yes_no_prefer_not_to_say),
-        "illness_reduces_activity_or_ability": _(
+        "swab_taken": _("choice", items=yes_no_none_choice),
+        "swab_not_taken_reason": _(
             "choice",
             items=[
-                "Yes a lot",
-                "Yes a little",
-                "Not at all",
+                "I am near the end of my testing window and my swab test kit has not arrived",
+                "I did not want to take it this month",
+                "I tried but could not take it",
+                "The swab test kit arrived both damaged and with parts missing",
+                "The swab test kit arrived damaged",
+                "The swab test kit arrived with parts missing",
                 None,
             ],
         ),
-        "ever_smoked_regularly": _("choice", items=yes_no_prefer_not_to_say),
-        "currently_smokes_or_vapes": _("choice", items=yes_no_prefer_not_to_say),
-        "currently_smokes_or_vapes_description": _(
-            "random.choices",
-            population=[
-                "Cigarettes",
-                "Cigars",
-                "Hookah or shisha pipes",
-                "Pipe",
-                "Vape or E-cigarettes",
-            ],
-            k=1,
-        ),  # TODO Checkbox list so multiple items can be selected in combination
-        "cis_covid_vaccine_received": _("choice", items=yes_no_none_choice),
-        "cis_covid_vaccine_type": _("choice", items=type_of_vaccination),
-        "cis_covid_vaccine_type_other": _("text.quote"),
-        "phm_covid_vaccine_number_of_doses": _(
-            "choice",
-            items=[
-                "1 dose",
-                "2 doses",
-                "3 doses",
-                "4 doses",
-                "5 doses",
-                "6 doses",
-                "7 doses",
-                "8 doses or more",
-                None,
-            ],
+        "swab_sample_barcode": _(
+            "discrete_distribution",
+            population=swab_barcodes,
+            weights=[1 / len(swab_barcodes)] * len(swab_barcodes),
+            null_prop=0.2,
         ),
-        "cis_covid_vaccine_date": _(
+        "swab_sample_barcode_correct": _("choice", items=yes_no_none_choice),
+        "swab_sample_barcode_user_entered": _("random.custom_code", mask="SWT########", digit="#"),
+        "swab_taken_date": _(
+            "custom_random.random_date",
+            start=start_date_list,
+            end=end_date_list,
+            format=phm_date_format,
+        ),
+        "swab_taken_time_hour": _("custom_random.random_integer", lower=0, upper=12, null_percent=0),
+        "swab_taken_time_minute": _("choice", items=[0, 15, 30, 45]),
+        "swab_taken_am_pm": _("choice", items=["AM", "PM"]),
+        "swab_returned": _("choice", items=yes_no_none_choice),
+        "swab_return_date": _(
+            "custom_random.random_date",
+            start=start_date_list,
+            end=end_date_list,
+            format=phm_date_format,
+        ),
+        "swab_return_future_date": _(
             "discrete_distribution",
             population=[
                 _(
@@ -985,10 +700,12 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
                 ),
                 None,
             ],
-            weights=[0.5, 0.5],
+            weights=[0.9, 0.1],
         ),
-        "flu_vaccine_received": _("choice", items=yes_no_prefer_not_to_say),
-        "flu_vaccine_date": _(
+        "cis_covid_vaccine_received": _("choice", items=yes_no_none_choice),
+        "cis_covid_vaccine_type": _("choice", items=type_of_vaccination),
+        "cis_covid_vaccine_type_other": _("text.quote"),
+        "cis_covid_vaccine_date": _(
             "discrete_distribution",
             population=[
                 _(
@@ -1011,8 +728,6 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
             ],
             weights=[0.5, 0.5],
         ),
-        "phm_think_had_respiratory_infection": _("choice", items=yes_no_none_choice),
-        "phm_think_had_respiratory_infection_type": _("random.choices", population=infections, k=1),
         "think_had_covid_onset_date": _(
             "discrete_distribution",
             population=[
@@ -1027,172 +742,7 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
             weights=[0.5, 0.5],
         ),
         "think_had_covid_any_symptom_list_1": _("random.choices", population=symptoms_list_1, k=1),
-        "think_had_covid_no_symptoms_list_1": _("choice", items=["None of these symptoms", None]),
         "think_had_covid_any_symptom_list_2": _("random.choices", population=symptoms_list_2, k=1),
-        "think_had_covid_no_symptoms_list_2": _("choice", items=["None of these symptoms", None]),
-        "phm_think_had_flu_onset_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=phm_date_format,
-                ),
-                None,
-            ],
-            weights=[0.5, 0.5],
-        ),
-        "think_had_flu_any_symptom_list_1": _("random.choices", population=symptoms_list_1, k=1),
-        "think_had_flu_no_symptoms_list_1": _("choice", items=["None of these symptoms", None]),
-        "think_had_flu_any_symptom_list_2": _("random.choices", population=symptoms_list_2, k=1),
-        "think_had_flu_no_symptoms_list_2": _("choice", items=["None of these symptoms", None]),
-        "phm_think_had_other_infection_onset_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=phm_date_format,
-                ),
-                None,
-            ],
-            weights=[0.5, 0.5],
-        ),
-        "think_had_other_infection_any_symptom_list_1": _("random.choices", population=symptoms_list_1, k=1),
-        "think_had_other_infection_no_symptoms_list_1": _("choice", items=["None of these symptoms", None]),
-        "think_had_other_infection_any_symptom_list_2": _("random.choices", population=symptoms_list_2, k=1),
-        "think_had_other_infection_no_symptoms_list_2": _("choice", items=["None of these symptoms", None]),
-        "other_covid_infection_test": _("choice", items=yes_no_none_choice),
-        "other_covid_infection_test_results": _(
-            "choice",
-            items=[
-                "All tests failed",
-                "One or more tests were negative and none were positive",
-                "One or more tests were positive",
-                "Waiting for all results",
-                None,
-            ],
-        ),
-        "other_covid_infection_test_positive_date": _(
-            "discrete_distribution",
-            population=[
-                _("custom_random.random_date", start=start_date_list, end=end_date_list, format=phm_date_format),
-                None,
-            ],
-            weights=[0.5, 0.5],
-        ),
-        "test_type_positive_result": _(
-            "choice",
-            items=[
-                "A lateral flow test. That is the test you can do yourself and you do not have to send it to a laboratory because the result shows in the device in about 30 minutes.",
-                "PCR test. That is the test that is sent off to a laboratory",
-                "Do not know",
-            ],
-        ),
-        # "other_covid_infection_test_negative_date": _(
-        #     "discrete_distribution",
-        #     population=[
-        #         _("custom_random.random_date", start=start_date_list, end=end_date_list, format=phm_date_format),
-        #         None,
-        #     ],
-        #     weights=[0.5, 0.5],
-        # ),
-        "last_28_days_unable_usual_activities": _("custom_random.random_integer", lower=0, upper=28, null_percent=15),
-        "last_28_days_unable_usual_activities_due_to_respiratory_infection": _(
-            "custom_random.random_integer", lower=0, upper=28, null_percent=15
-        ),
-        "last_28_days_off_work_education_due_to_health": _(
-            "custom_random.random_integer", lower=0, upper=28, null_percent=15
-        ),
-        "last_28_days_off_work_education_due_to_health_respiratory_infection": _(
-            "custom_random.random_integer", lower=0, upper=28, null_percent=15
-        ),
-        "last_28_days_GP_appointment_health_reasons": _(
-            "custom_random.random_integer", lower=0, upper=28, null_percent=15
-        ),
-        "last_28_days_GP_appointment_health_reasons_respiratory_infection": _(
-            "custom_random.random_integer", lower=0, upper=28, null_percent=15
-        ),
-        "last_28_days_pharmacist_111": _("custom_random.random_integer", lower=0, upper=28, null_percent=15),
-        "last_28_days_pharmacist_111_respiratory_infection": _(
-            "custom_random.random_integer", lower=0, upper=28, null_percent=15
-        ),
-        "last_28_days_urgent_care": _("custom_random.random_integer", lower=0, upper=28, null_percent=15),
-        "last_28_days_urgent_care_respiratory_infection": _(
-            "custom_random.random_integer", lower=0, upper=28, null_percent=15
-        ),
-        "last_28_days_admitted_to_hospital": _("custom_random.random_integer", lower=0, upper=28, null_percent=15),
-        "last_28_days_admitted_to_hospital_respiratory_infection": _(
-            "custom_random.random_integer", lower=0, upper=28, null_percent=15
-        ),
-        "think_have_long_covid": _("choice", items=yes_no_none_choice),
-        "think_have_long_covid_symptom_reduced_ability": _(
-            "choice",
-            items=[
-                "Not at all",
-                "Yes a little",
-                "Yes a lot",
-                None,
-            ],
-        ),
-        "think_have_long_covid_any_symptom_list_1": _("random.choices", population=long_covid_symptoms_list_1, k=1),
-        "think_have_long_covid_no_symptoms_list_1": _("choice", items=["None of these symptoms", None]),
-        "think_have_long_covid_any_symptom_list_2": _("random.choices", population=long_covid_symptoms_list_2, k=1),
-        "think_have_long_covid_no_symptoms_list_2": _("choice", items=["None of these symptoms", None]),
-        "think_have_long_covid_any_symptom_list_3": _("random.choices", population=long_covid_symptoms_list_3, k=1),
-        "think_have_long_covid_no_symptoms_list_3": _("choice", items=["None of these symptoms", None]),
-        "think_have_long_covid_symptom_worse_after_effort": _("choice", items=yes_no_unknown_choice),
-        "hospital_last_28_days": _("choice", items=yes_no_none_choice),
-        "care_home_last_28_days": _("choice", items=yes_no_none_choice),
-        "face_covering_other_enclosed_places": _(
-            "choice",
-            items=[
-                "I am not going to other enclosed public spaces or using public transport",
-                "I cover my face for other reasons - for example for religious or cultural reasons",
-                "Never",
-                "Prefer not to say",
-                "Yes always",
-                "Yes sometimes",
-                None,
-            ],
-        ),
-        "physical_contact_under_18_years": _("choice", items=people_count),
-        "physical_contact_18_to_69_years": _("choice", items=people_count),
-        "physical_contact_over_70_years": _("choice", items=people_count),
-        "social_distance_contact_under_18_years": _("choice", items=people_count),
-        "social_distance_contact_18_to_69_years": _("choice", items=people_count),
-        "social_distance_contact_over_70_years": _("choice", items=people_count),
-        "times_hour_or_longer_another_home_last_7_days": _("choice", items=times_count),
-        "times_hour_or_longer_another_person_your_home_last_7_days": _("choice", items=times_count),
-        "times_shopping_last_7_days": _("choice", items=times_count),
-        "times_socialising_last_7_days": _("choice", items=times_count),
-        "times_indoor_exercise_last_28_days": _(
-            "choice",
-            items=[
-                None,
-                "1 to 5",
-                "6 to 10",
-                "11 to 20",
-                "21 or more",
-            ],
-        ),
-        "times_large_events_last_28_days": _("choice", items=yes_no_unknown_choice),
-        "times_medium_events_last_28_days": _("choice", items=yes_no_unknown_choice),
-        "transport_shared_outside_household_last_28_days": _(
-            "choice",
-            items=[
-                "Bus or minibus or coach",
-                "Car or van",
-                "Taxi or minicab",
-                "Train",
-                "Underground or Metro or Light Rail or Tram",
-                "Plane",
-                "Other method",
-                "I have not used transport shared with people outside of my home for reasons other than travel to work or education",
-            ],
-        ),
         "face_covering_work_or_education": _(
             "choice",
             items=[
@@ -1205,55 +755,20 @@ def get_test_survey_response_data_version_1_data_description(_, blood_barcodes, 
                 None,
             ],
         ),
-        "end_screen_questionnaire": _("choice", items=["Continue", None]),
-        "end_screen_sample": _("choice", items=["Continue", None]),  # to be added when bio samples begin
-        "survey_completion_status_flushed": _("choice", items=[False, True]),
-        "participant_completion_window_start_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=phm_date_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "participant_completion_window_end_date": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=phm_date_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "survey_start_datetime": _(
-            "discrete_distribution",
-            population=[
-                _(
-                    "custom_random.random_date",
-                    start=start_date_list,
-                    end=end_date_list,
-                    format=phm_long_datetime_format,
-                ),
-                None,
-            ],
-            weights=[0.9, 0.1],
-        ),
-        "schema_name": "cris_0001",
     }
 
 
-def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, swab_barcodes):
+def get_example_survey_response_data_v2_data_description(_, swab_barcodes):
     return lambda: {  # noqa: E731
+        "Visit_Date_Time": _(
+            "custom_random.random_date",
+            start=start_date_list,
+            end=end_date_list,
+            format="%Y-%m-%dT%H:%M:%S.%f",
+        )[:-3]
+        + "Z",
         "ons_household_id": _("random.custom_code", mask="############", digit="#"),
+        "Participant_id": _("random.custom_code", mask="DHR-############", digit="#"),
         "Visit_ID": _(
             "choice",
             items=[
@@ -1263,196 +778,6 @@ def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, 
         ),
         "Visit Status": _(
             "choice", items=["Completed", "Dispatched", "Household did not attend", "Partially Completed", "Withdrawn"]
-        ),
-        "Participant_Visit_status": _(
-            "choice", items=[None, "Cancelled", "Completed", "Patient did not attend", "Re-scheduled", "Scheduled"]
-        ),
-        "Participant_status": _("choice", items=["Active", "Completed", "Withdrawn"]),
-        "Withdrawal_reason": _(
-            "choice",
-            items=[
-                None,
-                "Withdrawn_no_future_linkage_or_use of samples",
-                "Withdrawn_no_future_linkage",
-                "Withdrawn",
-            ],
-        ),
-        "Withdrawn_Type": _(
-            "choice",
-            items=[
-                None,
-                "Phone not answered",
-                "At School",
-                "On Holiday",
-                "Other",
-                "At Work",
-                "Doctor Appointment",
-                "Living Away - For Education",
-            ],
-        ),
-        "NotAttendReason": _(
-            "choice",
-            items=[
-                None,
-                "Phone not answered",
-                "At School",
-                "On Holiday",
-                "Other",
-                "At Work",
-                "Doctor Appointment",
-                "Living Away",
-            ],
-        ),
-        "Type_of_Visit": _("choice", items=["First Visit", "Follow-up Visit"]),
-        "Visit_Order": _(
-            "choice",
-            items=[
-                None,
-                "First Visit",
-                "Follow-up 1",
-                "Follow-up 2",
-                "Follow-up 3",
-                "Follow-up 4",
-                "Month 10",
-                "Month 11",
-                "Month 12",
-                "Month 13",
-                "Month 14",
-                "Month 15",
-                "Month 18",
-                "Month 2",
-                "Month 3",
-                "Month 4",
-                "Month 5",
-                "Month 6",
-                "Month 7",
-                "Month 8",
-                "Month 9",
-            ],
-        ),
-        "Work_Type_Picklist": _("choice", items=[None, "Blood and Swab", "Fingerprick and Swab", "Swab Only"]),
-        # Should follow YYYY-mm-ddTHH:MM:SS.sssZ
-        "Visit_Date_Time": _(
-            "custom_random.random_date",
-            start=start_date_list,
-            end=end_date_list,
-            format="%Y-%m-%dT%H:%M:%S.%f",
-        )[:-3]
-        + "Z",
-        "Visit_Date_type": _(
-            "choice", items=["actual_visit_date", "latest_checkin_date", "sample_taken_date", "scheduled_date"]
-        ),
-        "actual_visit_date": _(
-            "custom_random.random_date",
-            start=start_date_list,
-            end=end_date_list,
-            format="%Y/%m/%d",
-        ),
-        "Deferred": _(
-            "choice",
-            items=[
-                None,
-                "Deferred 1",
-            ],
-        ),
-        "Street": _("choice", items=[None, _("address.street_name")]),
-        "City": _("choice", items=[None, _("address.city")]),
-        "County": _("choice", items=[None, _("address.province")]),
-        "Postcode": _("choice", items=[None, _("address.postal_code")]),
-        "Cohort": _("choice", items=["Blood and Swab", "Swab Only"]),
-        "Fingerprick_Status": _(
-            "choice", items=[None, "Accepted", "At least one person consented", "Declined", "Invited", "Not invited"]
-        ),
-        "Household_Members_Under_2_Years": _("choice", items=yes_no_none_choice),
-        "Infant_1": _("custom_random.random_integer", lower=0, upper=8, null_percent=0.1),
-        "Infant_2": _("custom_random.random_integer", lower=0, upper=8, null_percent=0.1),
-        "Infant_3": _("custom_random.random_integer", lower=0, upper=8, null_percent=0.1),
-        "Infant_4": _("custom_random.random_integer", lower=0, upper=8, null_percent=0.1),
-        "Infant_5": _("custom_random.random_integer", lower=0, upper=8, null_percent=0.1),
-        "Infant_6": _("custom_random.random_integer", lower=0, upper=8, null_percent=0.1),
-        "Infant_7": _("custom_random.random_integer", lower=0, upper=8, null_percent=0.1),
-        "Infant_8": _("custom_random.random_integer", lower=0, upper=8, null_percent=0.1),
-        "Household_Members_Over_2_and_Not_Present": _("choice", items=[None, "Yes", "No"]),
-        "Person_1": _("custom_random.random_integer", lower=9, upper=100, null_percent=0.1),
-        "Person_2": _("custom_random.random_integer", lower=9, upper=100, null_percent=0.1),
-        "Person_3": _("custom_random.random_integer", lower=9, upper=100, null_percent=0.1),
-        "Person_4": _("custom_random.random_integer", lower=9, upper=100, null_percent=0.1),
-        "Person_5": _("custom_random.random_integer", lower=9, upper=100, null_percent=0.1),
-        "Person_6": _("custom_random.random_integer", lower=9, upper=100, null_percent=0.1),
-        "Person_7": _("custom_random.random_integer", lower=9, upper=100, null_percent=0.1),
-        "Person_8": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.1),
-        "Person_1_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.1),
-        "Person1_Reason_for_Not_Consenting": _("text.quote"),
-        "Person_2_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.2),
-        "Person2_Reason_for_Not_Consenting": _("text.quote"),
-        "Person_3_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.3),
-        "Person3_Reason_for_Not_Consenting": _("text.quote"),
-        "Person_4_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.4),
-        "Person4_Reason_for_Not_Consenting": _("text.quote"),
-        "Person_5_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.5),
-        "Person5_Reason_for_Not_Consenting": _("text.quote"),
-        "Person_6_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.5),
-        "Person6_Reason_for_Not_Consenting": _("text.quote"),
-        "Person_7_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.6),
-        "Person7_Reason_for_Not_Consenting": _("text.quote"),
-        "Person_8_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.7),
-        "Person8_Reason_for_Not_Consenting": _("text.quote"),
-        "Person_9_Not_Consenting_Age": _("custom_random.random_integer", lower=9, upper=110, null_percent=0.8),
-        "Person9_Reason_for_Not_Consenting": _("text.quote"),
-        "Participant_id": _("random.custom_code", mask="DHR-############", digit="#"),
-        "Title": _("choice", items=["Dr.", "Miss.", "Mr.", "Mrs.", "Ms.", "Prof.", None]),
-        "First_Name": _("person.first_name"),
-        "Middle_Name": _("person.first_name"),
-        "Last_Name": _("person.last_name"),
-        # Format dd/mm/YYY HH:MM
-        "DoB": _(
-            "discrete_distribution",
-            population=[_("datetime.formatted_datetime", fmt="%d/%m/%Y %H:%M", start=1980, end=2021), None],
-            weights=[0.9, 0.1],
-        ),
-        "Email": _("choice", items=[_("person.email", domains=["gsnail.ac.uk"]), None]),
-        "Have_landline_number": _("choice", items=yes_no_none_choice),
-        "Have_mobile_number": _("choice", items=yes_no_none_choice),
-        "Have_email_address": _("choice", items=yes_no_none_choice),
-        "Prefer_receive_vouchers": _("choice", items=["Email", "Paper(Post)"]),
-        "Confirm_receive_vouchers": _("choice", items=["false", "true"]),
-        "No_Email_address": _("custom_random.random_integer", lower=0, upper=1),
-        "Able_to_take_blood": _("choice", items=yes_no_none_choice),
-        "No_Blood_reason_fingerprick": _(
-            "choice",
-            items=[
-                "Bruising or pain after first attempt",
-                "Couldn't get enough blood",
-                "No stock",
-                "Other",
-                "Participant felt unwell/fainted",
-                "Participant refused to give blood on this visit",
-                "Participant time constraints",
-                "Two attempts made",
-                None,
-            ],
-        ),
-        "No_Blood_reason_venous": _(
-            "choice",
-            items=[
-                "Bruising or pain after first attempt",
-                "No stock",
-                "Non-contact visit. Household self-isolating",
-                "Other",
-                "Participant dehydrated",
-                "Participant felt unwell/fainted",
-                "Participant refused",
-                "Participant time constraints",
-                "Poor venous access",
-                "Two attempts made",
-                None,
-            ],
-        ),
-        "bloods_barcode_1": _(
-            "discrete_distribution",
-            population=blood_barcodes,
-            weights=[1 / len(blood_barcodes)] * len(blood_barcodes),
-            null_prop=0.2,
         ),
         "Swab_Barcode_1": _(
             "discrete_distribution",
@@ -1472,61 +797,6 @@ def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, 
             ],
             weights=[0.5, 0.5],
         ),
-        "Sex": _("choice", items=["Female", "Male", None]),
-        "Gender": _("choice", items=["Female", "Male", "Prefer not to say", None]),
-        "Ethnic_group": _(
-            "choice",
-            items=[
-                "Asian or Asian British",
-                "Black or African or Caribbean or Black British",
-                "Mixed/Multiple Ethnic Groups",
-                "Other Ethnic Group",
-                "White",
-            ],
-        ),
-        "Ethnicity": _(
-            "choice",
-            items=[
-                "Any other Asian background",
-                "Any other Black background",
-                "Any other Mixed background",
-                "Any other ethnic group",
-                "Any other white background",
-                "Asian or Asian British-Bangladeshi",
-                "Asian or Asian British-Chinese",
-                "Asian or Asian British-Indian",
-                "Asian or Asian British-Pakistani",
-                "Black,Caribbean,African-African",
-                "Black,Caribbean,Afro-Caribbean",
-                "Mixed-White & Asian",
-                "Mixed-White & Black African",
-                "Mixed-White & Black Caribbean",
-                "Other ethnic group-Arab",
-                "White-British",
-                "White-Gypsy or Irish Traveller",
-                "White-Irish",
-            ],
-        ),
-        "Ethnicity_Other": _("text.sentence"),  # free text field, can be null 1 to 249
-        "Consent_to_First_Visit": _("choice", items=yes_no_choice),
-        "Consent_to_Five_Visits": _("choice", items=yes_no_choice),
-        "Consent_to_April_22": _("choice", items=yes_no_choice),
-        "Consent_to_Sixteen_Visits": _("choice", items=yes_no_choice),
-        "Consent_to_Blood_Test": _("choice", items=yes_no_choice),
-        "Consent_to_Finger_prick_A1_A3": _("choice", items=yes_no_none_choice),
-        "Consent_to_extend_study_under_16_B1_B3": _("choice", items=yes_no_none_choice),
-        "Consent_to_be_Contacted_Extra_Research": _("choice", items=yes_no_choice),
-        "Consent_to_be_Contacted_Extra_ResearchYN": _("choice", items=yes_no_none_choice),
-        "Consent_to_use_of_Surplus_Blood_Samples": _("choice", items=yes_no_choice),
-        "Consent_to_use_of_Surplus_Blood_SamplesYN": _("choice", items=yes_no_none_choice),
-        "Approached_for_blood_samples?": _("choice", items=yes_no_none_choice),
-        "Consent_to_blood_samples_if_positive": _("choice", items=["False", "True"]),
-        "Consent_to_blood_samples_if_positiveYN": _("choice", items=yes_no_none_choice),
-        "Consent_to_fingerprick_blood_samples": _("choice", items=["False", "True"]),
-        "Accepted_invite_to_fingerprick": _("choice", items=yes_no_none_choice),
-        "Re_consented_for_blood": _("choice", items=["False", "True"]),
-        "Agreed_to_additional_consent_visit": _("choice", items=yes_no_none_choice),
-        "Additional_Consent_Requirement": _("choice", items=yes_no_none_choice),
         "What_is_the_title_of_your_main_job": _("text.sentence"),  # free text field, can be null 1 to 73
         "What_do_you_do_in_your_main_job_business": _("text.sentence"),  # free text field, can be null 1 to 333
         "Occupations_sectors_do_you_work_in": _(
@@ -1576,18 +846,6 @@ def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, 
         "physical_mental_health_or_illness_reduces_activity_ability": _(
             "choice", items=[None, "Not at all", "Yes, a little", "Yes, a lot"]
         ),
-        "Have_you_ever_smoked_regularly": _("choice", items=yes_no_none_choice),
-        "Do_you_currently_smoke_or_vape": _(
-            "choice", items=[None, "Yes,  cigarettes", "Yes, cigar", "Yes, pipe", "Yes, vape/e-cigarettes"]
-        ),
-        "Do_you_currently_smoke_or_vape_at_all": _(
-            "choice", items=[None, "Cigarettes", "Cigar", "Pipe", "Vape/e-cigarettes", "Hookah/shisha pipes"]
-        ),
-        "Smoke_Yes_cigarettes": _("choice", items=yes_no_none_choice),
-        "Smoke_Yes_cigar": _("choice", items=yes_no_none_choice),
-        "Smoke_Yes_pipe": _("choice", items=yes_no_none_choice),
-        "Smoke_Yes_vape_e_cigarettes": _("choice", items=yes_no_none_choice),
-        "Smoke_Hookah/shisha pipes": _("choice", items=yes_no_none_choice),
         "What_is_your_current_working_status": _(
             "choice",
             items=[
@@ -1659,149 +917,9 @@ def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, 
         "Symptoms_7_Low_mood_not_enjoying_anything": _("choice", items=yes_no_none_choice),
         "Symptoms_7_Memory_loss_or_confusion": _("choice", items=yes_no_none_choice),
         "Symptoms_7_Difficulty_concentrating": _("choice", items=yes_no_none_choice),
-        "Are_you_self_Isolating_S2": _(
-            "choice",
-            items=[
-                "No",
-                "Yes because you have/have had symptoms of COVID-19 or a positive test",
-                "Yes because you live with someone who has/has had symptoms or a positive test but you haven't had"
-                "symptoms yourself",
-                "Yes for other reasons related to reducing your risk of getting COVID-19 (e.g. going into hospital or"
-                "shielding)",
-                "Yes for other reasons related to you having had an increased risk of getting COVID-19 (e.g. having"
-                "been in contact with a known case or quarantining after travel abroad)",
-                "Participant Would Not/Could Not Answer",
-                "Yes because you have/have had symptoms of COVID-19",
-                "Yes because you live with someone who has/has had symptoms but you haven't had them yourself",
-                "Yes for other reasons (e.g. going into hospital or quarantining)",
-                None,
-            ],
-        ),
         "Do_you_think_you_have_Covid_Symptoms": _(
             "choice", items=["Yes", "Participant Would Not/Could Not Answer", "No", None]
         ),
-        "Contact_Known_Positive_COVID19_28_days": _("choice", items=yes_no_none_choice),
-        "If_Known_last_contact_date": _(
-            "discrete_distribution",
-            population=[_("custom_random.random_date", start=start_date_list, end=end_date_list), None],
-            weights=[0.5, 0.5],
-        ),
-        "If_Known_type_of_contact_S2": _("choice", items=["Living in your own home", "Outside your home", None]),
-        "Contact_Suspect_Positive_COVID19_28_d": _("choice", items=yes_no_none_choice),
-        "If_suspect_last_contact_date": _(
-            "discrete_distribution",
-            population=[_("custom_random.random_date", start=start_date_list, end=end_date_list), None],
-            weights=[0.5, 0.5],
-        ),
-        "If_suspect_type_of_contact_S2": _("choice", items=["Living in your own home", "Outside your home", None]),
-        "You_been_Hospital_last_28_days": _("choice", items=yes_no_none_choice),
-        "OtherHouse_been_Hospital_last_28_days": _(
-            "choice", items=["Yes", "Participant Would Not/Could Not Answer", "No", None]
-        ),
-        "Your_been_in_Care_Home_last_28_days": _(
-            "choice", items=["Yes", "Participant Would Not/Could Not Answer", "No", None]
-        ),
-        "OtherHouse_been_in_Care_Home_last_28_days": _(
-            "choice", items=["Yes", "Participant Would Not/Could Not Answer", "No", None]
-        ),
-        "Hours_a_day_with_someone_else": _("choice", items=[_("random.randints", amount=8, a=0, b=24)]),
-        "Physical_Contact_18yrs": _(
-            "choice", items=["0", "1-5", "11-20", "21 or more", "6-10", "Participant Would Not/Could Not Answer", None]
-        ),
-        "Physical_Contact_18_to_69_yrs": _(
-            "choice", items=["0", "1-5", "11-20", "21 or more", "6-10", "Participant Would Not/Could Not Answer", None]
-        ),
-        "Physical_Contact_70_yrs": _(
-            "choice", items=[None, "0", "1-5", "11-20", "21 or more", "6-10", "Participant Would Not/Could Not Answer"]
-        ),
-        "Social_Distance_Contact_18yrs": _(
-            "choice", items=[None, "0", "1-5", "11-20", "21 or more", "6-10", "Participant Would Not/Could Not Answer"]
-        ),
-        "Social_Distance_Contact_18_to_69_yrs": _(
-            "choice", items=[None, "0", "1-5", "11-20", "21 or more", "6-10", "Participant Would Not/Could Not Answer"]
-        ),
-        "Social_Distance_Contact_70_yrs": _(
-            "choice", items=[None, "0", "1-5", "11-20", "21 or more", "6-10", "Participant Would Not/Could Not Answer"]
-        ),
-        "1Hour_or_Longer_another_person_home": _(
-            "choice",
-            items=[
-                None,
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7 times or more",
-                "None",
-                "Participant Would Not/Could Not Answer",
-            ],
-        ),
-        "1Hour_or_Longer_another_person_yourhome": _(
-            "choice",
-            items=[
-                None,
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7 times or more",
-                "None",
-                "Participant Would Not/Could Not Answer",
-            ],
-        ),
-        "Times_Outside_Home_For_Shopping": _(
-            "choice",
-            items=[
-                None,
-                "0",
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7 times or more",
-                "None",
-                "Participant Would Not/Could Not Answer",
-            ],
-        ),
-        "Shopping_last_7_days": _(
-            "choice",
-            items=[
-                None,
-                "0",
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7 times or more",
-                "None",
-                "Participant Would Not/Could Not Answer",
-            ],
-        ),
-        "Socialise_last_7_days": _(
-            "choice",
-            items=[
-                None,
-                "0",
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7 times or more",
-                "None",
-                "Participant Would Not/Could Not Answer",
-            ],
-        ),
-        "Regular_testing_COVID": _("choice", items=yes_no_none_choice),
         "Face_Covering_or_Mask_outside_of_home": _(
             "choice",
             items=[
@@ -1870,8 +988,6 @@ def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, 
             population=[_("custom_random.random_date", start=start_date_list, end=end_date_list), None],
             weights=[0.5, 0.5],
         ),
-        "Did_you_contact_NHS": _("choice", items=yes_no_none_choice),
-        "Were_you_admitted_to_hospital": _("choice", items=yes_no_none_choice),
         "Have_you_had_a_swab_test": _("choice", items=yes_no_none_choice),
         "If_Yes_What_was_result": _(
             "choice",
@@ -1894,92 +1010,6 @@ def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, 
             population=[_("custom_random.random_date", start=start_date_list, end=end_date_list), None],
             weights=[0.5, 0.5],
         ),
-        "Have_you_had_a_blood_test_for_Covid": _("choice", items=yes_no_none_choice),
-        "What_was_the_result_of_the_blood_test": _(
-            "choice",
-            items=[
-                "All tests failed",
-                "One or more negative tests but none positive",
-                "One or more negative tests but none were positive",
-                "One or more positive test(s)",
-                "Waiting for all results",
-                None,
-            ],
-        ),
-        "Where_was_the_test_done": _(
-            "choice",
-            items=[
-                "Home Test",
-                "In the NHS (e.g. GP or hospital)",
-                "Participant Would Not/Could Not Answer",
-                "Private Lab",
-                None,
-            ],
-        ),
-        "If_ve_Blood_Date_of_1st_ve_test": _(
-            "discrete_distribution",
-            population=[_("custom_random.random_date", start=start_date_list, end=end_date_list), None],
-            weights=[0.5, 0.5],
-        ),
-        "If_all_ve_blood_Date_last_ve_test": _(
-            "discrete_distribution",
-            population=[_("custom_random.random_date", start=start_date_list, end=end_date_list), None],
-            weights=[0.5, 0.5],
-        ),
-        "Have_Long_Covid_Symptoms": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Reduce_Activities": _("choice", items=["Not at all", "Yes a little", "Yes a lot", None]),
-        "Long_Covid_Symptoms": _(
-            "choice",
-            items=[
-                "Fever ",
-                " Headache ",
-                " Muscle ache ",
-                " Weakness/tiredness ",
-                "Nausea/vomiting",
-                "Abdominal pain",
-                "Diarrhoea",
-                "Sore  Throat",
-                "Cough",
-                "Shortness of breath",
-                "Loss of taste",
-                "Loss of smell",
-                "Loss of appetite",
-                "Chest pain",
-                "Palpitations",
-                "Vertigo/dizziness",
-                "Worry/anxiety",
-                "Low mood/not enjoying anything",
-                "Trouble sleeping",
-                "Memory loss or confusion",
-                "Difficulty concentrating",
-                "ALL No",
-                "Yes",
-                None,
-            ],
-        ),
-        "Long_Covid_Fever": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Weakness_tiredness": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Diarrhoea": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Loss_of_smell": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Shortness_of_breath": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Vertigo_dizziness": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Trouble_sleeping": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Headache": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Nausea_vomiting": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Loss_of_appetite": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Sore_throat": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Chest_pain": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Worry_anxiety": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Memory_loss_or_confusion": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Muscle_ache": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Abdominal_pain": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Loss_of_taste": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Cough": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Palpitations": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Low_mood_not_enjoying_anything": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Difficulty_concentrating": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Runny_nose_sneezing": _("choice", items=yes_no_none_choice),
-        "Long_Covid_Noisy_breathing": _("choice", items=yes_no_none_choice),
         "Have_you_been_offered_a_vaccination": _("choice", items=yes_no_none_choice),
         "Vaccinated_Against_Covid": _("choice", items=yes_no_none_choice),
         "Type_Of_Vaccination": _(
@@ -2075,7 +1105,6 @@ def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, 
             population=[_("custom_random.random_date", start=start_date_list, end=end_date_list), None],
             weights=[0.5, 0.5],
         ),
-        "Vaccinated_against_flu": _("choice", items=yes_no_none_choice),
         "Have_you_been_outside_UK_since_April": _("choice", items=yes_no_none_choice),
         "been_outside_uk_last_country": _("choice", items=countries),
         "been_outside_uk_last_date": _(
@@ -2087,7 +1116,7 @@ def get_test_survey_response_data_version_2_data_description(_, blood_barcodes, 
     }
 
 
-def get_test_swab_sample_results_data_description(_, swab_barcodes):
+def get_example_swab_sample_results_data_description(_, swab_barcodes):
     return lambda: {  # noqa: E731
         "Sample": _(
             "discrete_distribution",
@@ -2112,28 +1141,4 @@ def get_test_swab_sample_results_data_description(_, swab_barcodes):
         "CH4-Result": _("choice", items=["Positive", "Rejected"]),
         "CH4-Cq": _("float_number", start=15.0, end=30.0, precision=12),
         "voidReason": _("choice", items=[None, "reason 1", "reason 2", "reason 3", "reason 4"]),
-    }
-
-
-def get_test_blood_sample_results_data_description(_, blood_barcodes):
-    return lambda: {  # noqa: E731
-        "Serum Source ID": _(
-            "discrete_distribution",
-            population=blood_barcodes,
-            weights=[1 / len(blood_barcodes)] * len(blood_barcodes),
-            null_prop=0.2,
-        ),
-        "Blood Sample Type": _("choice", items=["Capillary"]),
-        "Plate Barcode": _("random.custom_code", mask="ONS_######&&", digit="#", char="&"),
-        "Well ID": _("random.custom_code", mask="&##", digit="#", char="&"),
-        "Detection": _("choice", items=["DETECTED", "Failed", "NOT detected"]),
-        "Monoclonal quantitation (Colourimetric)": _("float_number", start=0.0, end=78000.0, precision=4),
-        "Monoclonal bounded quantitation (Colourimetric)": _("text.sentence"),
-        "Monoclonal undiluted quantitation (Colourimetric)": _(
-            "custom_random.random_integer", lower=0, upper=360000, null_percent=0
-        ),
-        "Date ELISA Result record created": _("datetime.formatted_datetime", fmt="%Y-%m-%d", start=2019, end=2024),
-        "Date Samples Arrayed Oxford": _("datetime.formatted_datetime", fmt="%Y-%m-%d", start=2019, end=2024),
-        "Date Samples Received Oxford": _("datetime.formatted_datetime", fmt="%Y-%m-%d", start=2019, end=2024),
-        "Voyager Date Created": _("choice", items=[None]),
     }

@@ -73,19 +73,16 @@ from cishouseholds.pipeline.timestamp_map import csv_datetime_maps
 from cishouseholds.pipeline.validation_calls import validation_ETL
 from cishouseholds.pipeline.validation_schema import soc_schema
 from cishouseholds.pipeline.validation_schema import validation_schemas
-from cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_1_transformations import (
-    clean_survey_responses_version_phm,
-)
 from cishouseholds.pipeline.visit_transformations import visit_transformations
 from cishouseholds.pyspark_utils import get_or_create_spark_session
 from cishouseholds.validate import check_lookup_table_joined_columns_unique
 from cishouseholds.validate import normalise_schema
 from cishouseholds.validate import validate_processed_files
 from dummy_data_generation.generate_data import generate_cis_soc_data
+from dummy_data_generation.generate_data import generate_example_participant_data
+from dummy_data_generation.generate_data import generate_example_survey_response_v1_data
+from dummy_data_generation.generate_data import generate_example_survey_response_v2_data
 from dummy_data_generation.generate_data import generate_nims_table
-from dummy_data_generation.generate_data import generate_test_participant_data
-from dummy_data_generation.generate_data import generate_test_survey_response_version_1_data
-from dummy_data_generation.generate_data import generate_test_survey_response_version_2_data
 
 # from cishouseholds.validate import validate_files
 
@@ -311,14 +308,10 @@ def generate_dummy_data(output_directory):
     file_date = datetime.strftime(file_datetime, format="%Y%m%d")
 
     generate_cis_soc_data(directory=cis_soc_directory, file_date=file_date, records=50)
-    generate_test_participant_data(
-        directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[], blood_barcodes=[]
-    )
-    generate_test_survey_response_version_1_data(
-        directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[], blood_barcodes=[]
-    )
-    v2 = generate_test_survey_response_version_2_data(
-        directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[], blood_barcodes=[]
+    generate_example_participant_data(directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[])
+    generate_example_survey_response_v1_data(directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[])
+    v2 = generate_example_survey_response_v2_data(
+        directory=survey_dir, file_date=file_date, records=50, swab_barcodes=[]
     )
 
     participant_ids = v2["Participant_id"].unique().tolist()
@@ -1143,7 +1136,6 @@ def tables_to_csv(
     extension=".txt",
     dry_run=False,
     accept_missing=False,
-    transformation_functions=[],
 ):
     """
     Writes data from an existing HIVE table to csv output, including mapping of column names and values.
@@ -1165,8 +1157,6 @@ def tables_to_csv(
         when set to True, will delete files after they are written (for testing). Default is False.
     accept_missing
         remove missing columns from map if not in dataframe
-    transformation_functions
-        list of transformation functions to be run on the dataframe before it is exported
     """
     output_datetime = datetime.today()
     output_datetime_str = output_datetime.strftime("%Y%m%d_%H%M%S")
@@ -1177,14 +1167,8 @@ def tables_to_csv(
 
     config_file = get_secondary_config(tables_to_csv_config_file)
 
-    transformations_dict = {
-        "clean_survey_responses_version_phm": clean_survey_responses_version_phm,
-    }
-
     for table in config_file["create_tables"]:
         df = extract_from_table(table["table_name"])
-        for transformation in transformation_functions:
-            df = transformations_dict[transformation](df)
         if table.get("column_name_map"):
             if accept_missing:
                 columns_to_select = [element for element in table["column_name_map"].keys() if element in df.columns]

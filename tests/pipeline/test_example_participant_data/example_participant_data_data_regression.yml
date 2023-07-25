@@ -1,0 +1,733 @@
+- city: Haskell is a standardized, general-purpose purely functional programming language,
+    with non-strict semantics and strong static typing.
+  communication_preference: Erlang is known for its designs that are well suited for
+    systems.
+  country: Make me a sandwich.
+  date_of_birth: '2020-02-01 00:00:00.000000'
+  ethnic_group: Black or African or Caribbean or Black British
+  ethnicity: Any other Mixed background
+  ethnicity_group: null
+  ethnicity_other: Where are my pants?
+  first_name: Annika
+  language_preference: Erlang is a general-purpose, concurrent, functional programming
+    language.
+  last_name: Day
+  middle_name: Hank
+  ons_household_id: '602276804025'
+  participant_id: DHR-016525808631
+  participant_withdrawal_reason: No longer wants to take part
+  participant_withdrawal_type: Withdrawn
+  postcode: Atoms are used within a program to denote distinguished values.
+  sample_return_preference: Erlang is known for its designs that are well suited for
+    systems.
+  sex: Male
+  street: Its main implementation is the Glasgow Haskell Compiler.
+  title: Prof.
+- city: Tuples are containers for a fixed number of Erlang data types.
+  communication_preference: They are written as strings of consecutive alphanumeric
+    characters, the first character being lowercase.
+  country: She spent her earliest years reading classic literature, and writing poetry.
+  date_of_birth: '1996-09-25 00:00:00.000000'
+  ethnic_group: Mixed/Multiple Ethnic Groups
+  ethnicity: Any other Asian background
+  ethnicity_group: null
+  ethnicity_other: Haskell is a standardized, general-purpose purely functional programming
+    language, with non-strict semantics and strong static typing.
+  first_name: Wendolyn
+  language_preference: Haskell features a type system with type inference and lazy
+    evaluation.
+  last_name: King
+  middle_name: Lyla
+  ons_household_id: '936679226110'
+  participant_id: DHR-045227746976
+  participant_withdrawal_reason: Swab/blood process distressing
+  participant_withdrawal_type: null
+  postcode: Initially composing light-hearted and irreverent works, he also wrote
+    serious, sombre and religious pieces beginning in the 1930s.
+  sample_return_preference: Erlang is known for its designs that are well suited for
+    systems.
+  sex: Female
+  street: Its main implementation is the Glasgow Haskell Compiler.
+  title: Miss.
+- city: Type classes first appeared in the Haskell programming language.
+  communication_preference: The Galactic Empire is nearing completion of the Death
+    Star, a space station with the power to destroy entire planets.
+  country: The Galactic Empire is nearing completion of the Death Star, a space station
+    with the power to destroy entire planets.
+  date_of_birth: '2003-10-07 00:00:00.000000'
+  ethnic_group: Black or African or Caribbean or Black British
+  ethnicity: Asian or Asian British-Chinese
+  ethnicity_group: null
+  ethnicity_other: In 1989 the building was heavily damaged by fire, but it has since
+    been restored.
+  first_name: Latoria
+  language_preference: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are
+    D1, D2, ... Dn.
+  last_name: Swanson
+  middle_name: Johana
+  ons_household_id: '455927236237'
+  participant_id: DHR-049902298831
+  participant_withdrawal_reason: Swab/blood process distressing
+  participant_withdrawal_type: null
+  postcode: Erlang is known for its designs that are well suited for systems.
+  sample_return_preference: Its main implementation is the Glasgow Haskell Compiler.
+  sex: Male
+  street: They are written as strings of consecutive alphanumeric characters, the
+    first character being lowercase.
+  title: Prof.
+- city: '"Messages can be sent to and received from ports, but these messages must
+    obey the so-called ""port protocol."""'
+  communication_preference: It is also a garbage-collected runtime system.
+  country: Make me a sandwich.
+  date_of_birth: '1993-11-09 00:00:00.000000'
+  ethnic_group: Black or African or Caribbean or Black British
+  ethnicity: White-Irish
+  ethnicity_group: null
+  ethnicity_other: Where are my pants?
+  first_name: Buck
+  language_preference: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are
+    D1, D2, ... Dn.
+  last_name: Ramirez
+  middle_name: Victorina
+  ons_household_id: '217846198988'
+  participant_id: DHR-073988827188
+  participant_withdrawal_reason: Bad experience with tester/survey
+  participant_withdrawal_type: Withdrawn - no future linkage or use of samples
+  postcode: Erlang is known for its designs that are well suited for systems.
+  sample_return_preference: Any element of a tuple can be accessed in constant time.
+  sex: Female
+  street: It is also a garbage-collected runtime system.
+  title: null
+- city: Ports are created with the built-in function open_port.
+  communication_preference: Erlang is a general-purpose, concurrent, functional programming
+    language.
+  country: Do you come here often?
+  date_of_birth: '2014-05-25 00:00:00.000000'
+  ethnic_group: Asian or Asian British
+  ethnicity: Caribbean or Black British
+  ethnicity_group: null
+  ethnicity_other: She spent her earliest years reading classic literature, and writing
+    poetry.
+  first_name: Sal
+  language_preference: In 1989 the building was heavily damaged by fire, but it has
+    since been restored.
+  last_name: Wall
+  middle_name: Tianna
+  ons_household_id: '571247952112'
+  participant_id: DHR-105295618485
+  participant_withdrawal_reason: Bad experience with tester/survey
+  participant_withdrawal_type: Withdrawn
+  postcode: The sequential subset of Erlang supports eager evaluation, single assignment,
+    and dynamic typing.
+  sample_return_preference: Tuples are containers for a fixed number of Erlang data
+    types.
+  sex: Male
+  street: Where are my pants?
+  title: Dr.
+- city: Where are my pants?
+  communication_preference: It is also a garbage-collected runtime system.
+  country: She spent her earliest years reading classic literature, and writing poetry.
+  date_of_birth: '1994-05-03 00:00:00.000000'
+  ethnic_group: Asian or Asian British
+  ethnicity: Other ethnic group-Arab
+  ethnicity_group: null
+  ethnicity_other: Atoms are used within a program to denote distinguished values.
+  first_name: Myung
+  language_preference: Tuples are containers for a fixed number of Erlang data types.
+  last_name: Mosley
+  middle_name: Quinn
+  ons_household_id: '876960826911'
+  participant_id: DHR-152672624980
+  participant_withdrawal_reason: Participant does not want to self swab
+  participant_withdrawal_type: Withdrawn - no future linkage
+  postcode: Tuples are containers for a fixed number of Erlang data types.
+  sample_return_preference: Tuples are containers for a fixed number of Erlang data
+    types.
+  sex: Male
+  street: Any element of a tuple can be accessed in constant time.
+  title: Prof.
+- city: The sequential subset of Erlang supports eager evaluation, single assignment,
+    and dynamic typing.
+  communication_preference: Haskell features a type system with type inference and
+    lazy evaluation.
+  country: He looked inquisitively at his keyboard and wrote another sentence.
+  date_of_birth: '1985-09-10 00:00:00.000000'
+  ethnic_group: Asian or Asian British
+  ethnicity: Any other Asian background
+  ethnicity_group: null
+  ethnicity_other: Tuples are containers for a fixed number of Erlang data types.
+  first_name: Wilburn
+  language_preference: Erlang is known for its designs that are well suited for systems.
+  last_name: Barton
+  middle_name: Caron
+  ons_household_id: '571295570558'
+  participant_id: DHR-190156218256
+  participant_withdrawal_reason: Bad experience with tester/survey
+  participant_withdrawal_type: Withdrawn - no future linkage or use of samples
+  postcode: Type classes first appeared in the Haskell programming language.
+  sample_return_preference: I don't even care.
+  sex: Female
+  street: Do you have any idea why this is not working?
+  title: Dr.
+- city: Do you come here often?
+  communication_preference: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments
+    are D1, D2, ... Dn.
+  country: Type classes first appeared in the Haskell programming language.
+  date_of_birth: '2014-05-24 00:00:00.000000'
+  ethnic_group: Other Ethnic Group
+  ethnicity: Mixed-White & Black African
+  ethnicity_group: null
+  ethnicity_other: I don't even care.
+  first_name: Bernardina
+  language_preference: Any element of a tuple can be accessed in constant time.
+  last_name: Morgan
+  middle_name: Emerald
+  ons_household_id: 061403237378
+  participant_id: DHR-200593676791
+  participant_withdrawal_reason: Swab/blood process distressing
+  participant_withdrawal_type: Withdrawn - no future linkage or use of samples
+  postcode: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are D1, D2,
+    ... Dn.
+  sample_return_preference: Do you come here often?
+  sex: Male
+  street: The arguments can be primitive data types or compound data types.
+  title: Dr.
+- city: Type classes first appeared in the Haskell programming language.
+  communication_preference: Ports are used to communicate with the external world.
+  country: Type classes first appeared in the Haskell programming language.
+  date_of_birth: '2020-05-27 00:00:00.000000'
+  ethnic_group: Asian or Asian British
+  ethnicity: Any other Mixed background
+  ethnicity_group: null
+  ethnicity_other: Erlang is known for its designs that are well suited for systems.
+  first_name: Daryl
+  language_preference: Type classes first appeared in the Haskell programming language.
+  last_name: Donaldson
+  middle_name: Joesph
+  ons_household_id: '694569801375'
+  participant_id: DHR-216695400432
+  participant_withdrawal_reason: Participant does not want to self swab
+  participant_withdrawal_type: null
+  postcode: Make me a sandwich.
+  sample_return_preference: She spent her earliest years reading classic literature,
+    and writing poetry.
+  sex: Male
+  street: Do you have any idea why this is not working?
+  title: Ms.
+- city: It is also a garbage-collected runtime system.
+  communication_preference: Make me a sandwich.
+  country: Any element of a tuple can be accessed in constant time.
+  date_of_birth: '2007-10-03 00:00:00.000000'
+  ethnic_group: Other Ethnic Group
+  ethnicity: English| Welsh| Scottish| Northern Irish or British
+  ethnicity_group: null
+  ethnicity_other: They are written as strings of consecutive alphanumeric characters,
+    the first character being lowercase.
+  first_name: Debroah
+  language_preference: Atoms are used within a program to denote distinguished values.
+  last_name: Buckner
+  middle_name: Kurt
+  ons_household_id: '544728808246'
+  participant_id: DHR-308127387209
+  participant_withdrawal_reason: No longer convenient
+  participant_withdrawal_type: Withdrawn
+  postcode: Haskell is a standardized, general-purpose purely functional programming
+    language, with non-strict semantics and strong static typing.
+  sample_return_preference: Make me a sandwich.
+  sex: Male
+  street: The arguments can be primitive data types or compound data types.
+  title: Ms.
+- city: He looked inquisitively at his keyboard and wrote another sentence.
+  communication_preference: '"Messages can be sent to and received from ports, but
+    these messages must obey the so-called ""port protocol."""'
+  country: Where are my pants?
+  date_of_birth: '1994-09-20 00:00:00.000000'
+  ethnic_group: Black or African or Caribbean or Black British
+  ethnicity: Black,Caribbean,Afro-Caribbean
+  ethnicity_group: null
+  ethnicity_other: '"Messages can be sent to and received from ports, but these messages
+    must obey the so-called ""port protocol."""'
+  first_name: Honey
+  language_preference: Erlang is known for its designs that are well suited for systems.
+  last_name: Hunt
+  middle_name: Gale
+  ons_household_id: '836394225258'
+  participant_id: DHR-329500167403
+  participant_withdrawal_reason: Moving Location
+  participant_withdrawal_type: Withdrawn - no future linkage
+  postcode: He looked inquisitively at his keyboard and wrote another sentence.
+  sample_return_preference: The arguments can be primitive data types or compound
+    data types.
+  sex: Male
+  street: The sequential subset of Erlang supports eager evaluation, single assignment,
+    and dynamic typing.
+  title: Prof.
+- city: Type classes first appeared in the Haskell programming language.
+  communication_preference: Tuples are containers for a fixed number of Erlang data
+    types.
+  country: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are D1, D2, ...
+    Dn.
+  date_of_birth: '1997-03-07 00:00:00.000000'
+  ethnic_group: White
+  ethnicity: Asian or Asian British-Indian
+  ethnicity_group: null
+  ethnicity_other: Atoms can contain any character if they are enclosed within single
+    quotes and an escape convention exists which allows any character to be used within
+    an atom.
+  first_name: Myung
+  language_preference: Tuples are containers for a fixed number of Erlang data types.
+  last_name: Stanley
+  middle_name: Melaine
+  ons_household_id: '425723964512'
+  participant_id: DHR-352206298026
+  participant_withdrawal_reason: Too many visits
+  participant_withdrawal_type: Withdrawn
+  postcode: Its main implementation is the Glasgow Haskell Compiler.
+  sample_return_preference: The Galactic Empire is nearing completion of the Death
+    Star, a space station with the power to destroy entire planets.
+  sex: Male
+  street: Its main implementation is the Glasgow Haskell Compiler.
+  title: Mr.
+- city: The Galactic Empire is nearing completion of the Death Star, a space station
+    with the power to destroy entire planets.
+  communication_preference: Where are my pants?
+  country: Its main implementation is the Glasgow Haskell Compiler.
+  date_of_birth: '2009-03-09 00:00:00.000000'
+  ethnic_group: Asian or Asian British
+  ethnicity: Caribbean or Black British
+  ethnicity_group: null
+  ethnicity_other: In 1989 the building was heavily damaged by fire, but it has since
+    been restored.
+  first_name: Gabriel
+  language_preference: Initially composing light-hearted and irreverent works, he
+    also wrote serious, sombre and religious pieces beginning in the 1930s.
+  last_name: Klein
+  middle_name: Tilda
+  ons_household_id: '303789475622'
+  participant_id: DHR-403641416035
+  participant_withdrawal_reason: null
+  participant_withdrawal_type: Withdrawn - no future linkage or use of samples
+  postcode: Erlang is a general-purpose, concurrent, functional programming language.
+  sample_return_preference: It is also a garbage-collected runtime system.
+  sex: Female
+  street: Haskell features a type system with type inference and lazy evaluation.
+  title: Ms.
+- city: '"Messages can be sent to and received from ports, but these messages must
+    obey the so-called ""port protocol."""'
+  communication_preference: Where are my pants?
+  country: They are written as strings of consecutive alphanumeric characters, the
+    first character being lowercase.
+  date_of_birth: '1982-12-15 00:00:00.000000'
+  ethnic_group: Asian or Asian British
+  ethnicity: White-Irish
+  ethnicity_group: null
+  ethnicity_other: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are D1,
+    D2, ... Dn.
+  first_name: My
+  language_preference: The Galactic Empire is nearing completion of the Death Star,
+    a space station with the power to destroy entire planets.
+  last_name: Ford
+  middle_name: Yuri
+  ons_household_id: '294850989981'
+  participant_id: DHR-424039274499
+  participant_withdrawal_reason: Swab/blood process distressing
+  participant_withdrawal_type: Withdrawn - no future linkage or use of samples
+  postcode: She spent her earliest years reading classic literature, and writing poetry.
+  sample_return_preference: Do you come here often?
+  sex: Female
+  street: Type classes first appeared in the Haskell programming language.
+  title: Ms.
+- city: Type classes first appeared in the Haskell programming language.
+  communication_preference: He looked inquisitively at his keyboard and wrote another
+    sentence.
+  country: The sequential subset of Erlang supports eager evaluation, single assignment,
+    and dynamic typing.
+  date_of_birth: '2015-04-22 00:00:00.000000'
+  ethnic_group: White
+  ethnicity: Caribbean or Black British
+  ethnicity_group: null
+  ethnicity_other: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are D1,
+    D2, ... Dn.
+  first_name: Loria
+  language_preference: The sequential subset of Erlang supports eager evaluation,
+    single assignment, and dynamic typing.
+  last_name: Bernard
+  middle_name: Ira
+  ons_household_id: '421496963502'
+  participant_id: DHR-456442497105
+  participant_withdrawal_reason: No longer convenient
+  participant_withdrawal_type: Withdrawn - no future linkage or use of samples
+  postcode: Do you have any idea why this is not working?
+  sample_return_preference: Atoms can contain any character if they are enclosed within
+    single quotes and an escape convention exists which allows any character to be
+    used within an atom.
+  sex: Female
+  street: Atoms are used within a program to denote distinguished values.
+  title: Miss.
+- city: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are D1, D2, ...
+    Dn.
+  communication_preference: Erlang is a general-purpose, concurrent, functional programming
+    language.
+  country: Where are my pants?
+  date_of_birth: '1983-04-27 00:00:00.000000'
+  ethnic_group: Mixed/Multiple Ethnic Groups
+  ethnicity: Any other Mixed background
+  ethnicity_group: null
+  ethnicity_other: Where are my pants?
+  first_name: Loree
+  language_preference: Erlang is a general-purpose, concurrent, functional programming
+    language.
+  last_name: Hebert
+  middle_name: Telma
+  ons_household_id: '638762102480'
+  participant_id: DHR-461642607714
+  participant_withdrawal_reason: Swab/blood process distressing
+  participant_withdrawal_type: null
+  postcode: Any element of a tuple can be accessed in constant time.
+  sample_return_preference: Atoms are used within a program to denote distinguished
+    values.
+  sex: Male
+  street: Ports are used to communicate with the external world.
+  title: Ms.
+- city: Atoms are used within a program to denote distinguished values.
+  communication_preference: Haskell is a standardized, general-purpose purely functional
+    programming language, with non-strict semantics and strong static typing.
+  country: Initially composing light-hearted and irreverent works, he also wrote serious,
+    sombre and religious pieces beginning in the 1930s.
+  date_of_birth: '2021-12-18 00:00:00.000000'
+  ethnic_group: Other Ethnic Group
+  ethnicity: Asian or Asian British-Bangladeshi
+  ethnicity_group: null
+  ethnicity_other: Any element of a tuple can be accessed in constant time.
+  first_name: Alan
+  language_preference: Initially composing light-hearted and irreverent works, he
+    also wrote serious, sombre and religious pieces beginning in the 1930s.
+  last_name: Gomez
+  middle_name: Remedios
+  ons_household_id: '959807652614'
+  participant_id: DHR-498251982661
+  participant_withdrawal_reason: Swab/blood process distressing
+  participant_withdrawal_type: Withdrawn
+  postcode: The Galactic Empire is nearing completion of the Death Star, a space station
+    with the power to destroy entire planets.
+  sample_return_preference: In 1989 the building was heavily damaged by fire, but
+    it has since been restored.
+  sex: Female
+  street: Do you have any idea why this is not working?
+  title: null
+- city: In 1989 the building was heavily damaged by fire, but it has since been restored.
+  communication_preference: Do you come here often?
+  country: Ports are created with the built-in function open_port.
+  date_of_birth: '2007-03-15 00:00:00.000000'
+  ethnic_group: White
+  ethnicity: Mixed-White & Black African
+  ethnicity_group: null
+  ethnicity_other: It is also a garbage-collected runtime system.
+  first_name: Leeanne
+  language_preference: Ports are used to communicate with the external world.
+  last_name: Haney
+  middle_name: Emerald
+  ons_household_id: '441094840601'
+  participant_id: DHR-539176725448
+  participant_withdrawal_reason: No longer convenient
+  participant_withdrawal_type: Withdrawn - no future linkage
+  postcode: Haskell is a standardized, general-purpose purely functional programming
+    language, with non-strict semantics and strong static typing.
+  sample_return_preference: Atoms can contain any character if they are enclosed within
+    single quotes and an escape convention exists which allows any character to be
+    used within an atom.
+  sex: Male
+  street: '"Messages can be sent to and received from ports, but these messages must
+    obey the so-called ""port protocol."""'
+  title: Prof.
+- city: It is also a garbage-collected runtime system.
+  communication_preference: The Galactic Empire is nearing completion of the Death
+    Star, a space station with the power to destroy entire planets.
+  country: Ports are created with the built-in function open_port.
+  date_of_birth: '2013-05-18 00:00:00.000000'
+  ethnic_group: Black or African or Caribbean or Black British
+  ethnicity: White-Irish
+  ethnicity_group: null
+  ethnicity_other: Ports are created with the built-in function open_port.
+  first_name: Ollie
+  language_preference: They are written as strings of consecutive alphanumeric characters,
+    the first character being lowercase.
+  last_name: Adams
+  middle_name: Shaniqua
+  ons_household_id: '074766470263'
+  participant_id: DHR-545473722111
+  participant_withdrawal_reason: No longer wants to take part
+  participant_withdrawal_type: Withdrawn - no future linkage or use of samples
+  postcode: Its main implementation is the Glasgow Haskell Compiler.
+  sample_return_preference: Where are my pants?
+  sex: Male
+  street: In 1989 the building was heavily damaged by fire, but it has since been
+    restored.
+  title: null
+- city: He looked inquisitively at his keyboard and wrote another sentence.
+  communication_preference: I don't even care.
+  country: '"Messages can be sent to and received from ports, but these messages must
+    obey the so-called ""port protocol."""'
+  date_of_birth: '1984-10-21 00:00:00.000000'
+  ethnic_group: Black or African or Caribbean or Black British
+  ethnicity: Any other ethnic group
+  ethnicity_group: null
+  ethnicity_other: Atoms are used within a program to denote distinguished values.
+  first_name: Ewa
+  language_preference: She spent her earliest years reading classic literature, and
+    writing poetry.
+  last_name: Ewing
+  middle_name: Manual
+  ons_household_id: '284372013892'
+  participant_id: DHR-639591919214
+  participant_withdrawal_reason: Participant does not want to self swab
+  participant_withdrawal_type: null
+  postcode: Erlang is known for its designs that are well suited for systems.
+  sample_return_preference: Atoms can contain any character if they are enclosed within
+    single quotes and an escape convention exists which allows any character to be
+    used within an atom.
+  sex: Female
+  street: Where are my pants?
+  title: Mr.
+- city: Tuples are containers for a fixed number of Erlang data types.
+  communication_preference: Ports are created with the built-in function open_port.
+  country: Erlang is known for its designs that are well suited for systems.
+  date_of_birth: '1993-11-16 00:00:00.000000'
+  ethnic_group: Other Ethnic Group
+  ethnicity: Any other Asian background
+  ethnicity_group: null
+  ethnicity_other: Do you have any idea why this is not working?
+  first_name: Wilton
+  language_preference: Type classes first appeared in the Haskell programming language.
+  last_name: Hendrix
+  middle_name: Wilmer
+  ons_household_id: '756202235126'
+  participant_id: DHR-704542495687
+  participant_withdrawal_reason: No longer convenient
+  participant_withdrawal_type: null
+  postcode: Erlang is a general-purpose, concurrent, functional programming language.
+  sample_return_preference: Ports are used to communicate with the external world.
+  sex: Female
+  street: The syntax {D1,D2,...,Dn} denotes a tuple whose arguments are D1, D2, ...
+    Dn.
+  title: Ms.
+- city: Haskell features a type system with type inference and lazy evaluation.
+  communication_preference: Haskell features a type system with type inference and
+    lazy evaluation.
+  country: Erlang is known for its designs that are well suited for systems.
+  date_of_birth: '1990-08-13 00:00:00.000000'
+  ethnic_group: Other Ethnic Group
+  ethnicity: Black,Caribbean,Afro-Caribbean
+  ethnicity_group: null
+  ethnicity_other: In 1989 the building was heavily damaged by fire, but it has since
+    been restored.
+  first_name: Lyndia
+  language_preference: Atoms can contain any character if they are enclosed within
+    single quotes and an escape convention exists which allows any character to be
+    used within an atom.
+  last_name: Sherman
+  middle_name: Jetta
+  ons_household_id: '736535270957'
+  participant_id: DHR-763063387334
+  participant_withdrawal_reason: Participant does not want to self swab
+  participant_withdrawal_type: Withdrawn - no future linkage
+  postcode: She spent her earliest years reading classic literature, and writing poetry.
+  sample_return_preference: Initially composing light-hearted and irreverent works,
+    he also wrote serious, sombre and religious pieces beginning in the 1930s.
+  sex: Male
+  street: In 1989 the building was heavily damaged by fire, but it has since been
+    restored.
+  title: Prof.
+- city: Initially composing light-hearted and irreverent works, he also wrote serious,
+    sombre and religious pieces beginning in the 1930s.
+  communication_preference: Any element of a tuple can be accessed in constant time.
+  country: Haskell features a type system with type inference and lazy evaluation.
+  date_of_birth: '1986-06-28 00:00:00.000000'
+  ethnic_group: Other Ethnic Group
+  ethnicity: White-Gypsy or Irish Traveller
+  ethnicity_group: null
+  ethnicity_other: Do you come here often?
+  first_name: Humberto
+  language_preference: Its main implementation is the Glasgow Haskell Compiler.
+  last_name: Lynch
+  middle_name: Shaun
+  ons_household_id: '219547810444'
+  participant_id: DHR-769043821442
+  participant_withdrawal_reason: Moving Location
+  participant_withdrawal_type: null
+  postcode: Make me a sandwich.
+  sample_return_preference: '"Messages can be sent to and received from ports, but
+    these messages must obey the so-called ""port protocol."""'
+  sex: Female
+  street: Atoms are used within a program to denote distinguished values.
+  title: Ms.
+- city: '"Messages can be sent to and received from ports, but these messages must
+    obey the so-called ""port protocol."""'
+  communication_preference: Make me a sandwich.
+  country: '"Messages can be sent to and received from ports, but these messages must
+    obey the so-called ""port protocol."""'
+  date_of_birth: '1997-02-07 00:00:00.000000'
+  ethnic_group: Asian or Asian British
+  ethnicity: Mixed-White & Black Caribbean
+  ethnicity_group: null
+  ethnicity_other: Erlang is known for its designs that are well suited for systems.
+  first_name: Derek
+  language_preference: The arguments can be primitive data types or compound data
+    types.
+  last_name: Drake
+  middle_name: Demarcus
+  ons_household_id: '195028486959'
+  participant_id: DHR-867585874226
+  participant_withdrawal_reason: No longer convenient
+  participant_withdrawal_type: null
+  postcode: Atoms are used within a program to denote distinguished values.
+  sample_return_preference: Do you have any idea why this is not working?
+  sex: Female
+  street: Make me a sandwich.
+  title: Dr.
+- city: I don't even care.
+  communication_preference: Type classes first appeared in the Haskell programming
+    language.
+  country: Make me a sandwich.
+  date_of_birth: '1988-12-04 00:00:00.000000'
+  ethnic_group: White
+  ethnicity: Black,Caribbean,African-African
+  ethnicity_group: null
+  ethnicity_other: Make me a sandwich.
+  first_name: Crystle
+  language_preference: The arguments can be primitive data types or compound data
+    types.
+  last_name: Ball
+  middle_name: Reiko
+  ons_household_id: '930086875935'
+  participant_id: DHR-868570220212
+  participant_withdrawal_reason: No longer convenient
+  participant_withdrawal_type: Withdrawn
+  postcode: '"Messages can be sent to and received from ports, but these messages
+    must obey the so-called ""port protocol."""'
+  sample_return_preference: Do you have any idea why this is not working?
+  sex: Female
+  street: Its main implementation is the Glasgow Haskell Compiler.
+  title: Prof.
+- city: In 1989 the building was heavily damaged by fire, but it has since been restored.
+  communication_preference: Where are my pants?
+  country: Atoms are used within a program to denote distinguished values.
+  date_of_birth: '1983-02-05 00:00:00.000000'
+  ethnic_group: Black or African or Caribbean or Black British
+  ethnicity: Asian or Asian British-Chinese
+  ethnicity_group: null
+  ethnicity_other: I don't even care.
+  first_name: Stevie
+  language_preference: Its main implementation is the Glasgow Haskell Compiler.
+  last_name: Strong
+  middle_name: Truman
+  ons_household_id: '178619734353'
+  participant_id: DHR-881968747928
+  participant_withdrawal_reason: No longer wants to take part
+  participant_withdrawal_type: Withdrawn - no future linkage or use of samples
+  postcode: In 1989 the building was heavily damaged by fire, but it has since been
+    restored.
+  sample_return_preference: Atoms can contain any character if they are enclosed within
+    single quotes and an escape convention exists which allows any character to be
+    used within an atom.
+  sex: Female
+  street: '"Messages can be sent to and received from ports, but these messages must
+    obey the so-called ""port protocol."""'
+  title: null
+- city: The arguments can be primitive data types or compound data types.
+  communication_preference: Erlang is a general-purpose, concurrent, functional programming
+    language.
+  country: Atoms can contain any character if they are enclosed within single quotes
+    and an escape convention exists which allows any character to be used within an
+    atom.
+  date_of_birth: '1997-01-25 00:00:00.000000'
+  ethnic_group: Asian or Asian British
+  ethnicity: White-Gypsy or Irish Traveller
+  ethnicity_group: null
+  ethnicity_other: It is also a garbage-collected runtime system.
+  first_name: Donnell
+  language_preference: In 1989 the building was heavily damaged by fire, but it has
+    since been restored.
+  last_name: Brock
+  middle_name: Maple
+  ons_household_id: '757503098830'
+  participant_id: DHR-890407714528
+  participant_withdrawal_reason: Swab/blood process distressing
+  participant_withdrawal_type: Withdrawn - no future linkage
+  postcode: Atoms are used within a program to denote distinguished values.
+  sample_return_preference: The sequential subset of Erlang supports eager evaluation,
+    single assignment, and dynamic typing.
+  sex: Male
+  street: He looked inquisitively at his keyboard and wrote another sentence.
+  title: Miss.
+- city: '"Messages can be sent to and received from ports, but these messages must
+    obey the so-called ""port protocol."""'
+  communication_preference: I don't even care.
+  country: The Galactic Empire is nearing completion of the Death Star, a space station
+    with the power to destroy entire planets.
+  date_of_birth: '2005-06-08 00:00:00.000000'
+  ethnic_group: White
+  ethnicity: Mixed-White & Black African
+  ethnicity_group: null
+  ethnicity_other: Ports are created with the built-in function open_port.
+  first_name: Reita
+  language_preference: Its main implementation is the Glasgow Haskell Compiler.
+  last_name: Harrell
+  middle_name: Neda
+  ons_household_id: '011652671671'
+  participant_id: DHR-891036937066
+  participant_withdrawal_reason: null
+  participant_withdrawal_type: Withdrawn
+  postcode: Haskell is a standardized, general-purpose purely functional programming
+    language, with non-strict semantics and strong static typing.
+  sample_return_preference: Make me a sandwich.
+  sex: Male
+  street: Atoms are used within a program to denote distinguished values.
+  title: Prof.
+- city: Atoms are used within a program to denote distinguished values.
+  communication_preference: Where are my pants?
+  country: He looked inquisitively at his keyboard and wrote another sentence.
+  date_of_birth: '1997-08-21 00:00:00.000000'
+  ethnic_group: Other Ethnic Group
+  ethnicity: Asian or Asian British-Indian
+  ethnicity_group: null
+  ethnicity_other: The sequential subset of Erlang supports eager evaluation, single
+    assignment, and dynamic typing.
+  first_name: Dustin
+  language_preference: Do you come here often?
+  last_name: Cummings
+  middle_name: Leonel
+  ons_household_id: '420762754008'
+  participant_id: DHR-958511387882
+  participant_withdrawal_reason: No longer convenient
+  participant_withdrawal_type: Withdrawn - no future linkage
+  postcode: I don't even care.
+  sample_return_preference: Type classes first appeared in the Haskell programming
+    language.
+  sex: Male
+  street: I don't even care.
+  title: Miss.
+- city: Type classes first appeared in the Haskell programming language.
+  communication_preference: Ports are created with the built-in function open_port.
+  country: The sequential subset of Erlang supports eager evaluation, single assignment,
+    and dynamic typing.
+  date_of_birth: '1985-10-14 00:00:00.000000'
+  ethnic_group: Black or African or Caribbean or Black British
+  ethnicity: Black,Caribbean,African-African
+  ethnicity_group: null
+  ethnicity_other: Haskell features a type system with type inference and lazy evaluation.
+  first_name: Clora
+  language_preference: Haskell is a standardized, general-purpose purely functional
+    programming language, with non-strict semantics and strong static typing.
+  last_name: Lane
+  middle_name: Joette
+  ons_household_id: '633229661713'
+  participant_id: DHR-965687203229
+  participant_withdrawal_reason: Moving Location
+  participant_withdrawal_type: Withdrawn
+  postcode: Erlang is known for its designs that are well suited for systems.
+  sample_return_preference: Do you come here often?
+  sex: Female
+  street: Haskell is a standardized, general-purpose purely functional programming
+    language, with non-strict semantics and strong static typing.
+  title: Dr.
