@@ -1,0 +1,32 @@
+cishouseholds.pipeline.version\_specific\_processing.example\_survey\_response\_data\_v2
+========================================================================================
+
+.. automodule:: cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v2
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      derive_additional_columns
+      example_survey_response_data_v2_transformations
+      pre_processing
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

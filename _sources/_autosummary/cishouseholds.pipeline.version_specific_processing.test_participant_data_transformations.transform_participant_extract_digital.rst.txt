@@ -1,6 +1,0 @@
-cishouseholds.pipeline.version\_specific\_processing.test\_participant\_data\_transformations.transform\_participant\_extract\_digital
-======================================================================================================================================
-
-.. currentmodule:: cishouseholds.pipeline.version_specific_processing.test_participant_data_transformations
-
-.. autofunction:: transform_participant_extract_digital

@@ -1,6 +1,0 @@
-cishouseholds.pipeline.version\_specific\_processing.test\_survey\_response\_data\_version\_2\_transformations.derive\_work\_status\_columns
-============================================================================================================================================
-
-.. currentmodule:: cishouseholds.pipeline.version_specific_processing.test_survey_response_data_version_2_transformations
-
-.. autofunction:: derive_work_status_columns

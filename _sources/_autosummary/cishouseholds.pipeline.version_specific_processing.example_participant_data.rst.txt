@@ -1,0 +1,30 @@
+cishouseholds.pipeline.version\_specific\_processing.example\_participant\_data
+===============================================================================
+
+.. automodule:: cishouseholds.pipeline.version_specific_processing.example_participant_data
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      transform_example_participant_extract
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
