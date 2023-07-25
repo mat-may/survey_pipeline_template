@@ -1,5 +1,3 @@
-<img src="https://github.com/datasciencecampus/awesome-campus/blob/master/ons_logo.png">
-
 ![Python Version](https://img.shields.io/badge/Python-3.6.8-blue.svg)
 [![PySpark version](https://img.shields.io/badge/PySpark-2.4-blue)](https://spark.apache.org/docs/latest/api/python/)
 [![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
