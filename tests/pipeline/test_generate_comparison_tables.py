@@ -1,7 +1,7 @@
 import pytest
 from chispa import assert_df_equality
 
-from cishouseholds.pipeline.reporting import generate_comparison_tables
+from survey_pipeline_template.pipeline.reporting import generate_comparison_tables
 
 
 def test_generate_comparison_tables(spark_session):

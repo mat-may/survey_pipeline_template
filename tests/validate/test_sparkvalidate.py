@@ -6,7 +6,7 @@ from pyspark.sql.types import StringType
 from pyspark.sql.types import StructField
 from pyspark.sql.types import StructType
 
-from cishouseholds.validate_class import SparkValidate
+from survey_pipeline_template.validate_class import SparkValidate
 
 
 def test_sparkvalidate(spark_session):

@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.derive import assign_last_non_null_value_from_col_list
+from survey_pipeline_template.derive import assign_last_non_null_value_from_col_list
 
 
 def test_assign_last_non_null_value_from_col_list(spark_session):

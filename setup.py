@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 def get_version():
-    text = open(Path(__file__).parent / "cishouseholds" / "__init__.py").read()
+    text = open(Path(__file__).parent / "survey_pipeline_template" / "__init__.py").read()
     match = re.compile(r"^__version__\s*\=\s*[\"\']([^\s\'\"]+)", re.M).search(text)
     return match.group(1)
 
@@ -34,7 +34,7 @@ dev_requires = [
 ] + requires
 
 setuptools.setup(
-    name="cishouseholds",
+    name="survey_pipeline_template",
     version=get_version(),
     author="CIS development team",
     author_email="cis.dev@ons.gov.uk",

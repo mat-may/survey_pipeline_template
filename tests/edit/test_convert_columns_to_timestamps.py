@@ -5,7 +5,7 @@ from pyspark.sql.types import StructField
 from pyspark.sql.types import StructType
 from pyspark.sql.types import TimestampType
 
-from cishouseholds.edit import convert_columns_to_timestamps
+from survey_pipeline_template.edit import convert_columns_to_timestamps
 
 
 @pytest.mark.parametrize(

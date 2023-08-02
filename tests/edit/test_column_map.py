@@ -1,7 +1,7 @@
 import pytest
 from chispa import assert_df_equality
 
-from cishouseholds.edit import assign_from_map
+from survey_pipeline_template.edit import assign_from_map
 
 
 @pytest.mark.parametrize(

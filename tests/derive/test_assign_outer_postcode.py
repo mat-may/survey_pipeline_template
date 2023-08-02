@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_outward_postcode
+from survey_pipeline_template.derive import assign_outward_postcode
 
 
 def test_assign_outer_postcode(spark_session):

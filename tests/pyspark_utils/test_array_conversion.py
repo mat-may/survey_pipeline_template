@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 
-from cishouseholds.pyspark_utils import convert_array_strings_to_array
-from cishouseholds.pyspark_utils import convert_array_to_array_strings
+from survey_pipeline_template.pyspark_utils import convert_array_strings_to_array
+from survey_pipeline_template.pyspark_utils import convert_array_to_array_strings
 
 
 def test_convert_array_strings_to_array(spark_session):

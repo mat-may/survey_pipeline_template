@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.filter import filter_by_cq_diff
+from survey_pipeline_template.filter import filter_by_cq_diff
 
 
 def test_filter_by_cq_diff(spark_session):  # test funtion

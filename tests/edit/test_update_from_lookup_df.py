@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import update_from_lookup_df
+from survey_pipeline_template.edit import update_from_lookup_df
 
 
 def test_update_from_lookup_df(spark_session):

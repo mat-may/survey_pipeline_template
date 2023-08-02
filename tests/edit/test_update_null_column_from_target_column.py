@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import update_null_column_from_target_column
+from survey_pipeline_template.edit import update_null_column_from_target_column
 
 
 def test_update_null_column_from_target_column(spark_session):

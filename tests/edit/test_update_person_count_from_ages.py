@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import update_count_from_columns
+from survey_pipeline_template.edit import update_count_from_columns
 
 
 def test_update_count_from_columns(spark_session):

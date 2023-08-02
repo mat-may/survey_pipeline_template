@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import concat_fields_if_true
+from survey_pipeline_template.derive import concat_fields_if_true
 
 
 def test_concat_fields_if_true(spark_session):

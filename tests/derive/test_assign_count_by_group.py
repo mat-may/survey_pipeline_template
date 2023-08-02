@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_count_by_group
+from survey_pipeline_template.derive import assign_count_by_group
 
 
 def test_assign_count_by_group(spark_session):

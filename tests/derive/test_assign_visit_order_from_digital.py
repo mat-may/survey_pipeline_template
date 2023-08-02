@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_incremental_order
+from survey_pipeline_template.derive import assign_incremental_order
 
 
 def test_assign_incremental_order(spark_session):

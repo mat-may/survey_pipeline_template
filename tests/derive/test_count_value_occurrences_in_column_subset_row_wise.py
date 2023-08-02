@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import count_value_occurrences_in_column_subset_row_wise
+from survey_pipeline_template.derive import count_value_occurrences_in_column_subset_row_wise
 
 
 def test_count_value_occurrences_in_column_subset_row_wise(spark_session):

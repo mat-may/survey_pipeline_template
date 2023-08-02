@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import edit_to_sum_or_max_value
+from survey_pipeline_template.edit import edit_to_sum_or_max_value
 
 
 def test_edit_to_sum_or_max_value(spark_session):

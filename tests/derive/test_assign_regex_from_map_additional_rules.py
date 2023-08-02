@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_regex_from_map_additional_rules
+from survey_pipeline_template.derive import assign_regex_from_map_additional_rules
 
 
 def test_assign_regex_from_map_additional_rules(spark_session):

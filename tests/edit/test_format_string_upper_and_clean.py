@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import format_string_upper_and_clean
+from survey_pipeline_template.edit import format_string_upper_and_clean
 
 
 def test_format_string_upper_and_clean(spark_session):

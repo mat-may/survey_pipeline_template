@@ -1,8 +1,8 @@
 # import pytest
 # import yaml
 # from chispa import assert_df_equality
-# from cishouseholds.derive import assign_regex_match_result
-# from cishouseholds.pipeline.regex_patterns import healthcare_pattern
+# from survey_pipeline_template.derive import assign_regex_match_result
+# from survey_pipeline_template.pipeline.regex_patterns import healthcare_pattern
 # # A list of positive test cases which need to be interpreted as working in healthcare &
 # # negative test cases which shouldn't.
 # # Please append new cases to the appropriate list below

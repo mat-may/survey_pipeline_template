@@ -1,6 +1,6 @@
 from chispa.dataframe_comparer import assert_df_equality
 
-from cishouseholds.merge import null_safe_join
+from survey_pipeline_template.merge import null_safe_join
 
 
 def test_null_safe_join(spark_session):

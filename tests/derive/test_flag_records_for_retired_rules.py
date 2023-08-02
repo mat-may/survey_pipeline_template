@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.regex.regex_flags import flag_records_for_retired_rules
+from survey_pipeline_template.regex.regex_flags import flag_records_for_retired_rules
 
 
 def test_flag_records_for_retired_rules(spark_session):

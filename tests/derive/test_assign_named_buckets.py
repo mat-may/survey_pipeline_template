@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_named_buckets
+from survey_pipeline_template.derive import assign_named_buckets
 
 
 def test_assign_named_buckets(spark_session):

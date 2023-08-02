@@ -1,13 +1,13 @@
 from chispa import assert_df_equality
 
-from cishouseholds.regex.regex_flags import flag_records_for_uni_v0_rules
-from cishouseholds.regex.regex_flags import flag_records_for_uni_v2_rules
+from survey_pipeline_template.regex.regex_flags import flag_records_for_uni_v0_rules
+from survey_pipeline_template.regex.regex_flags import flag_records_for_uni_v2_rules
 
 
 def test_flag_records_for_uni_v2_rules(spark_session):
     """Test flag_records_for_uni_v2_rules function correctly flags the records"""
 
-    # the following is from cishouseholds.mapping.category_maps['iqvia_raw_category_map']['work_status_v2']
+    # the following is from survey_pipeline_template.mapping.category_maps['iqvia_raw_category_map']['work_status_v2']
     test_cases = [
         ("Employed and currently working", 35, False),
         ("Employed and currently not working", 99, True),
@@ -47,7 +47,7 @@ def test_flag_records_for_uni_v2_rules(spark_session):
 def test_flag_records_for_uni_v0_rules(spark_session):
     """Test flag_records_for_uni_v0_rules function correctly flags the records"""
 
-    # the following is from cishouseholds.mapping.category_maps['iqvia_raw_category_map']['work_status_v0']
+    # the following is from survey_pipeline_template.mapping.category_maps['iqvia_raw_category_map']['work_status_v0']
     test_cases = [
         ("Employed", 35, False),
         ("Self-employed", 99, False),

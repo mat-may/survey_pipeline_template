@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.filter import filter_exclude_by_pattern
+from survey_pipeline_template.filter import filter_exclude_by_pattern
 
 
 def test_filtering_by_known_pattern_returns_filtered_dataframe(spark_session):

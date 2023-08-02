@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.derive import assign_multigenerational
+from survey_pipeline_template.derive import assign_multigenerational
 
 # fmt:  off
 

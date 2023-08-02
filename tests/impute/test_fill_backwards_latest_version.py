@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.impute import fill_backwards_overriding_not_nulls
+from survey_pipeline_template.impute import fill_backwards_overriding_not_nulls
 
 
 def test_fill_backwards_lattest_version(spark_session):

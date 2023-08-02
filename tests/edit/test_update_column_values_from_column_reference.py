@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import update_column_values_from_map
+from survey_pipeline_template.edit import update_column_values_from_map
 
 
 def test_update_column_values_from_column_reference(spark_session):

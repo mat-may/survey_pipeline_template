@@ -1,6 +1,6 @@
 import pytest
 
-from cishouseholds.validate import check_lookup_table_joined_columns_unique
+from survey_pipeline_template.validate import check_lookup_table_joined_columns_unique
 
 
 def test_check_lookup_table_joined_columns_unique_fail(spark_session):

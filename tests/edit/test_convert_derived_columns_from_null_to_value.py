@@ -1,7 +1,7 @@
 import pytest
 from chispa import assert_df_equality
 
-from cishouseholds.edit import convert_derived_columns_from_null_to_value
+from survey_pipeline_template.edit import convert_derived_columns_from_null_to_value
 
 
 @pytest.fixture

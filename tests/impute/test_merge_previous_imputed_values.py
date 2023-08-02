@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.impute import merge_previous_imputed_values
+from survey_pipeline_template.impute import merge_previous_imputed_values
 
 
 def test_merge_previous_imputed_values(spark_session):

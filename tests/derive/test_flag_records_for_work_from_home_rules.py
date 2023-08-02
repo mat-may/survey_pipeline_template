@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.regex.regex_flags import flag_records_for_work_from_home_rules
+from survey_pipeline_template.regex.regex_flags import flag_records_for_work_from_home_rules
 
 
 def test_flag_records_for_work_from_home_rules(spark_session):

@@ -1,7 +1,7 @@
 import pytest
 from chispa import assert_df_equality
 
-from cishouseholds.pipeline.generate_outputs import configure_outputs
+from survey_pipeline_template.pipeline.generate_outputs import configure_outputs
 
 
 def test_configure_outputs(spark_session):

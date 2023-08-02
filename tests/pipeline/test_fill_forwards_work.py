@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from chispa import assert_df_equality
 
-from cishouseholds.pipeline.job_transformations import fill_forwards
+from survey_pipeline_template.pipeline.job_transformations import fill_forwards
 
 
 def test_filling_forwards(spark_session):

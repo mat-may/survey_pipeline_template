@@ -1,6 +1,6 @@
 import pytest
 
-from cishouseholds.derive import get_keys_by_value
+from survey_pipeline_template.derive import get_keys_by_value
 
 
 @pytest.fixture

@@ -2,7 +2,7 @@ import pyspark.sql.functions as F
 import pytest
 from chispa import assert_df_equality
 
-from cishouseholds.pipeline.reporting import ExcelReport
+from survey_pipeline_template.pipeline.reporting import ExcelReport
 
 
 @pytest.fixture

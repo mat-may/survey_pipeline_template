@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_raw_copies
+from survey_pipeline_template.derive import assign_raw_copies
 
 
 def test_assign_raw_copies(spark_session):

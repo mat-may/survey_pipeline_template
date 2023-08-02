@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from chispa import assert_df_equality
 
-from cishouseholds.edit import conditionally_replace_columns
+from survey_pipeline_template.edit import conditionally_replace_columns
 
 
 def test_conditionally_replace_columns(spark_session):

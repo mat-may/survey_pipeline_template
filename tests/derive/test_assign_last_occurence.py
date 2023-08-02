@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.derive import assign_last_occurence
+from survey_pipeline_template.derive import assign_last_occurence
 
 
 def test_assign_last_occurence(spark_session):

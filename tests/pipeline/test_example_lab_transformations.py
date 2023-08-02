@@ -1,7 +1,7 @@
 import pytest
 
-from cishouseholds.merge import union_multiple_tables
-from cishouseholds.pipeline.lab_transformations import lab_transformations
+from survey_pipeline_template.merge import union_multiple_tables
+from survey_pipeline_template.pipeline.lab_transformations import lab_transformations
 
 
 @pytest.mark.regression

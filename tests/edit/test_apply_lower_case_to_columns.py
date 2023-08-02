@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import update_strings_to_sentence_case
+from survey_pipeline_template.edit import update_strings_to_sentence_case
 
 
 def test_update_strings_to_sentence_case(spark_session):

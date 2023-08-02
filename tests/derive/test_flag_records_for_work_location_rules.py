@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 
-from cishouseholds.regex.regex_flags import flag_records_for_work_location_null
-from cishouseholds.regex.regex_flags import flag_records_for_work_location_student
+from survey_pipeline_template.regex.regex_flags import flag_records_for_work_location_null
+from survey_pipeline_template.regex.regex_flags import flag_records_for_work_location_student
 
 
 def test_flag_records_for_work_location_null(spark_session):

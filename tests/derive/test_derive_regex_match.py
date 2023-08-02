@@ -1,7 +1,7 @@
 import pytest
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_column_regex_match
+from survey_pipeline_template.derive import assign_column_regex_match
 
 
 @pytest.mark.parametrize(

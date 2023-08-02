@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_condition_around_event
+from survey_pipeline_template.derive import assign_condition_around_event
 
 
 def test_assign_condition_around_event(spark_session):

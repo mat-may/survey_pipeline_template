@@ -1,5 +1,5 @@
-from cishouseholds.pipeline.pipeline_stages import pipeline_stages
-from cishouseholds.pipeline.pipeline_stages import register_pipeline_stage
+from survey_pipeline_template.pipeline.pipeline_stages import pipeline_stages
+from survey_pipeline_template.pipeline.pipeline_stages import register_pipeline_stage
 
 
 def test_register_pipeline_stage():

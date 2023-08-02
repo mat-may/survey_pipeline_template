@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_column_value_from_multiple_column_map
+from survey_pipeline_template.derive import assign_column_value_from_multiple_column_map
 
 
 def test_assign_column_value_from_multiple_column_map(spark_session):

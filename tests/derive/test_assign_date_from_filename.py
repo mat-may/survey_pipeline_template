@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_date_from_filename
+from survey_pipeline_template.derive import assign_date_from_filename
 
 
 def test_csv_filename_with_date_and_time_appends_date_and_time(spark_session):

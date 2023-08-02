@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.pipeline.lookup_and_regex_transformations import transform_cis_soc_data
+from survey_pipeline_template.pipeline.lookup_and_regex_transformations import transform_cis_soc_data
 
 
 def test_transform_cis_soc_data(spark_session):

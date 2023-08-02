@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import map_options_to_bool_columns
+from survey_pipeline_template.derive import map_options_to_bool_columns
 
 
 def test_map_options_to_bool_columns_string(spark_session):

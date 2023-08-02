@@ -1,8 +1,8 @@
 from chispa import assert_df_equality
 from pyspark.sql import DataFrame
 
-from cishouseholds.expressions import first_sorted_val_row_wise
-from cishouseholds.expressions import last_sorted_val_row_wise
+from survey_pipeline_template.expressions import first_sorted_val_row_wise
+from survey_pipeline_template.expressions import last_sorted_val_row_wise
 
 # import pyspark.sql import SparkSession
 

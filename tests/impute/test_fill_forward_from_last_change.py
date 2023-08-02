@@ -1,9 +1,9 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import update_to_value_if_any_not_null
-from cishouseholds.impute import fill_forward_from_last_change
+from survey_pipeline_template.edit import update_to_value_if_any_not_null
+from survey_pipeline_template.impute import fill_forward_from_last_change
 
-# from cishouseholds.edit import update_travel_column
+# from survey_pipeline_template.edit import update_travel_column
 
 
 def test_fill_forward_from_last_change(spark_session):

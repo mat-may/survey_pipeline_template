@@ -2,7 +2,7 @@ import pyspark.sql.functions as F
 from chispa import assert_df_equality
 from pyspark.sql import DataFrame
 
-from cishouseholds.impute import impute_and_flag
+from survey_pipeline_template.impute import impute_and_flag
 
 
 def _example_imputer(df: DataFrame, column_name_to_assign: str, reference_column: str, literal=1):

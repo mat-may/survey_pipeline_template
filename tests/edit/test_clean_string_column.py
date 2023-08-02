@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import clean_string_column
+from survey_pipeline_template.edit import clean_string_column
 
 
 def test_clean_string_column(spark_session):

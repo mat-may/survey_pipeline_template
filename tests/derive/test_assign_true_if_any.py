@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_true_if_any
+from survey_pipeline_template.derive import assign_true_if_any
 
 
 def test_assign_true_if_either(spark_session):
