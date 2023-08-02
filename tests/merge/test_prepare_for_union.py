@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.merge import prepare_for_union
+from survey_pipeline_template.merge import prepare_for_union
 
 
 def test_prepare_for_union(spark_session):

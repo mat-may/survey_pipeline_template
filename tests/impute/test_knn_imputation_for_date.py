@@ -3,7 +3,7 @@ import os
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.impute import impute_date_by_k_nearest_neighbours
+from survey_pipeline_template.impute import impute_date_by_k_nearest_neighbours
 
 
 def test_impute_date_by_k_nearest_neighbours(spark_session):

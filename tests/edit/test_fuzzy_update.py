@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from chispa.dataframe_comparer import assert_df_equality
 
-from cishouseholds.edit import fuzzy_update
+from survey_pipeline_template.edit import fuzzy_update
 
 
 def test_fuzzy_update(spark_session):

@@ -4,7 +4,7 @@ import pytest
 from chispa.dataframe_comparer import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.pipeline.demographic_transformations import impute_key_columns
+from survey_pipeline_template.pipeline.demographic_transformations import impute_key_columns
 
 
 @pytest.mark.integration

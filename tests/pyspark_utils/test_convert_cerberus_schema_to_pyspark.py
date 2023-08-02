@@ -1,6 +1,6 @@
 from pyspark.sql.types import StructField
 
-from cishouseholds.pyspark_utils import convert_cerberus_schema_to_pyspark
+from survey_pipeline_template.pyspark_utils import convert_cerberus_schema_to_pyspark
 
 
 def test_conversion():

@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import cast_columns_from_string
+from survey_pipeline_template.edit import cast_columns_from_string
 
 
 def test_re_cast_columns_from_string(spark_session):

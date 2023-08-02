@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.impute import weighted_distance
+from survey_pipeline_template.impute import weighted_distance
 
 
 def test_weighted_distance(spark_session):

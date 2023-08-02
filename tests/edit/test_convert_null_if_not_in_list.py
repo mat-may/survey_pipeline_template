@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import convert_null_if_not_in_list
+from survey_pipeline_template.edit import convert_null_if_not_in_list
 
 
 def test_convert_null_if_not_in_list(spark_session):

@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.validate import check_singular_match
+from survey_pipeline_template.validate import check_singular_match
 
 
 def test_check_singular_match(spark_session):

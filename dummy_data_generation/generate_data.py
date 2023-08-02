@@ -10,9 +10,6 @@ import pandas as pd
 from mimesis.schema import Field
 from mimesis.schema import Schema
 
-from cishouseholds.hdfs_utils import create_dir
-from cishouseholds.hdfs_utils import write_string_to_file
-from cishouseholds.pyspark_utils import get_or_create_spark_session
 from dummy_data_generation.helpers import code_mask
 from dummy_data_generation.helpers import CustomRandom
 from dummy_data_generation.helpers_weight import Distribution
@@ -21,6 +18,9 @@ from dummy_data_generation.schemas import get_example_participant_data_data_desc
 from dummy_data_generation.schemas import get_example_survey_response_data_v1_data_description
 from dummy_data_generation.schemas import get_example_survey_response_data_v2_data_description
 from dummy_data_generation.schemas import get_nims_data_description
+from survey_pipeline_template.hdfs_utils import create_dir
+from survey_pipeline_template.hdfs_utils import write_string_to_file
+from survey_pipeline_template.pyspark_utils import get_or_create_spark_session
 
 
 _ = Field("en-gb", seed=42, providers=[Distribution, CustomRandom])

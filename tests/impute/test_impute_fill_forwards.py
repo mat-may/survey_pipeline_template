@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.impute import edit_multiple_columns_fill_forward
+from survey_pipeline_template.impute import edit_multiple_columns_fill_forward
 
 
 def test_edit_multiple_columns_fill_forward(spark_session):

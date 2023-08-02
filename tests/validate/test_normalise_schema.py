@@ -1,6 +1,6 @@
 # from email import header
 # from chispa import assert_df_equality
-# from cishouseholds.validate import normalise_schema
+# from survey_pipeline_template.validate import normalise_schema
 # def test_normalise_scehma(spark_session, pandas_df_to_temporary_csv):
 #     """Test that validator works to assign failed flags to columns where result is not unique"""
 #     input_df1 = spark_session.createDataFrame(

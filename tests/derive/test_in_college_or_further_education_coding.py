@@ -2,8 +2,8 @@ import pytest
 import yaml
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_regex_match_result
-from cishouseholds.regex.regex_patterns import in_college_or_further_education_pattern
+from survey_pipeline_template.derive import assign_regex_match_result
+from survey_pipeline_template.regex.regex_patterns import in_college_or_further_education_pattern
 
 # A list of positive test cases which need to be interpreted as In College or
 # Further Education and negative test cases which shouldn't.

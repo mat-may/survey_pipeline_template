@@ -1,7 +1,7 @@
 import pytest
 
-from cishouseholds.validate import ConfigError
-from cishouseholds.validate import validate_config_stages
+from survey_pipeline_template.validate import ConfigError
+from survey_pipeline_template.validate import validate_config_stages
 
 
 def test_upfront_key_value_parameters_validation_pass():

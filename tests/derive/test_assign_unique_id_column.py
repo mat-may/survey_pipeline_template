@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_unique_id_column
+from survey_pipeline_template.derive import assign_unique_id_column
 
 
 def test_assign_unique_id_column(spark_session):

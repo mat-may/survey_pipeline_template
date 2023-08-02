@@ -19,7 +19,7 @@ def pushToPyPiArtifactoryRepo(String projectName, String sourceDist = 'dist/*', 
 pipeline {
     // Define env variables
     environment {
-        PROJECT_NAME = 'cishouseholds'
+        PROJECT_NAME = 'survey_pipeline_template'
         ARTIFACTORY_CREDS = 'ARTIFACTORY_CREDS' // set in Jenkins Credentials
         ARTIFACTORY_PYPI_REPO = 'ARTIFACTORY_REPO' // set in Jenkins Credentials
     }

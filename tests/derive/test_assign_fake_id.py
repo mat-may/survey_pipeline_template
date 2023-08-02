@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_fake_id
+from survey_pipeline_template.derive import assign_fake_id
 
 
 def test_assign_fake_id(spark_session):

@@ -12,7 +12,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath("../.."))
-sys.path.insert(0, os.path.abspath("../../cishouseholds"))
+sys.path.insert(0, os.path.abspath("../../survey_pipeline_template"))
 # -- Project information -----------------------------------------------------
 
 project = "survey_pipeline_template"

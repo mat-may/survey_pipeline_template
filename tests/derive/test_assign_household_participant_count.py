@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_household_participant_count
+from survey_pipeline_template.derive import assign_household_participant_count
 
 
 def test_assign_household_participant_count(spark_session):

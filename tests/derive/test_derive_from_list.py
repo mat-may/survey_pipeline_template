@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_isin_list
+from survey_pipeline_template.derive import assign_isin_list
 
 
 def test_assign_isin_list(spark_session):

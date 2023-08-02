@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_age_group_school_year
+from survey_pipeline_template.derive import assign_age_group_school_year
 
 
 def test_assign_age_group_school_year(spark_session):

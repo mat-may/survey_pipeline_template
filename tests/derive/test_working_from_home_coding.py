@@ -2,8 +2,8 @@ import pytest
 import yaml
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_regex_match_result
-from cishouseholds.regex.regex_patterns import work_from_home_pattern
+from survey_pipeline_template.derive import assign_regex_match_result
+from survey_pipeline_template.regex.regex_patterns import work_from_home_pattern
 
 
 # A list of positive test cases which need to be interpreted as "Working from Home" &

@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.filter import filter_before_date_or_null
+from survey_pipeline_template.filter import filter_before_date_or_null
 
 
 def test_filter_before_date_or_null(spark_session):  # test funtion

@@ -1,8 +1,8 @@
 import pytest
 
-from cishouseholds.pyspark_utils import get_or_create_spark_session
-from cishouseholds.validate import validate_csv_fields
-from cishouseholds.validate import validate_csv_header
+from survey_pipeline_template.pyspark_utils import get_or_create_spark_session
+from survey_pipeline_template.validate import validate_csv_fields
+from survey_pipeline_template.validate import validate_csv_header
 
 
 @pytest.fixture

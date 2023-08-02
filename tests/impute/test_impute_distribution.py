@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.impute import impute_by_distribution
+from survey_pipeline_template.impute import impute_by_distribution
 
 
 # debating whether to fix seed or mock F.rand

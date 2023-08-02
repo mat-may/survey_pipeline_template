@@ -1,16 +1,16 @@
 from chispa import assert_df_equality
 
-from cishouseholds.regex.regex_flags import flag_records_for_furlough_rules_v0
-from cishouseholds.regex.regex_flags import flag_records_for_furlough_rules_v1_a
-from cishouseholds.regex.regex_flags import flag_records_for_furlough_rules_v1_b
-from cishouseholds.regex.regex_flags import flag_records_for_furlough_rules_v2_a
-from cishouseholds.regex.regex_flags import flag_records_for_furlough_rules_v2_b
+from survey_pipeline_template.regex.regex_flags import flag_records_for_furlough_rules_v0
+from survey_pipeline_template.regex.regex_flags import flag_records_for_furlough_rules_v1_a
+from survey_pipeline_template.regex.regex_flags import flag_records_for_furlough_rules_v1_b
+from survey_pipeline_template.regex.regex_flags import flag_records_for_furlough_rules_v2_a
+from survey_pipeline_template.regex.regex_flags import flag_records_for_furlough_rules_v2_b
 
 
 def test_flag_records_for_furlough_rules_v0(spark_session):
     """Test flag_records_for_furlough_rules_v0 function correctly flags the records"""
 
-    # the following is from cishouseholds.mapping.category_maps['iqvia_raw_category_map']['work_status_v0']
+    # the following is from survey_pipeline_template.mapping.category_maps['iqvia_raw_category_map']['work_status_v0']
     test_cases = [
         ("Employed", 1, True),
         ("Self-employed", 2, True),
@@ -38,7 +38,7 @@ def test_flag_records_for_furlough_rules_v0(spark_session):
 def test_flag_records_for_furlough_rules_v1_a(spark_session):
     """Test flag_records_for_furlough_rules_v1_a function correctly flags the records"""
 
-    # the following is from cishouseholds.mapping.category_maps['iqvia_raw_category_map']['work_status_v1']
+    # the following is from survey_pipeline_template.mapping.category_maps['iqvia_raw_category_map']['work_status_v1']
     test_cases = [
         ("Employed and currently working", 1, True),
         ("Employed and currently not working", 2, False),
@@ -71,7 +71,7 @@ def test_flag_records_for_furlough_rules_v1_a(spark_session):
 def test_flag_records_for_furlough_rules_v1_b(spark_session):
     """Test flag_records_for_furlough_rules_v1_b function correctly flags the records"""
 
-    # the following is from cishouseholds.mapping.category_maps['iqvia_raw_category_map']['work_status_v1']
+    # the following is from survey_pipeline_template.mapping.category_maps['iqvia_raw_category_map']['work_status_v1']
     test_cases = [
         ("Employed and currently working", 1, False),
         ("Employed and currently not working", 2, False),
@@ -104,7 +104,7 @@ def test_flag_records_for_furlough_rules_v1_b(spark_session):
 def test_flag_records_for_furlough_rules_v2_a(spark_session):
     """Test flag_records_for_furlough_rules_v2_a function correctly flags the records"""
 
-    # the following is from cishouseholds.mapping.category_maps['iqvia_raw_category_map']['work_status_v2']
+    # the following is from survey_pipeline_template.mapping.category_maps['iqvia_raw_category_map']['work_status_v2']
     test_cases = [
         ("Employed and currently working", 1, True),
         ("Employed and currently not working", 2, False),
@@ -139,7 +139,7 @@ def test_flag_records_for_furlough_rules_v2_a(spark_session):
 def test_flag_records_for_furlough_rules_v2_b(spark_session):
     """Test flag_records_for_furlough_rules_v2_b function correctly flags the records"""
 
-    # the following is from cishouseholds.mapping.category_maps['iqvia_raw_category_map']['work_status_v2']
+    # the following is from survey_pipeline_template.mapping.category_maps['iqvia_raw_category_map']['work_status_v2']
     test_cases = [
         ("Employed and currently working", 1, False),
         ("Employed and currently not working", 2, False),

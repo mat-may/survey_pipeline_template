@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_date_difference
+from survey_pipeline_template.derive import assign_date_difference
 
 
 def test_assign_date_difference(spark_session):

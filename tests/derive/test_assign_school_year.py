@@ -2,7 +2,7 @@ import pyspark.sql.functions as F
 import pytest
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_school_year
+from survey_pipeline_template.derive import assign_school_year
 
 
 @pytest.fixture

@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.filter import filter_exclude_source_file
+from survey_pipeline_template.filter import filter_exclude_source_file
 
 
 def test_filter_exclude_source_file(spark_session):  # test funtion

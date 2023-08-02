@@ -3,7 +3,7 @@ import random
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.derive import assign_random_day_in_month
+from survey_pipeline_template.derive import assign_random_day_in_month
 
 
 def test_assign_random_day_in_month(spark_session):

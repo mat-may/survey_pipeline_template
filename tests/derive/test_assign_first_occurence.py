@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.derive import assign_first_occurence
+from survey_pipeline_template.derive import assign_first_occurence
 
 
 def test_assign_first_occurence(spark_session):

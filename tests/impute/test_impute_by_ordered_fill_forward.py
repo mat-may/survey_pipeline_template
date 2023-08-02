@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.impute import impute_by_ordered_fill_forward
+from survey_pipeline_template.impute import impute_by_ordered_fill_forward
 
 
 def test_impute_by_ordered_fill_forward_asc(spark_session):

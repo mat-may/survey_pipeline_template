@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.impute import impute_by_mode
+from survey_pipeline_template.impute import impute_by_mode
 
 
 def test_impute_mode(spark_session):

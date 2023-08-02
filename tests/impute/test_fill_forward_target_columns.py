@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.impute import fill_forward_target_columns
+from survey_pipeline_template.impute import fill_forward_target_columns
 
 schema = """
     participant_id integer,

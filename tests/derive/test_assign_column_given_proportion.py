@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_column_given_proportion
+from survey_pipeline_template.derive import assign_column_given_proportion
 
 
 def test_assign_column_given_proportion(spark_session):

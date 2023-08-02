@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_ethnicity_white
+from survey_pipeline_template.derive import assign_ethnicity_white
 
 
 def test_assign_ethnicity_white(spark_session):

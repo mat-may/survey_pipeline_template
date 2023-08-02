@@ -4,7 +4,7 @@ from chispa.dataframe_comparer import assert_df_equality
 from pyspark.sql import functions as F
 from pyspark.sql import types as t
 
-from cishouseholds.pipeline.lookup_and_regex_transformations import reclassify_work_variables
+from survey_pipeline_template.pipeline.lookup_and_regex_transformations import reclassify_work_variables
 
 
 @pytest.fixture

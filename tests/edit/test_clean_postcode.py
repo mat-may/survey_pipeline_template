@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import clean_postcode
+from survey_pipeline_template.edit import clean_postcode
 
 
 def test_clean_postcode(spark_session):

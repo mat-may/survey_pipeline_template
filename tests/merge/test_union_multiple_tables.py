@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.merge import union_multiple_tables
+from survey_pipeline_template.merge import union_multiple_tables
 
 
 def test_union_multiple_tables(spark_session):

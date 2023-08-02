@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.pipeline.reporting import count_variable_option
+from survey_pipeline_template.pipeline.reporting import count_variable_option
 
 # import pyspark.sql import SparkSession
 

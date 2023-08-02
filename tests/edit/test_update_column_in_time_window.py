@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import update_column_in_time_window
+from survey_pipeline_template.edit import update_column_in_time_window
 
 
 def test_update_column_in_time_window(spark_session):

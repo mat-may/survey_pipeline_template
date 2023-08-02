@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import update_column_if_ref_in_list
+from survey_pipeline_template.edit import update_column_if_ref_in_list
 
 
 def test_update_column_if_ref_in_list(spark_session):

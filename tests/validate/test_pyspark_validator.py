@@ -1,5 +1,5 @@
 # import pyspark.sql.functions as F
-# from cishouseholds.validate import PySparkValidator
+# from survey_pipeline_template.validate import PySparkValidator
 # def test_validator_with_timestamp(spark_session):
 #     """Test that validator works with timestamp and double types, which do not exist in super class"""
 #     schema = {"ts": {"type": "timestamp"}, "double": {"type": "double"}}

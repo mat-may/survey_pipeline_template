@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 from pyspark.sql import functions as F
 
-from cishouseholds.derive import assign_datetime_from_coalesced_columns_and_log_source
+from survey_pipeline_template.derive import assign_datetime_from_coalesced_columns_and_log_source
 
 
 def test_assign_datetime_from_coalesced_columns_and_log_source(spark_session):

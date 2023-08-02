@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_column_from_mapped_list_key
+from survey_pipeline_template.derive import assign_column_from_mapped_list_key
 
 
 def test_assign_column_from_mapped_list_key(spark_session):

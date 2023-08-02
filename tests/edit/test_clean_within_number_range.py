@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.edit import clean_within_number_range
+from survey_pipeline_template.edit import clean_within_number_range
 
 
 def test_clean_within_number_range(spark_session):

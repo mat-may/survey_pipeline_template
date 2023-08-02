@@ -2,7 +2,7 @@ import pyspark.sql.functions as F
 import pytest
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_datetime_from_combined_columns
+from survey_pipeline_template.derive import assign_datetime_from_combined_columns
 
 
 def test_assign_datetime_from_combined_columns_no_date(spark_session):

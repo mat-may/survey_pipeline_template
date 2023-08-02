@@ -1,8 +1,8 @@
 import pyspark.sql.functions as F
 from chispa import assert_df_equality
 
-from cishouseholds.derive import aggregated_output_groupby
-from cishouseholds.derive import aggregated_output_window
+from survey_pipeline_template.derive import aggregated_output_groupby
+from survey_pipeline_template.derive import aggregated_output_window
 
 
 def test_aggregated_output(spark_session):

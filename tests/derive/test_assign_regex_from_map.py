@@ -1,8 +1,8 @@
 import pyspark.sql.functions as F
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_regex_from_map
-from cishouseholds.pyspark_utils import get_or_create_spark_session
+from survey_pipeline_template.derive import assign_regex_from_map
+from survey_pipeline_template.pyspark_utils import get_or_create_spark_session
 
 
 def test_assign_regex_from_map(spark_session):

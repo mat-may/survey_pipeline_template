@@ -1,7 +1,7 @@
 from chispa import assert_df_equality
 from pyspark.sql import DataFrame
 
-from cishouseholds.expressions import count_occurrence_in_row
+from survey_pipeline_template.expressions import count_occurrence_in_row
 
 # import pyspark.sql import SparkSession
 

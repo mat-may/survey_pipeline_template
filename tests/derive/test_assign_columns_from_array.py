@@ -1,6 +1,6 @@
 from chispa import assert_df_equality
 
-from cishouseholds.derive import assign_columns_from_array
+from survey_pipeline_template.derive import assign_columns_from_array
 
 
 def test_assign_columns_from_array(spark_session):
