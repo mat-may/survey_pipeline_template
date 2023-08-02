@@ -13,7 +13,7 @@ def visit_transformations(df: DataFrame):
     """derives visit based derivations, but must have old responses joined to first
     in order to be continuous from CRIS to PHM
     """
-    df = visit_derivations(df).custom_checkpoint()
+    df = visit_derivations(df)
     return df
 
 
@@ -50,25 +50,8 @@ def visit_derivations(df: DataFrame):
         column_name_to_assign="fortnight_since_enrolment",
         start_reference_column="household_first_visit_datetime",
         end_reference_column="visit_datetime",
-        format="fortnight",
+        format="fortnights",
     )
-    # df = df.withColumn("first_survey_week", F.lit("2020-04-16 00:00:00"))  # first fortnight of survey
-
-    # df = assign_date_difference(
-    #      df=df,
-    #      column_name_to_assign="fortnight_of_enrolment",
-    #      start_reference_column="first_survey_week",
-    #      end_reference_column="household_first_visit_datetime",
-    #      format="fortnight",
-    #  )
-    # df = df.withColumn("fortnight_of_enrolment", F.col("fortnight_of_enrolment") + F.lit(1)).drop("first_survey_week")
-    # df = assign_date_difference(
-    #      df=df,
-    #      column_name_to_assign="household_weeks_since_survey_enrolment",
-    #      start_reference_column="survey start",
-    #      end_reference_column="visit_datetime",
-    #      format="weeks",
-    #  )
     df = assign_named_buckets(
         df,
         reference_column="days_since_enrolment",

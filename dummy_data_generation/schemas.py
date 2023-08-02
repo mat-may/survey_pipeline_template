@@ -669,7 +669,7 @@ def get_example_survey_response_data_v1_data_description(_, swab_barcodes):
             "discrete_distribution",
             population=swab_barcodes,
             weights=[1 / len(swab_barcodes)] * len(swab_barcodes),
-            null_prop=0.2,
+            null_prop=0.1,
         ),
         "swab_sample_barcode_correct": _("choice", items=yes_no_none_choice),
         "swab_sample_barcode_user_entered": _("random.custom_code", mask="SWT########", digit="#"),
@@ -783,7 +783,7 @@ def get_example_survey_response_data_v2_data_description(_, swab_barcodes):
             "discrete_distribution",
             population=swab_barcodes,
             weights=[1 / len(swab_barcodes)] * len(swab_barcodes),
-            null_prop=0.2,
+            null_prop=0.1,
         ),
         # Format:  YYYY-mm-ddTHH:MM:SS.sssZ
         "Date_Time_Samples_Taken": _(

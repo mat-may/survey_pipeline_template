@@ -19,7 +19,7 @@
   participant_completion_window_start_date: '2022-01-08 00:00:00.000000'
   participant_id: DHR-230713758808
   survey_completed_datetime: '2022-01-03 19:48:20.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-03 23:19:23.000000'
   swab_not_taken_reason: The swab test kit arrived with parts missing
   swab_return_date: '2022-01-03 00:00:00.000000'
@@ -129,7 +129,7 @@
   participant_completion_window_start_date: '2022-01-08 00:00:00.000000'
   participant_id: DHR-549044649006
   survey_completed_datetime: '2022-01-03 17:55:16.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-05 03:25:31.000000'
   swab_not_taken_reason: The swab test kit arrived with parts missing
   swab_return_date: '2022-01-09 00:00:00.000000'
@@ -241,7 +241,7 @@
   participant_completion_window_start_date: '2022-01-01 00:00:00.000000'
   participant_id: DHR-449957129557
   survey_completed_datetime: '2022-01-03 01:28:27.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: null
   swab_not_taken_reason: The swab test kit arrived both damaged and with parts missing
   swab_return_date: '2022-01-03 00:00:00.000000'
@@ -350,7 +350,7 @@
   participant_completion_window_start_date: null
   participant_id: DHR-403641416035
   survey_completed_datetime: '2022-01-06 07:04:28.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-04 01:01:35.000000'
   swab_not_taken_reason: The swab test kit arrived both damaged and with parts missing
   swab_return_date: '2022-01-08 00:00:00.000000'
@@ -460,7 +460,7 @@
   participant_completion_window_start_date: '2022-01-02 00:00:00.000000'
   participant_id: DHR-069974068469
   survey_completed_datetime: '2022-01-02 05:00:24.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-09 10:48:31.000000'
   swab_not_taken_reason: I did not want to take it this month
   swab_return_date: '2022-01-02 00:00:00.000000'
@@ -570,7 +570,7 @@
   participant_completion_window_start_date: '2022-01-04 00:00:00.000000'
   participant_id: DHR-627540089585
   survey_completed_datetime: '2022-01-08 03:05:20.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-06 15:31:42.000000'
   swab_not_taken_reason: I did not want to take it this month
   swab_return_date: '2022-01-08 00:00:00.000000'
@@ -680,7 +680,7 @@
   participant_completion_window_start_date: '2022-01-07 00:00:00.000000'
   participant_id: DHR-697669456980
   survey_completed_datetime: '2022-01-05 21:06:50.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-06 05:06:10.000000'
   swab_not_taken_reason: I am near the end of my testing window and my swab test kit
     has not arrived
@@ -791,7 +791,7 @@
   participant_completion_window_start_date: '2022-01-09 00:00:00.000000'
   participant_id: DHR-507215072283
   survey_completed_datetime: '2022-01-03 23:45:07.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-07 15:05:52.000000'
   swab_not_taken_reason: The swab test kit arrived damaged
   swab_return_date: '2022-01-01 00:00:00.000000'
@@ -905,7 +905,7 @@
   participant_completion_window_start_date: '2022-01-04 00:00:00.000000'
   participant_id: DHR-281342559296
   survey_completed_datetime: '2022-01-01 19:56:11.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: null
   swab_not_taken_reason: I am near the end of my testing window and my swab test kit
     has not arrived
@@ -1014,7 +1014,7 @@
   participant_completion_window_start_date: '2022-01-08 00:00:00.000000'
   participant_id: DHR-740395980765
   survey_completed_datetime: '2022-01-01 20:53:26.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-01 20:01:59.000000'
   swab_not_taken_reason: I tried but could not take it
   swab_return_date: '2022-01-04 00:00:00.000000'
@@ -1122,7 +1122,7 @@
   participant_completion_window_start_date: '2022-01-03 00:00:00.000000'
   participant_id: DHR-155099418475
   survey_completed_datetime: '2022-01-07 01:05:06.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-04 13:29:23.000000'
   swab_not_taken_reason: I tried but could not take it
   swab_return_date: '2022-01-09 00:00:00.000000'
@@ -1230,7 +1230,7 @@
   participant_completion_window_start_date: '2022-01-09 00:00:00.000000'
   participant_id: DHR-915640336836
   survey_completed_datetime: '2022-01-02 01:53:43.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-03 02:48:14.000000'
   swab_not_taken_reason: I am near the end of my testing window and my swab test kit
     has not arrived
@@ -1342,7 +1342,7 @@
   participant_completion_window_start_date: '2022-01-05 00:00:00.000000'
   participant_id: DHR-115959828487
   survey_completed_datetime: '2022-01-09 03:14:54.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-08 22:45:03.000000'
   swab_not_taken_reason: null
   swab_return_date: '2022-01-09 00:00:00.000000'
@@ -1450,7 +1450,7 @@
   participant_completion_window_start_date: '2022-01-06 00:00:00.000000'
   participant_id: DHR-526716718910
   survey_completed_datetime: '2022-01-09 10:04:15.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-02 04:34:45.000000'
   swab_not_taken_reason: null
   swab_return_date: '2022-01-04 00:00:00.000000'
@@ -1564,7 +1564,7 @@
   participant_completion_window_start_date: '2022-01-03 00:00:00.000000'
   participant_id: DHR-308541607243
   survey_completed_datetime: '2022-01-06 04:32:34.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-04 11:12:07.000000'
   swab_not_taken_reason: I did not want to take it this month
   swab_return_date: '2022-01-07 00:00:00.000000'
@@ -1674,7 +1674,7 @@
   participant_completion_window_start_date: '2022-01-02 00:00:00.000000'
   participant_id: DHR-718828437201
   survey_completed_datetime: '2022-01-06 18:26:51.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-03 09:38:03.000000'
   swab_not_taken_reason: The swab test kit arrived damaged
   swab_return_date: '2022-01-05 00:00:00.000000'
@@ -1783,7 +1783,7 @@
   participant_completion_window_start_date: '2022-01-02 00:00:00.000000'
   participant_id: DHR-763063387334
   survey_completed_datetime: '2022-01-06 11:32:15.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-06 18:00:47.000000'
   swab_not_taken_reason: The swab test kit arrived both damaged and with parts missing
   swab_return_date: '2022-01-03 00:00:00.000000'
@@ -1898,7 +1898,7 @@
   participant_completion_window_start_date: '2022-01-01 00:00:00.000000'
   participant_id: DHR-890407714528
   survey_completed_datetime: null
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: null
   swab_not_taken_reason: I am near the end of my testing window and my swab test kit
     has not arrived
@@ -2008,7 +2008,7 @@
   participant_completion_window_start_date: null
   participant_id: DHR-621024804616
   survey_completed_datetime: '2022-01-01 12:30:42.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-03 18:25:22.000000'
   swab_not_taken_reason: The swab test kit arrived both damaged and with parts missing
   swab_return_date: '2022-01-07 00:00:00.000000'
@@ -2122,7 +2122,7 @@
   participant_completion_window_start_date: '2022-01-06 00:00:00.000000'
   participant_id: DHR-478104447690
   survey_completed_datetime: '2022-01-09 10:19:02.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-03 09:40:01.000000'
   swab_not_taken_reason: null
   swab_return_date: '2022-01-09 00:00:00.000000'
@@ -2231,7 +2231,7 @@
   participant_completion_window_start_date: '2022-01-02 00:00:00.000000'
   participant_id: DHR-422675620223
   survey_completed_datetime: '2022-01-04 19:23:52.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-08 20:26:43.000000'
   swab_not_taken_reason: The swab test kit arrived damaged
   swab_return_date: '2022-01-06 00:00:00.000000'
@@ -2338,7 +2338,7 @@
   participant_completion_window_start_date: '2022-01-01 00:00:00.000000'
   participant_id: DHR-545473722111
   survey_completed_datetime: '2022-01-05 22:52:12.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-08 18:03:05.000000'
   swab_not_taken_reason: I tried but could not take it
   swab_return_date: '2022-01-02 00:00:00.000000'
@@ -2451,7 +2451,7 @@
   participant_completion_window_start_date: '2022-01-08 00:00:00.000000'
   participant_id: DHR-893419340814
   survey_completed_datetime: '2022-01-01 22:12:12.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-03 05:53:54.000000'
   swab_not_taken_reason: The swab test kit arrived damaged
   swab_return_date: '2022-01-08 00:00:00.000000'
@@ -2561,7 +2561,7 @@
   participant_completion_window_start_date: null
   participant_id: DHR-948406015391
   survey_completed_datetime: '2022-01-09 20:49:36.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-04 09:51:29.000000'
   swab_not_taken_reason: I am near the end of my testing window and my swab test kit
     has not arrived
@@ -2675,7 +2675,7 @@
   participant_completion_window_start_date: '2022-01-02 00:00:00.000000'
   participant_id: DHR-800785553136
   survey_completed_datetime: '2022-01-09 10:52:30.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-05 19:49:21.000000'
   swab_not_taken_reason: I tried but could not take it
   swab_return_date: '2022-01-04 00:00:00.000000'
@@ -2786,7 +2786,7 @@
   participant_completion_window_start_date: '2022-01-04 00:00:00.000000'
   participant_id: DHR-792854472880
   survey_completed_datetime: '2022-01-01 21:15:29.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: null
   swab_not_taken_reason: The swab test kit arrived with parts missing
   swab_return_date: '2022-01-04 00:00:00.000000'
@@ -2895,7 +2895,7 @@
   participant_completion_window_start_date: '2022-01-05 00:00:00.000000'
   participant_id: DHR-296617139656
   survey_completed_datetime: '2022-01-06 20:22:30.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: null
   swab_not_taken_reason: null
   swab_return_date: '2022-01-07 00:00:00.000000'
@@ -3006,7 +3006,7 @@
   participant_completion_window_start_date: '2022-01-06 00:00:00.000000'
   participant_id: DHR-049902298831
   survey_completed_datetime: '2022-01-03 05:16:17.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-03 09:12:50.000000'
   swab_not_taken_reason: The swab test kit arrived damaged
   swab_return_date: '2022-01-09 00:00:00.000000'
@@ -3113,7 +3113,7 @@
   participant_completion_window_start_date: '2022-01-03 00:00:00.000000'
   participant_id: DHR-016525808631
   survey_completed_datetime: null
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-06 18:06:58.000000'
   swab_not_taken_reason: The swab test kit arrived damaged
   swab_return_date: '2022-01-04 00:00:00.000000'
@@ -3223,7 +3223,7 @@
   participant_completion_window_start_date: '2022-01-04 00:00:00.000000'
   participant_id: DHR-165270778368
   survey_completed_datetime: '2022-01-08 21:55:20.000000'
-  survey_response_dataset_major_version: 4
+  survey_response_dataset_major_version: 1
   survey_start_datetime: '2022-01-08 22:15:59.000000'
   swab_not_taken_reason: I did not want to take it this month
   swab_return_date: '2022-01-06 00:00:00.000000'

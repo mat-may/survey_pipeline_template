@@ -677,15 +677,13 @@ def execute_covid_transformations(
 @register_pipeline_stage("lab_transformations")
 def execute_lab_transformations(
     input_survey_table: str,
-    blood_results_table: str,
     swab_results_table: str,
     output_survey_table: str,
 ):
     """"""
     df = extract_from_table(input_survey_table)
-    blood_lookup_df = extract_from_table(blood_results_table)
     swab_lookup_df = extract_from_table(swab_results_table)
-    df = lab_transformations(df, blood_lookup_df=blood_lookup_df, swab_lookup_df=swab_lookup_df)
+    df = lab_transformations(df, swab_lookup_df=swab_lookup_df)
     update_table(df, output_survey_table, "overwrite", survey_table=True)
     return {"output_survey_table": output_survey_table}
 

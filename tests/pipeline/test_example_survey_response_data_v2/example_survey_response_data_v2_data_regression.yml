@@ -272,8 +272,8 @@
   participant_id: DHR-043209859962
   samples_taken_datetime: null
   survey_response_dataset_major_version: 2
-  swab_sample_barcode: null
-  swab_taken: 'No'
+  swab_sample_barcode: SWT71019011
+  swab_taken: 'Yes'
   think_had_covid: null
   think_had_covid_any_symptoms: null
   think_had_covid_onset_date: null
@@ -1316,8 +1316,8 @@
   participant_id: DHR-562182564559
   samples_taken_datetime: null
   survey_response_dataset_major_version: 2
-  swab_sample_barcode: null
-  swab_taken: 'No'
+  swab_sample_barcode: SWT93585574
+  swab_taken: 'Yes'
   think_had_covid: 'Yes'
   think_had_covid_any_symptoms: 'No'
   think_had_covid_onset_date: null
@@ -1669,8 +1669,8 @@
   participant_id: DHR-171396568720
   samples_taken_datetime: '2022-01-01T05:43:54.000Z'
   survey_response_dataset_major_version: 2
-  swab_sample_barcode: null
-  swab_taken: 'No'
+  swab_sample_barcode: SWT74412661
+  swab_taken: 'Yes'
   think_had_covid: 'Yes'
   think_had_covid_any_symptoms: null
   think_had_covid_onset_date: null
@@ -1785,8 +1785,8 @@
   participant_id: DHR-425723964512
   samples_taken_datetime: '2022-01-04T09:45:48.000Z'
   survey_response_dataset_major_version: 2
-  swab_sample_barcode: null
-  swab_taken: 'No'
+  swab_sample_barcode: SWT26401764
+  swab_taken: 'Yes'
   think_had_covid: 'No'
   think_had_covid_any_symptoms: 'Yes'
   think_had_covid_onset_date: null
@@ -1903,8 +1903,8 @@
   participant_id: DHR-152672624980
   samples_taken_datetime: null
   survey_response_dataset_major_version: 2
-  swab_sample_barcode: null
-  swab_taken: 'No'
+  swab_sample_barcode: SWT20012306
+  swab_taken: 'Yes'
   think_had_covid: 'No'
   think_had_covid_any_symptoms: 'No'
   think_had_covid_onset_date: null
