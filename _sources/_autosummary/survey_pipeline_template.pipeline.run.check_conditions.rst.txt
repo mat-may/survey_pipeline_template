@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.run.check\_conditions
+=========================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.run
+
+.. autofunction:: check_conditions

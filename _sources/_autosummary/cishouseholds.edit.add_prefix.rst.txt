@@ -1,6 +1,0 @@
-cishouseholds.edit.add\_prefix
-==============================
-
-.. currentmodule:: cishouseholds.edit
-
-.. autofunction:: add_prefix

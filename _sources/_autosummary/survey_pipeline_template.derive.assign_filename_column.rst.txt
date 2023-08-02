@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_filename\_column
+==========================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_filename_column

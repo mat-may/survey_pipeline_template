@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_date\_difference
-=============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_date_difference

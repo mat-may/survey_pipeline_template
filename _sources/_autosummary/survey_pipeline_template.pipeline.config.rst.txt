@@ -1,0 +1,31 @@
+survey\_pipeline\_template.pipeline.config
+==========================================
+
+.. automodule:: survey_pipeline_template.pipeline.config
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      get_config
+      get_secondary_config
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

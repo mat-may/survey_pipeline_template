@@ -1,0 +1,6 @@
+survey\_pipeline\_template.merge.union\_dataframes\_to\_hive
+============================================================
+
+.. currentmodule:: survey_pipeline_template.merge
+
+.. autofunction:: union_dataframes_to_hive

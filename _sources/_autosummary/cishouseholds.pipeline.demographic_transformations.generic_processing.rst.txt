@@ -1,6 +1,0 @@
-cishouseholds.pipeline.demographic\_transformations.generic\_processing
-=======================================================================
-
-.. currentmodule:: cishouseholds.pipeline.demographic_transformations
-
-.. autofunction:: generic_processing

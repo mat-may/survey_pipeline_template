@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.map\_column\_values\_to\_null
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: map_column_values_to_null

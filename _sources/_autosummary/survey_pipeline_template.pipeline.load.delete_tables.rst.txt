@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.delete\_tables
+=======================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: delete_tables

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_ethnicity\_white
+==========================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_ethnicity_white

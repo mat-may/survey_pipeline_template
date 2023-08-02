@@ -1,6 +1,0 @@
-cishouseholds.pipeline.pipeline\_stages.delete\_tables\_stage
-=============================================================
-
-.. currentmodule:: cishouseholds.pipeline.pipeline_stages
-
-.. autofunction:: delete_tables_stage

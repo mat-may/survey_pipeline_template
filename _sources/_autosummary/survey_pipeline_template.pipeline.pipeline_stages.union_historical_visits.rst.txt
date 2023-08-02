@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.union\_historical\_visits
+==============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: union_historical_visits

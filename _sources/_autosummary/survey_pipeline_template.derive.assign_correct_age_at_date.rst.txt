@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_correct\_age\_at\_date
+================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_correct_age_at_date

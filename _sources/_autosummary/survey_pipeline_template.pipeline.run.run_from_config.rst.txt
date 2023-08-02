@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.run.run\_from\_config
+=========================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.run
+
+.. autofunction:: run_from_config

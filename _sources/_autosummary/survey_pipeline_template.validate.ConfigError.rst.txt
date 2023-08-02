@@ -1,0 +1,6 @@
+survey\_pipeline\_template.validate.ConfigError
+===============================================
+
+.. currentmodule:: survey_pipeline_template.validate
+
+.. autoexception:: ConfigError

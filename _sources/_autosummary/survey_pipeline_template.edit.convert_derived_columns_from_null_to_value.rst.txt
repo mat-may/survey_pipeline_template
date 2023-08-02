@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.convert\_derived\_columns\_from\_null\_to\_value
+================================================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: convert_derived_columns_from_null_to_value

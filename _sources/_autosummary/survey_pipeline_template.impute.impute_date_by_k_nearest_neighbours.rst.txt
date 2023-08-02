@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.impute\_date\_by\_k\_nearest\_neighbours
+==========================================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: impute_date_by_k_nearest_neighbours

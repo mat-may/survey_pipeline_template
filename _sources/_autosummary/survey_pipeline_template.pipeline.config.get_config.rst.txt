@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.config.get\_config
+======================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.config
+
+.. autofunction:: get_config

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_population\_projections
+=================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_population_projections

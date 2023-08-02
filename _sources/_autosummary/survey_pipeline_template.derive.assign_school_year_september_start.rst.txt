@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_school\_year\_september\_start
+========================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_school_year_september_start

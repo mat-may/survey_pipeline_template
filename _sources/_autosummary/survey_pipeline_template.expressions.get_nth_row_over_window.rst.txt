@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.get\_nth\_row\_over\_window
+==================================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: get_nth_row_over_window

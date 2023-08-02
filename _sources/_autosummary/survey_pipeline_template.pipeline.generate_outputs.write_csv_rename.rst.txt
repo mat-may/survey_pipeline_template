@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.generate\_outputs.write\_csv\_rename
+========================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.generate_outputs
+
+.. autofunction:: write_csv_rename

@@ -1,6 +1,0 @@
-cishouseholds.expressions.get\_nth\_row\_over\_window
-=====================================================
-
-.. currentmodule:: cishouseholds.expressions
-
-.. autofunction:: get_nth_row_over_window

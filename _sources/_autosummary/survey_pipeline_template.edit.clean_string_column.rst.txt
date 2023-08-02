@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.clean\_string\_column
+=====================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: clean_string_column

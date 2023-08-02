@@ -1,0 +1,23 @@
+survey\_pipeline\_template.regex.vaccine\_regex
+===============================================
+
+.. automodule:: survey_pipeline_template.regex.vaccine_regex
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

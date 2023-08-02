@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_first\_occurence
+==========================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_first_occurence

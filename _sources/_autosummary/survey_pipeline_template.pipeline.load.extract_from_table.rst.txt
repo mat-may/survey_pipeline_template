@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.extract\_from\_table
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: extract_from_table

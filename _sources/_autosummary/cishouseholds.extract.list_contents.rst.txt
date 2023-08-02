@@ -1,6 +1,0 @@
-cishouseholds.extract.list\_contents
-====================================
-
-.. currentmodule:: cishouseholds.extract
-
-.. autofunction:: list_contents

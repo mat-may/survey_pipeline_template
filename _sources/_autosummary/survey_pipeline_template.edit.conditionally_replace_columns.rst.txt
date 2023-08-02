@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.conditionally\_replace\_columns
+===============================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: conditionally_replace_columns

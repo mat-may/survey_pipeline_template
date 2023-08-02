@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_household\_participant\_count
+=======================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_household_participant_count

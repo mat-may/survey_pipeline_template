@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.post\_union\_processing.generic\_processing
+===============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.post_union_processing
+
+.. autofunction:: generic_processing

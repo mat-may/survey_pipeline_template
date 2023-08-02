@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.all\_equal
+=================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: all_equal

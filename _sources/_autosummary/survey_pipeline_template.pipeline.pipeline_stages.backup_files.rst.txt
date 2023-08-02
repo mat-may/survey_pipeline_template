@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.backup\_files
+==================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: backup_files

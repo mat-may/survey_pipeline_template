@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.reporting.dfs\_to\_bytes\_excel
+===================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.reporting
+
+.. autofunction:: dfs_to_bytes_excel

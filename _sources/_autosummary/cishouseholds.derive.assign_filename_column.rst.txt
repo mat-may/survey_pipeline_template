@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_filename\_column
-=============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_filename_column

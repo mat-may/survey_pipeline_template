@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.reporting.ExcelReport
+=========================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.reporting
+
+.. autoclass:: ExcelReport

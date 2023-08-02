@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.update\_value\_if\_multiple\_and\_ref\_in\_list
+===============================================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: update_value_if_multiple_and_ref_in_list

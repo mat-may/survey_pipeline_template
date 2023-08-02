@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.lab\_transformations.match\_type\_swab
+==========================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.lab_transformations
+
+.. autofunction:: match_type_swab

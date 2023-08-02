@@ -1,0 +1,6 @@
+survey\_pipeline\_template.regex.match\_with\_exclusions
+========================================================
+
+.. currentmodule:: survey_pipeline_template.regex
+
+.. autofunction:: match_with_exclusions

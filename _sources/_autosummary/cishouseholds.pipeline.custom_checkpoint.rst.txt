@@ -1,6 +1,0 @@
-cishouseholds.pipeline.custom\_checkpoint
-=========================================
-
-.. currentmodule:: cishouseholds.pipeline
-
-.. autofunction:: custom_checkpoint

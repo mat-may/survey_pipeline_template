@@ -1,0 +1,6 @@
+survey\_pipeline\_template.validate\_class.SparkValidate
+========================================================
+
+.. currentmodule:: survey_pipeline_template.validate_class
+
+.. autoclass:: SparkValidate

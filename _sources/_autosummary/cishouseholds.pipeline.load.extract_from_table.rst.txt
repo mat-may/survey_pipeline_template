@@ -1,6 +1,0 @@
-cishouseholds.pipeline.load.extract\_from\_table
-================================================
-
-.. currentmodule:: cishouseholds.pipeline.load
-
-.. autofunction:: extract_from_table

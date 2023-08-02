@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.weighted\_distance
+====================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: weighted_distance

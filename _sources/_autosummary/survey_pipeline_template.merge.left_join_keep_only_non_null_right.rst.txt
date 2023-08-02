@@ -1,0 +1,6 @@
+survey\_pipeline\_template.merge.left\_join\_keep\_only\_non\_null\_right
+=========================================================================
+
+.. currentmodule:: survey_pipeline_template.merge
+
+.. autofunction:: left_join_keep_only_non_null_right

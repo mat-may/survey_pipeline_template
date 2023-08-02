@@ -7,18 +7,18 @@ Module Index and Docs
    :template: custom-module-template.rst
    :recursive:
 
-   cishouseholds
+   survey_pipeline_template
 
 .. autosummary::
    :toctree: _autosummary
    :template: custom-module-template.rst
    :recursive:
 
-   cishouseholds.pipeline
+   survey_pipeline_template.pipeline
 
 .. autosummary::
    :toctree: _autosummary
    :template: custom-module-template.rst
    :recursive:
 
-   cishouseholds.regex
+   survey_pipeline_template.regex

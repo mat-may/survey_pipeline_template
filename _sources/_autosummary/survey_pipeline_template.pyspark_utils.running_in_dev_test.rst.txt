@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pyspark\_utils.running\_in\_dev\_test
+================================================================
+
+.. currentmodule:: survey_pipeline_template.pyspark_utils
+
+.. autofunction:: running_in_dev_test

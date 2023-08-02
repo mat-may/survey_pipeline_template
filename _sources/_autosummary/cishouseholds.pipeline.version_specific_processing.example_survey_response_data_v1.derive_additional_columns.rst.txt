@@ -1,6 +1,0 @@
-cishouseholds.pipeline.version\_specific\_processing.example\_survey\_response\_data\_v1.derive\_additional\_columns
-====================================================================================================================
-
-.. currentmodule:: cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v1
-
-.. autofunction:: derive_additional_columns

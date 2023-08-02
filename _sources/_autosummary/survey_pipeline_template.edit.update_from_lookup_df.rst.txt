@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.update\_from\_lookup\_df
+========================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: update_from_lookup_df

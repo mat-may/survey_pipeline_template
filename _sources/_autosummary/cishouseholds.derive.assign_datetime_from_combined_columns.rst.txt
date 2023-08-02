@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_datetime\_from\_combined\_columns
-==============================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_datetime_from_combined_columns

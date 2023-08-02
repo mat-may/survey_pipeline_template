@@ -1,6 +1,0 @@
-cishouseholds.pipeline.job\_transformations.job\_transformations
-================================================================
-
-.. currentmodule:: cishouseholds.pipeline.job_transformations
-
-.. autofunction:: job_transformations

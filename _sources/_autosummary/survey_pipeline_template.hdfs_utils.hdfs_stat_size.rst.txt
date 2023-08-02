@@ -1,0 +1,6 @@
+survey\_pipeline\_template.hdfs\_utils.hdfs\_stat\_size
+=======================================================
+
+.. currentmodule:: survey_pipeline_template.hdfs_utils
+
+.. autofunction:: hdfs_stat_size

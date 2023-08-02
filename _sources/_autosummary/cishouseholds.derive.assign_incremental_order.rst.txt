@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_incremental\_order
-===============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_incremental_order

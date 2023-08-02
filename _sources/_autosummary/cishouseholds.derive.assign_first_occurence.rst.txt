@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_first\_occurence
-=============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_first_occurence

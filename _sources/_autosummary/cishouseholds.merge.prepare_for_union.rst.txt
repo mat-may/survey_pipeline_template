@@ -1,6 +1,0 @@
-cishouseholds.merge.prepare\_for\_union
-=======================================
-
-.. currentmodule:: cishouseholds.merge
-
-.. autofunction:: prepare_for_union

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.generate\_outputs.map\_output\_values\_and\_column\_names
+=============================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.generate_outputs
+
+.. autofunction:: map_output_values_and_column_names

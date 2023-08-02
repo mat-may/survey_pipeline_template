@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_condition\_around\_event
-=====================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_condition_around_event

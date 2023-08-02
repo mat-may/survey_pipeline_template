@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.cast\_columns\_from\_string
+===========================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: cast_columns_from_string

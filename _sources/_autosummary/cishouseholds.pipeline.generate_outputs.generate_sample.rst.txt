@@ -1,6 +1,0 @@
-cishouseholds.pipeline.generate\_outputs.generate\_sample
-=========================================================
-
-.. currentmodule:: cishouseholds.pipeline.generate_outputs
-
-.. autofunction:: generate_sample

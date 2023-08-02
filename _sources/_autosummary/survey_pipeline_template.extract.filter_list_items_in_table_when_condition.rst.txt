@@ -1,0 +1,6 @@
+survey\_pipeline\_template.extract.filter\_list\_items\_in\_table\_when\_condition
+==================================================================================
+
+.. currentmodule:: survey_pipeline_template.extract
+
+.. autofunction:: filter_list_items_in_table_when_condition

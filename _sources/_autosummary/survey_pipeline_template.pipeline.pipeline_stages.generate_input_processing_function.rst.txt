@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.generate\_input\_processing\_function
+==========================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: generate_input_processing_function

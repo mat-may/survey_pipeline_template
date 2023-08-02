@@ -1,6 +1,0 @@
-cishouseholds.pipeline.pipeline\_stages.table\_to\_table
-========================================================
-
-.. currentmodule:: cishouseholds.pipeline.pipeline_stages
-
-.. autofunction:: table_to_table

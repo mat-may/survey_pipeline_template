@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.register\_pipeline\_stage
+==============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: register_pipeline_stage

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.count\_value\_occurrences\_in\_column\_subset\_row\_wise
+==========================================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: count_value_occurrences_in_column_subset_row_wise

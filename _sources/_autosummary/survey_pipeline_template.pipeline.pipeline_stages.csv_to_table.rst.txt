@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.csv\_to\_table
+===================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: csv_to_table

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.filter.filter\_by\_cq\_diff
+======================================================
+
+.. currentmodule:: survey_pipeline_template.filter
+
+.. autofunction:: filter_by_cq_diff

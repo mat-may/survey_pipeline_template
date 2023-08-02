@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_last\_occurence
-============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_last_occurence

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.format\_string\_upper\_and\_clean
+=================================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: format_string_upper_and_clean

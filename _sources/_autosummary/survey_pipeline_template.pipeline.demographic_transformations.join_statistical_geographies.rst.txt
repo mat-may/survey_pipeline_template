@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.demographic\_transformations.join\_statistical\_geographies
+===============================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.demographic_transformations
+
+.. autofunction:: join_statistical_geographies

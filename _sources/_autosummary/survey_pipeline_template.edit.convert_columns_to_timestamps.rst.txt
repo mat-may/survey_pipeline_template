@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.convert\_columns\_to\_timestamps
+================================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: convert_columns_to_timestamps

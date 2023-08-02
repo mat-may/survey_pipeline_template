@@ -1,6 +1,0 @@
-cishouseholds.pipeline.pipeline\_stages.aggregated\_output
-==========================================================
-
-.. currentmodule:: cishouseholds.pipeline.pipeline_stages
-
-.. autofunction:: aggregated_output

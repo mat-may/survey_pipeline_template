@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_column\_uniform\_value
-===================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_column_uniform_value

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.execute\_visit\_transformations
+====================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: execute_visit_transformations

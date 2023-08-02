@@ -1,0 +1,23 @@
+survey\_pipeline\_template.regex.healthcare\_regex
+==================================================
+
+.. automodule:: survey_pipeline_template.regex.healthcare_regex
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

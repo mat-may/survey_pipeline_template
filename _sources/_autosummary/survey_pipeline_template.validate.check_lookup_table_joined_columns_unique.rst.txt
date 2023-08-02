@@ -1,0 +1,6 @@
+survey\_pipeline\_template.validate.check\_lookup\_table\_joined\_columns\_unique
+=================================================================================
+
+.. currentmodule:: survey_pipeline_template.validate
+
+.. autofunction:: check_lookup_table_joined_columns_unique

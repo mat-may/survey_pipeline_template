@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.generate\_dummy\_data
+==========================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: generate_dummy_data

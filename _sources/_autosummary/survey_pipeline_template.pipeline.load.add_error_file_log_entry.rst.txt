@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.add\_error\_file\_log\_entry
+=====================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: add_error_file_log_entry

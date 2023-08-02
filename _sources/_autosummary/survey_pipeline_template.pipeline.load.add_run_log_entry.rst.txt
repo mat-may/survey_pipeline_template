@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.add\_run\_log\_entry
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: add_run_log_entry

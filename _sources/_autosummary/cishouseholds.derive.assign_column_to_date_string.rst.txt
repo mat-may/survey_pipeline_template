@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_column\_to\_date\_string
-=====================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_column_to_date_string

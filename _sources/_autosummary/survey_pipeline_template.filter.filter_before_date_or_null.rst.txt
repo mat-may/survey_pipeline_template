@@ -1,0 +1,6 @@
+survey\_pipeline\_template.filter.filter\_before\_date\_or\_null
+================================================================
+
+.. currentmodule:: survey_pipeline_template.filter
+
+.. autofunction:: filter_before_date_or_null

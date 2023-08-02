@@ -1,0 +1,6 @@
+survey\_pipeline\_template.merge.null\_safe\_join
+=================================================
+
+.. currentmodule:: survey_pipeline_template.merge
+
+.. autofunction:: null_safe_join

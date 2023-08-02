@@ -1,0 +1,32 @@
+survey\_pipeline\_template.pipeline.covid\_event\_transformations
+=================================================================
+
+.. automodule:: survey_pipeline_template.pipeline.covid_event_transformations
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      covid_event_transformations
+      data_dependent_derivations
+      derive_new_columns
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

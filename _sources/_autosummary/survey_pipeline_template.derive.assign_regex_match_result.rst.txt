@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_regex\_match\_result
+==============================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_regex_match_result

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.any\_column\_matches\_regex
+==================================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: any_column_matches_regex

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.sample\_proportional\_to\_size\_udf
+=====================================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: sample_proportional_to_size_udf

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.get\_run\_id
+=====================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: get_run_id

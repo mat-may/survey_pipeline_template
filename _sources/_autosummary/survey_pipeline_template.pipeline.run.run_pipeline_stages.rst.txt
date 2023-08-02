@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.run.run\_pipeline\_stages
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.run
+
+.. autofunction:: run_pipeline_stages

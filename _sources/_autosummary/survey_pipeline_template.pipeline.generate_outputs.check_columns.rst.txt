@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.generate\_outputs.check\_columns
+====================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.generate_outputs
+
+.. autofunction:: check_columns

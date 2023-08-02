@@ -1,0 +1,6 @@
+survey\_pipeline\_template.hdfs\_utils.read\_file\_to\_string
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.hdfs_utils
+
+.. autofunction:: read_file_to_string

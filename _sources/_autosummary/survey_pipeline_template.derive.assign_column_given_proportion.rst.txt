@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_column\_given\_proportion
+===================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_column_given_proportion

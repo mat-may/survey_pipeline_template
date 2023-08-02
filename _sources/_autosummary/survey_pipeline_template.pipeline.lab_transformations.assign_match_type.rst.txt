@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.lab\_transformations.assign\_match\_type
+============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.lab_transformations
+
+.. autofunction:: assign_match_type

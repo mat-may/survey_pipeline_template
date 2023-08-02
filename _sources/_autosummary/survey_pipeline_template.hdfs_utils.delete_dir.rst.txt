@@ -1,0 +1,6 @@
+survey\_pipeline\_template.hdfs\_utils.delete\_dir
+==================================================
+
+.. currentmodule:: survey_pipeline_template.hdfs_utils
+
+.. autofunction:: delete_dir

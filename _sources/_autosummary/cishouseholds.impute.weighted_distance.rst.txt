@@ -1,6 +1,0 @@
-cishouseholds.impute.weighted\_distance
-=======================================
-
-.. currentmodule:: cishouseholds.impute
-
-.. autofunction:: weighted_distance

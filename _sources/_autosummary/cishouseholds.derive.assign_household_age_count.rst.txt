@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_household\_age\_count
-==================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_household_age_count

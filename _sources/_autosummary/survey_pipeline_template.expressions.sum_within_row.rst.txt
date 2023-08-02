@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.sum\_within\_row
+=======================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: sum_within_row

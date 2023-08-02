@@ -1,0 +1,38 @@
+survey\_pipeline\_template.merge
+================================
+
+.. automodule:: survey_pipeline_template.merge
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      add_after
+      add_missing_columns
+      get_missing_columns
+      left_join_keep_only_non_null_right
+      left_join_keep_right
+      null_safe_join
+      prepare_for_union
+      union_dataframes_to_hive
+      union_multiple_tables
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

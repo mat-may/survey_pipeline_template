@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.lookup\_and\_regex\_transformations.transform\_cis\_soc\_data
+=================================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.lookup_and_regex_transformations
+
+.. autofunction:: transform_cis_soc_data

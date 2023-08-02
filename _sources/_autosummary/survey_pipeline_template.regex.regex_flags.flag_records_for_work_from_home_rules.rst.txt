@@ -1,0 +1,6 @@
+survey\_pipeline\_template.regex.regex\_flags.flag\_records\_for\_work\_from\_home\_rules
+=========================================================================================
+
+.. currentmodule:: survey_pipeline_template.regex.regex_flags
+
+.. autofunction:: flag_records_for_work_from_home_rules

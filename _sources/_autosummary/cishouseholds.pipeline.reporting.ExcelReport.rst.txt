@@ -1,6 +1,0 @@
-cishouseholds.pipeline.reporting.ExcelReport
-============================================
-
-.. currentmodule:: cishouseholds.pipeline.reporting
-
-.. autoclass:: ExcelReport

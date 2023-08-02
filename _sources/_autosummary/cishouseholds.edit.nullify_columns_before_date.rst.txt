@@ -1,6 +1,0 @@
-cishouseholds.edit.nullify\_columns\_before\_date
-=================================================
-
-.. currentmodule:: cishouseholds.edit
-
-.. autofunction:: nullify_columns_before_date

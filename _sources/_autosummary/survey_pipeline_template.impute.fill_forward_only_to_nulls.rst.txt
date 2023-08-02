@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.fill\_forward\_only\_to\_nulls
+================================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: fill_forward_only_to_nulls

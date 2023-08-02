@@ -1,6 +1,0 @@
-cishouseholds.expressions.fill\_nulls
-=====================================
-
-.. currentmodule:: cishouseholds.expressions
-
-.. autofunction:: fill_nulls

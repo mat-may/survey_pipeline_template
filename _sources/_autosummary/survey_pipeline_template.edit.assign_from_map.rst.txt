@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.assign\_from\_map
+=================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: assign_from_map

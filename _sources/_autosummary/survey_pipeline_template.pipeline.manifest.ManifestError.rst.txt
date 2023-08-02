@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.manifest.ManifestError
+==========================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.manifest
+
+.. autoexception:: ManifestError

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.concat\_fields\_if\_true
+==========================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: concat_fields_if_true

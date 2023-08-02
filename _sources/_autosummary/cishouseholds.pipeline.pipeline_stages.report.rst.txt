@@ -1,6 +1,0 @@
-cishouseholds.pipeline.pipeline\_stages.report
-==============================================
-
-.. currentmodule:: cishouseholds.pipeline.pipeline_stages
-
-.. autofunction:: report

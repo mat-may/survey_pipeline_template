@@ -1,6 +1,0 @@
-cishouseholds.expressions.all\_equal
-====================================
-
-.. currentmodule:: cishouseholds.expressions
-
-.. autofunction:: all_equal

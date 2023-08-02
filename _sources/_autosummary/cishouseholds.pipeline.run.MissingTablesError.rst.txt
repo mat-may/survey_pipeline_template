@@ -1,6 +1,0 @@
-cishouseholds.pipeline.run.MissingTablesError
-=============================================
-
-.. currentmodule:: cishouseholds.pipeline.run
-
-.. autoexception:: MissingTablesError

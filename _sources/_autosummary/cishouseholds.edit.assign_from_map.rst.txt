@@ -1,6 +1,0 @@
-cishouseholds.edit.assign\_from\_map
-====================================
-
-.. currentmodule:: cishouseholds.edit
-
-.. autofunction:: assign_from_map

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.combine\_like\_array\_columns
+===============================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: combine_like_array_columns

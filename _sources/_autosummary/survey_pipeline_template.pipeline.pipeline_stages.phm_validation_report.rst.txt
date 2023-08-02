@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.phm\_validation\_report
+============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: phm_validation_report

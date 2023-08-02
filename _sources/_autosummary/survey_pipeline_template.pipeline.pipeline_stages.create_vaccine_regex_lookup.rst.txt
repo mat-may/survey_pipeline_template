@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.create\_vaccine\_regex\_lookup
+===================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: create_vaccine_regex_lookup

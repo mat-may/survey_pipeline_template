@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_multigenerational
+===========================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_multigenerational

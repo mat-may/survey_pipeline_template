@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.impute\_and\_flag
+===================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: impute_and_flag

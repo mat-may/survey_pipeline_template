@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.array\_contains\_any
+===========================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: array_contains_any

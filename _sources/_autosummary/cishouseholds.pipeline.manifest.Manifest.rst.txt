@@ -1,6 +1,0 @@
-cishouseholds.pipeline.manifest.Manifest
-========================================
-
-.. currentmodule:: cishouseholds.pipeline.manifest
-
-.. autoclass:: Manifest

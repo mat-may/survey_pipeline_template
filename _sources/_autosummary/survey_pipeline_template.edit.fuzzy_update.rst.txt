@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.fuzzy\_update
+=============================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: fuzzy_update

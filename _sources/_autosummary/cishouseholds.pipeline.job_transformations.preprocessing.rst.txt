@@ -1,6 +1,0 @@
-cishouseholds.pipeline.job\_transformations.preprocessing
-=========================================================
-
-.. currentmodule:: cishouseholds.pipeline.job_transformations
-
-.. autofunction:: preprocessing

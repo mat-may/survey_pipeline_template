@@ -1,6 +1,0 @@
-cishouseholds.pipeline.reporting.generate\_comparison\_tables
-=============================================================
-
-.. currentmodule:: cishouseholds.pipeline.reporting
-
-.. autofunction:: generate_comparison_tables

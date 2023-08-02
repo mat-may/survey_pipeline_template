@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.aggregated\_output\_window
+============================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: aggregated_output_window

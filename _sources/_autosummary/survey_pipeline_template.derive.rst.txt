@@ -1,0 +1,81 @@
+survey\_pipeline\_template.derive
+=================================
+
+.. automodule:: survey_pipeline_template.derive
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      aggregated_output_groupby
+      aggregated_output_window
+      assign_age_at_date
+      assign_age_group_school_year
+      assign_column_from_mapped_list_key
+      assign_column_given_proportion
+      assign_column_regex_match
+      assign_column_to_date_string
+      assign_column_uniform_value
+      assign_column_value_from_multiple_column_map
+      assign_columns_from_array
+      assign_condition_around_event
+      assign_correct_age_at_date
+      assign_count_by_group
+      assign_date_difference
+      assign_date_from_filename
+      assign_datetime_from_coalesced_columns_and_log_source
+      assign_datetime_from_combined_columns
+      assign_distinct_count_in_group
+      assign_ethnicity_white
+      assign_fake_id
+      assign_filename_column
+      assign_first_occurence
+      assign_household_age_count
+      assign_household_participant_count
+      assign_incremental_order
+      assign_isin_list
+      assign_last_non_null_value_from_col_list
+      assign_last_occurence
+      assign_mean_across_columns
+      assign_multigenerational
+      assign_named_buckets
+      assign_outward_postcode
+      assign_population_projections
+      assign_random_day_in_month
+      assign_raw_copies
+      assign_regex_from_map
+      assign_regex_from_map_additional_rules
+      assign_regex_match_result
+      assign_school_year
+      assign_school_year_september_start
+      assign_taken_column
+      assign_true_if_any
+      assign_unique_id_column
+      combine_like_array_columns
+      concat_fields_if_true
+      count_value_occurrences_in_column_subset_row_wise
+      derive_age_based_columns
+      get_keys_by_value
+      get_matches
+      map_options_to_bool_columns
+      regex_match_result
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

@@ -1,0 +1,57 @@
+survey\_pipeline\_template.edit
+===============================
+
+.. automodule:: survey_pipeline_template.edit
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      add_prefix
+      apply_value_map_multiple_columns
+      assign_from_map
+      assign_null_if_insufficient
+      cast_columns_from_string
+      clean_postcode
+      clean_string_column
+      clean_within_number_range
+      conditionally_replace_columns
+      convert_columns_to_timestamps
+      convert_derived_columns_from_null_to_value
+      convert_null_if_not_in_list
+      edit_to_sum_or_max_value
+      format_string_upper_and_clean
+      fuzzy_update
+      join_on_existing
+      map_column_values_to_null
+      nullify_columns_before_date
+      rename_column_names
+      update_column_if_ref_in_list
+      update_column_in_time_window
+      update_column_values_from_map
+      update_count_from_columns
+      update_from_lookup_df
+      update_null_column_from_target_column
+      update_strings_to_sentence_case
+      update_to_value_if_any_not_null
+      update_value_if_multiple_and_ref_in_list
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

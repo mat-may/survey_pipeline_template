@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.demographic\_transformations.fill\_forwards\_and\_backwards
+===============================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.demographic_transformations
+
+.. autofunction:: fill_forwards_and_backwards

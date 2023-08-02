@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.edit\_multiple\_columns\_fill\_forward
+========================================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: edit_multiple_columns_fill_forward

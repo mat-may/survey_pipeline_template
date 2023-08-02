@@ -1,0 +1,6 @@
+survey\_pipeline\_template.hdfs\_utils.cleanup\_checkpoint\_dir
+===============================================================
+
+.. currentmodule:: survey_pipeline_template.hdfs_utils
+
+.. autofunction:: cleanup_checkpoint_dir

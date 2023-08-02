@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.run.spark\_description\_set
+===============================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.run
+
+.. autofunction:: spark_description_set

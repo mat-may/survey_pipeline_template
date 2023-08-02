@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.generate\_outputs.configure\_outputs
+========================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.generate_outputs
+
+.. autofunction:: configure_outputs

@@ -1,6 +1,0 @@
-cishouseholds.pipeline.pipeline\_stages.execute\_covid\_transformations
-=======================================================================
-
-.. currentmodule:: cishouseholds.pipeline.pipeline_stages
-
-.. autofunction:: execute_covid_transformations

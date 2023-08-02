@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_regex\_from\_map\_additional\_rules
+=============================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_regex_from_map_additional_rules

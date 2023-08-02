@@ -1,6 +1,0 @@
-cishouseholds.extract.get\_files\_by\_date
-==========================================
-
-.. currentmodule:: cishouseholds.extract
-
-.. autofunction:: get_files_by_date

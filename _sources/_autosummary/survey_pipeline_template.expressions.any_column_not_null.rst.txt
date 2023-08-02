@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.any\_column\_not\_null
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: any_column_not_null

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.count\_occurrence\_in\_row
+=================================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: count_occurrence_in_row

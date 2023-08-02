@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.covid\_event\_transformations.data\_dependent\_derivations
+==============================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.covid_event_transformations
+
+.. autofunction:: data_dependent_derivations

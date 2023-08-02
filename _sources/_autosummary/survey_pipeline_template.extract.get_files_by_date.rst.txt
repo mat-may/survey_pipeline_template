@@ -1,0 +1,6 @@
+survey\_pipeline\_template.extract.get\_files\_by\_date
+=======================================================
+
+.. currentmodule:: survey_pipeline_template.extract
+
+.. autofunction:: get_files_by_date

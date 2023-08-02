@@ -1,0 +1,6 @@
+survey\_pipeline\_template.validate.validate\_files
+===================================================
+
+.. currentmodule:: survey_pipeline_template.validate
+
+.. autofunction:: validate_files

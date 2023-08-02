@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.impute\_by\_mode
+==================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: impute_by_mode

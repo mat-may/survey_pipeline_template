@@ -1,0 +1,6 @@
+survey\_pipeline\_template.merge.union\_multiple\_tables
+========================================================
+
+.. currentmodule:: survey_pipeline_template.merge
+
+.. autofunction:: union_multiple_tables

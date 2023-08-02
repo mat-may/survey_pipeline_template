@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.input\_file\_processing.InvalidFileError
+============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.input_file_processing
+
+.. autoexception:: InvalidFileError

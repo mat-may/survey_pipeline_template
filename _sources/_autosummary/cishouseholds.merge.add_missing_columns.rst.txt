@@ -1,6 +1,0 @@
-cishouseholds.merge.add\_missing\_columns
-=========================================
-
-.. currentmodule:: cishouseholds.merge
-
-.. autofunction:: add_missing_columns

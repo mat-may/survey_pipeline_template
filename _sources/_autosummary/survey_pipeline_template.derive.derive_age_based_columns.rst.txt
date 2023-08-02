@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.derive\_age\_based\_columns
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: derive_age_based_columns

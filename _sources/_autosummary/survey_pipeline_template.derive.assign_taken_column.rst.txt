@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_taken\_column
+=======================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_taken_column

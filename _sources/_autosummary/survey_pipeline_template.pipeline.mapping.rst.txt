@@ -1,0 +1,23 @@
+survey\_pipeline\_template.pipeline.mapping
+===========================================
+
+.. automodule:: survey_pipeline_template.pipeline.mapping
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

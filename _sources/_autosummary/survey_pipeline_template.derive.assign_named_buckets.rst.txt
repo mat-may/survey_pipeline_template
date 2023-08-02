@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_named\_buckets
+========================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_named_buckets

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.demographic\_transformations.generic\_processing
+====================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.demographic_transformations
+
+.. autofunction:: generic_processing

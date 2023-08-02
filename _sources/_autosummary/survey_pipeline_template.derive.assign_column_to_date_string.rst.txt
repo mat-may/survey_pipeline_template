@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_column\_to\_date\_string
+==================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_column_to_date_string

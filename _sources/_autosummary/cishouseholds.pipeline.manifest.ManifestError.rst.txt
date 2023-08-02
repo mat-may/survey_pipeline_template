@@ -1,6 +1,0 @@
-cishouseholds.pipeline.manifest.ManifestError
-=============================================
-
-.. currentmodule:: cishouseholds.pipeline.manifest
-
-.. autoexception:: ManifestError

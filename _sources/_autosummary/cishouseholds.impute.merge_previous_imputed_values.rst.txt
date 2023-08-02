@@ -1,6 +1,0 @@
-cishouseholds.impute.merge\_previous\_imputed\_values
-=====================================================
-
-.. currentmodule:: cishouseholds.impute
-
-.. autofunction:: merge_previous_imputed_values

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.join\_lookup\_table
+========================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: join_lookup_table

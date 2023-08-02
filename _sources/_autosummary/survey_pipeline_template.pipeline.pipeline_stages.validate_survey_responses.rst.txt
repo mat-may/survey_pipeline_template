@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.validate\_survey\_responses
+================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: validate_survey_responses

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_age\_group\_school\_year
+==================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_age_group_school_year

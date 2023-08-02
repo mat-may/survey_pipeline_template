@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.get\_full\_table\_name
+===============================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: get_full_table_name

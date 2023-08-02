@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.generate\_outputs.generate\_sample
+======================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.generate_outputs
+
+.. autofunction:: generate_sample

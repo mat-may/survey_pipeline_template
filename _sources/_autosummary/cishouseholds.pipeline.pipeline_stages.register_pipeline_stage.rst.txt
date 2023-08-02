@@ -1,6 +1,0 @@
-cishouseholds.pipeline.pipeline\_stages.register\_pipeline\_stage
-=================================================================
-
-.. currentmodule:: cishouseholds.pipeline.pipeline_stages
-
-.. autofunction:: register_pipeline_stage

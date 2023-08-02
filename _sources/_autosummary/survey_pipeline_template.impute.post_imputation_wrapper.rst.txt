@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.post\_imputation\_wrapper
+===========================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: post_imputation_wrapper

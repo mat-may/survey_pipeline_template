@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.reporting.generate\_error\_table
+====================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.reporting
+
+.. autofunction:: generate_error_table

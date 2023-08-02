@@ -1,0 +1,6 @@
+survey\_pipeline\_template.filter.filter\_exclude\_by\_pattern
+==============================================================
+
+.. currentmodule:: survey_pipeline_template.filter
+
+.. autofunction:: filter_exclude_by_pattern

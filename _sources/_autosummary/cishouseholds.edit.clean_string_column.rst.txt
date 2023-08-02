@@ -1,6 +1,0 @@
-cishouseholds.edit.clean\_string\_column
-========================================
-
-.. currentmodule:: cishouseholds.edit
-
-.. autofunction:: clean_string_column

@@ -1,6 +1,0 @@
-cishouseholds.pipeline.version\_specific\_processing.example\_survey\_response\_data\_v2.example\_survey\_response\_data\_v2\_transformations
-=============================================================================================================================================
-
-.. currentmodule:: cishouseholds.pipeline.version_specific_processing.example_survey_response_data_v2
-
-.. autofunction:: example_survey_response_data_v2_transformations

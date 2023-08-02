@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.validation\_calls.validation\_ETL
+=====================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.validation_calls
+
+.. autofunction:: validation_ETL

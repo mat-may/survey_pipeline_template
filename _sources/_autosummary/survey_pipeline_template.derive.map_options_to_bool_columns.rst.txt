@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.map\_options\_to\_bool\_columns
+=================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: map_options_to_bool_columns

@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_unique\_id\_column
-===============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_unique_id_column

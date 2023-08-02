@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.update\_column\_in\_time\_window
+================================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: update_column_in_time_window

@@ -1,6 +1,0 @@
-cishouseholds.pipeline.load.get\_run\_id
-========================================
-
-.. currentmodule:: cishouseholds.pipeline.load
-
-.. autofunction:: get_run_id

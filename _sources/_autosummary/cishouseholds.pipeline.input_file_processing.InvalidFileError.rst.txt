@@ -1,6 +1,0 @@
-cishouseholds.pipeline.input\_file\_processing.InvalidFileError
-===============================================================
-
-.. currentmodule:: cishouseholds.pipeline.input_file_processing
-
-.. autoexception:: InvalidFileError

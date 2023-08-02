@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_unique\_id\_column
+============================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_unique_id_column

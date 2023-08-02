@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_multigenerational
-==============================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_multigenerational

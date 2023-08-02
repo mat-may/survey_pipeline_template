@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.execute\_post\_union\_processing
+=====================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: execute_post_union_processing

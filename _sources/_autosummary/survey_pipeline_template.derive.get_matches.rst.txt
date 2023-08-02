@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.get\_matches
+==============================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: get_matches

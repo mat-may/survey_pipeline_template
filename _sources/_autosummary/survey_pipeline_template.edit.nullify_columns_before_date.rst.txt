@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.nullify\_columns\_before\_date
+==============================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: nullify_columns_before_date

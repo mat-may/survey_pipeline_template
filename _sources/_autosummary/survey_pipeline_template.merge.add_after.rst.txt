@@ -1,0 +1,6 @@
+survey\_pipeline\_template.merge.add\_after
+===========================================
+
+.. currentmodule:: survey_pipeline_template.merge
+
+.. autofunction:: add_after

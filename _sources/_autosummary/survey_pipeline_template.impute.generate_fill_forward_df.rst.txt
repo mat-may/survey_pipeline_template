@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.generate\_fill\_forward\_df
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: generate_fill_forward_df

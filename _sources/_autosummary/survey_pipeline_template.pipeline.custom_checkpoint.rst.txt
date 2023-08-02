@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.custom\_checkpoint
+======================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline
+
+.. autofunction:: custom_checkpoint

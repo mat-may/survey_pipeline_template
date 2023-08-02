@@ -1,0 +1,23 @@
+survey\_pipeline\_template.regex.regex\_patterns
+================================================
+
+.. automodule:: survey_pipeline_template.regex.regex_patterns
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

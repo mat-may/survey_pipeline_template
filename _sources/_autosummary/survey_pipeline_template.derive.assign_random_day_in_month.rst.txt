@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_random\_day\_in\_month
+================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_random_day_in_month

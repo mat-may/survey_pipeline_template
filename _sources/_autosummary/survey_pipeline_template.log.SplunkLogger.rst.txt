@@ -1,0 +1,6 @@
+survey\_pipeline\_template.log.SplunkLogger
+===========================================
+
+.. currentmodule:: survey_pipeline_template.log
+
+.. autoclass:: SplunkLogger

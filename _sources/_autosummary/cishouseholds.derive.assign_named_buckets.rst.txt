@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_named\_buckets
-===========================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_named_buckets

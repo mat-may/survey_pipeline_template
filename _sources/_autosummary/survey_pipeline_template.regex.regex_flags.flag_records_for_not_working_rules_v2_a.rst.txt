@@ -1,0 +1,6 @@
+survey\_pipeline\_template.regex.regex\_flags.flag\_records\_for\_not\_working\_rules\_v2\_a
+============================================================================================
+
+.. currentmodule:: survey_pipeline_template.regex.regex_flags
+
+.. autofunction:: flag_records_for_not_working_rules_v2_a

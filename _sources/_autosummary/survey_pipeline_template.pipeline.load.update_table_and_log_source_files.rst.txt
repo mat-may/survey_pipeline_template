@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.update\_table\_and\_log\_source\_files
+===============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: update_table_and_log_source_files

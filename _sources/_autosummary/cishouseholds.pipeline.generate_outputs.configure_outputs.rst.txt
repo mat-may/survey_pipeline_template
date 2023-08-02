@@ -1,6 +1,0 @@
-cishouseholds.pipeline.generate\_outputs.configure\_outputs
-===========================================================
-
-.. currentmodule:: cishouseholds.pipeline.generate_outputs
-
-.. autofunction:: configure_outputs

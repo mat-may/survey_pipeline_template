@@ -1,0 +1,60 @@
+survey\_pipeline\_template.pipeline
+===================================
+
+.. automodule:: survey_pipeline_template.pipeline
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      custom_checkpoint
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   survey_pipeline_template.pipeline.config
+   survey_pipeline_template.pipeline.covid_event_transformations
+   survey_pipeline_template.pipeline.demographic_transformations
+   survey_pipeline_template.pipeline.generate_outputs
+   survey_pipeline_template.pipeline.input_file_processing
+   survey_pipeline_template.pipeline.input_file_stages
+   survey_pipeline_template.pipeline.job_transformations
+   survey_pipeline_template.pipeline.lab_transformations
+   survey_pipeline_template.pipeline.load
+   survey_pipeline_template.pipeline.logging
+   survey_pipeline_template.pipeline.lookup_and_regex_transformations
+   survey_pipeline_template.pipeline.manifest
+   survey_pipeline_template.pipeline.mapping
+   survey_pipeline_template.pipeline.pipeline_stages
+   survey_pipeline_template.pipeline.post_union_processing
+   survey_pipeline_template.pipeline.reporting
+   survey_pipeline_template.pipeline.run
+   survey_pipeline_template.pipeline.timestamp_map
+   survey_pipeline_template.pipeline.validation_calls
+   survey_pipeline_template.pipeline.validation_schema
+   survey_pipeline_template.pipeline.version_specific_processing
+   survey_pipeline_template.pipeline.visit_transformations
+

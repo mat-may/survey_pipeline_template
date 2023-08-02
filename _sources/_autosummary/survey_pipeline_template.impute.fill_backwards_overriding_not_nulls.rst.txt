@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.fill\_backwards\_overriding\_not\_nulls
+=========================================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: fill_backwards_overriding_not_nulls

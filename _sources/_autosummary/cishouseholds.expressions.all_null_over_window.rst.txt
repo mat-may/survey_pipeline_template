@@ -1,6 +1,0 @@
-cishouseholds.expressions.all\_null\_over\_window
-=================================================
-
-.. currentmodule:: cishouseholds.expressions
-
-.. autofunction:: all_null_over_window

@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_column\_regex\_match
-=================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_column_regex_match

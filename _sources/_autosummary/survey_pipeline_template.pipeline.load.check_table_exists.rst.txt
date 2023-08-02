@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.check\_table\_exists
+=============================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: check_table_exists

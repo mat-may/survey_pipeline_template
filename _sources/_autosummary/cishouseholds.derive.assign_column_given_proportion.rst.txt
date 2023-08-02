@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_column\_given\_proportion
-======================================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_column_given_proportion

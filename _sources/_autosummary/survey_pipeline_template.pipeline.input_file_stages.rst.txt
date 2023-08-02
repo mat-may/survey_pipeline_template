@@ -1,0 +1,23 @@
+survey\_pipeline\_template.pipeline.input\_file\_stages
+=======================================================
+
+.. automodule:: survey_pipeline_template.pipeline.input_file_stages
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

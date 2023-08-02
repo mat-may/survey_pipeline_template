@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_column\_from\_mapped\_list\_key
+=========================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_column_from_mapped_list_key

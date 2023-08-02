@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_count\_by\_group
+==========================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_count_by_group

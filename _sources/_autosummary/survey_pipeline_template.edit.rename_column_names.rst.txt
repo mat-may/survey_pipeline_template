@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.rename\_column\_names
+=====================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: rename_column_names

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.first\_sorted\_val\_row\_wise
+====================================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: first_sorted_val_row_wise

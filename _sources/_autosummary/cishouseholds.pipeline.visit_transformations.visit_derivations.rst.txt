@@ -1,6 +1,0 @@
-cishouseholds.pipeline.visit\_transformations.visit\_derivations
-================================================================
-
-.. currentmodule:: cishouseholds.pipeline.visit_transformations
-
-.. autofunction:: visit_derivations

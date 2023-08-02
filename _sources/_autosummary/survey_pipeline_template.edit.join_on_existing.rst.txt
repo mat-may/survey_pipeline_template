@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.join\_on\_existing
+==================================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: join_on_existing

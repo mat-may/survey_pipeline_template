@@ -1,0 +1,42 @@
+survey\_pipeline\_template.regex
+================================
+
+.. automodule:: survey_pipeline_template.regex
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      match_with_exclusions
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   survey_pipeline_template.regex.healthcare_regex
+   survey_pipeline_template.regex.regex_flags
+   survey_pipeline_template.regex.regex_patterns
+   survey_pipeline_template.regex.vaccine_regex
+

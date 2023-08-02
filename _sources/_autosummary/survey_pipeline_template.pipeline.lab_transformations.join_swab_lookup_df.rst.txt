@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.lab\_transformations.join\_swab\_lookup\_df
+===============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.lab_transformations
+
+.. autofunction:: join_swab_lookup_df

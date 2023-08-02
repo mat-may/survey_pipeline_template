@@ -1,6 +1,0 @@
-cishouseholds.derive.assign\_true\_if\_any
-==========================================
-
-.. currentmodule:: cishouseholds.derive
-
-.. autofunction:: assign_true_if_any

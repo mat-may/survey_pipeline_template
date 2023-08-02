@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.job\_transformations.data\_dependent\_derivations
+=====================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.job_transformations
+
+.. autofunction:: data_dependent_derivations

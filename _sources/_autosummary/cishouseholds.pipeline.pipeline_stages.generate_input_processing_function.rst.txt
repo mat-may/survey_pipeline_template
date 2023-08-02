@@ -1,6 +1,0 @@
-cishouseholds.pipeline.pipeline\_stages.generate\_input\_processing\_function
-=============================================================================
-
-.. currentmodule:: cishouseholds.pipeline.pipeline_stages
-
-.. autofunction:: generate_input_processing_function

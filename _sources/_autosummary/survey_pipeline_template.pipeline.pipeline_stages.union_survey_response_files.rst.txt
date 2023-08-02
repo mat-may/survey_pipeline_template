@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.pipeline\_stages.union\_survey\_response\_files
+===================================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.pipeline_stages
+
+.. autofunction:: union_survey_response_files

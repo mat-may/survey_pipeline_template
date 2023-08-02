@@ -1,0 +1,6 @@
+survey\_pipeline\_template.expressions.all\_null\_over\_window
+==============================================================
+
+.. currentmodule:: survey_pipeline_template.expressions
+
+.. autofunction:: all_null_over_window

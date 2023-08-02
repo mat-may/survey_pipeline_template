@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.load.update\_processed\_file\_log
+=====================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.load
+
+.. autofunction:: update_processed_file_log

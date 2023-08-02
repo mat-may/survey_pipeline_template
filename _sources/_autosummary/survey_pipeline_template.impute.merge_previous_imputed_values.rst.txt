@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.merge\_previous\_imputed\_values
+==================================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: merge_previous_imputed_values

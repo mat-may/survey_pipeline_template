@@ -1,0 +1,6 @@
+survey\_pipeline\_template.hdfs\_utils.read\_header
+===================================================
+
+.. currentmodule:: survey_pipeline_template.hdfs_utils
+
+.. autofunction:: read_header

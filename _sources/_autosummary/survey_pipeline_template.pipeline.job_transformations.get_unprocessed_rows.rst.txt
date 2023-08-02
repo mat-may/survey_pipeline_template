@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.job\_transformations.get\_unprocessed\_rows
+===============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.job_transformations
+
+.. autofunction:: get_unprocessed_rows

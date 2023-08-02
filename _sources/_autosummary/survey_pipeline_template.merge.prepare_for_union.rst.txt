@@ -1,0 +1,6 @@
+survey\_pipeline\_template.merge.prepare\_for\_union
+====================================================
+
+.. currentmodule:: survey_pipeline_template.merge
+
+.. autofunction:: prepare_for_union

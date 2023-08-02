@@ -1,0 +1,6 @@
+survey\_pipeline\_template.validate.normalise\_schema
+=====================================================
+
+.. currentmodule:: survey_pipeline_template.validate
+
+.. autofunction:: normalise_schema

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_mean\_across\_columns
+===============================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_mean_across_columns

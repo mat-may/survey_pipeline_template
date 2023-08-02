@@ -1,0 +1,6 @@
+survey\_pipeline\_template.impute.fill\_forward\_from\_last\_change
+===================================================================
+
+.. currentmodule:: survey_pipeline_template.impute
+
+.. autofunction:: fill_forward_from_last_change

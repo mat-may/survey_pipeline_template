@@ -1,0 +1,6 @@
+survey\_pipeline\_template.edit.add\_prefix
+===========================================
+
+.. currentmodule:: survey_pipeline_template.edit
+
+.. autofunction:: add_prefix

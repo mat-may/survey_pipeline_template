@@ -1,0 +1,6 @@
+survey\_pipeline\_template.pipeline.job\_transformations.create\_job\_lookup
+============================================================================
+
+.. currentmodule:: survey_pipeline_template.pipeline.job_transformations
+
+.. autofunction:: create_job_lookup

@@ -1,0 +1,6 @@
+survey\_pipeline\_template.derive.assign\_last\_non\_null\_value\_from\_col\_list
+=================================================================================
+
+.. currentmodule:: survey_pipeline_template.derive
+
+.. autofunction:: assign_last_non_null_value_from_col_list
