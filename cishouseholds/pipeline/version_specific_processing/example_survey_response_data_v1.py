@@ -195,7 +195,7 @@ def derive_additional_columns(df: DataFrame) -> DataFrame:
     df = df.withColumn("visit_id", F.col("participant_completion_window_id"))
     df = df.withColumn("visit_datetime", F.col("survey_completed_datetime"))
     df = assign_date_from_filename(df, "file_date", "survey_response_source_file")
-    df = assign_column_uniform_value(df, "survey_response_dataset_major_version", 4)
+    df = assign_column_uniform_value(df, "survey_response_dataset_major_version", 1)
     df = df.withColumn("visit_date", F.to_timestamp(F.to_date(F.col("visit_datetime"))))
 
     map_to_bool_columns_dict = {
