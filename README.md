@@ -33,15 +33,15 @@ The following diagram provides a high level overview of these pipeline stages fo
 
 ```mermaid
 flowchart TD
-    data_1[(Example\nSurvey Data\nv1)] --> IOP_1[Example\nSurvey Data\nv1 ETL]
-    data_2[(Example\nSurvey Data\nv2)] --> IOP_2[Example\nSurvey Data\nv1 ETL]
+    data_1[(Example\nSurvey Data\nv1)] --> IOP_1(Example\nSurvey Data\nv1 ETL)
+    data_2[(Example\nSurvey Data\nv2)] --> IOP_2(Example\nSurvey Data\nv1 ETL)
     IOP_1 --> SP_1[Union Survey Response Files]
-    IOP_2 --> SP_1
-    SP_1 --> TA_1[{Visit Transformations}]
-    TA_1 --> TA_2[{Lab Transformations}]
-    data_3[(Example\nSwab Sample\nData)] --> IOP_3[Example\nSwab Sample\nETL]
-    IOP_3 --> TA_2
-    TA_2 --> TA_3[{Covid Event Transformations}]
+    IOP_2 --> SP_1[Union Survey Response Files]
+    SP_1 --> TA_1{{Visit Transformations}}
+    TA_1 --> TA_2{{Lab Transformations}}
+    data_3[(Example\nSwab Sample\nData)] --> IOP_3(Example\nSwab Sample\nETL)
+    IOP_3 --> TA_2{{Lab Transformations}}
+    TA_2 --> TA_3{{Covid Event Transformations}}
     TA_3 --> SP_2[Validate Survey Responses]
     SP_2 --> IOP_4(Output Report)
     IOP_4 --> IOP_5(Export Report)
