@@ -1,0 +1,65 @@
+run:
+  # how to read this config
+  # each ~~~ line denotes a distinct set of pipeline stages to run
+  # these can be either:
+  # uncommented - active stage
+  # single # comment - inactive stage
+  # double ## comment - irrelevant stage for project workflow
+
+  # preprocessing:
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #- backup_files
+  #- delete_tables
+  - lookup_csv_to_table
+  #- process_soc_deltas
+
+  # survey response processing:
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - example_swab_sample_data_ETL
+  - example_survey_response_data_v1_ETL
+  - example_survey_response_data_v2_ETL
+  - union_survey_response_files
+  - visit_transformations
+  - lab_transformations
+  - covid_transformations
+  - validate_survey_responses
+
+  # aggregation:
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - report
+  - export_survey_responses
+
+  # troubleshooting:
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #- compare_valid_survey_responses
+
+
+stages:
+  delete_tables:
+    prefix: False
+    table_names: ["job_lookup"]
+    drop_protected_tables: False
+    protected_tables:
+      - run_log
+      - run_status
+      - imputed_value_lookup
+      - error_file_log
+      - transformed_survey_responses_v1
+      - transformed_survey_responses_v2
+
+  process_soc_deltas:
+    include_processed: True
+    include_invalid: False
+    latest_only: False
+
+  compare_valid_survey_responses:
+    base_table_name: valid_survey_responses_20230313_204828
+    table_name_to_compare: valid_survey_responses
+
+storage:
+  table_prefix: example_
+
+splunk_log_directory: splunk_logs/status.log
+retry_times_on_fail: 3
+retry_wait_time_seconds: 60
+pyspark_session_size: xs

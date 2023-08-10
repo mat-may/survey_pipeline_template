@@ -1,0 +1,148 @@
+stages:
+
+   # Preprocessing
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #
+  backup_files:
+    file_list:
+      -
+      -
+    backup_directory:
+
+  lookup_csv_to_table:
+    function: csv_to_table
+    file_operations:
+      - path:
+        table_name:
+        schema:
+        column_map:
+        drop_not_found: True
+
+  process_soc_deltas:
+    soc_file_pattern:
+    source_file_column:
+    include_processed:
+    include_invalid:
+    latest_only:
+    input_tables:
+      inconsistencies_resolution_table:
+    io_tables:
+      soc_lookup_table:
+    output_tables:
+      soc_lookup_table:
+      coding_errors_table:
+
+  # Survey response processing
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #
+
+  example_swab_sample_data_ETL:
+    dataset_name: example_swab_sample_data
+    id_column: visit_id
+    resource_path:
+    latest_only: True
+    start_date: 2021-01-09
+    end_date: 2028-12-31
+    include_processed: True
+    include_invalid: False
+
+  example_survey_response_data_v1_ETL:
+    dataset_name: example_survey_response_data_v1
+    id_column: visit_id
+    resource_path:
+    latest_only: True
+    start_date: 2021-01-09
+    end_date: 2028-12-31
+    include_processed: True
+    include_invalid: False
+
+  example_survey_response_data_v2_ETL:
+    dataset_name: example_survey_response_data_v2
+    id_column: participant_completion_window_id
+    resource_path:
+    latest_only: True
+    start_date: 2021-03-27
+    end_date: 2028-12-31
+    include_processed: True
+    include_invalid: False
+
+  union_survey_response_files:
+    tables_to_process:
+      - transformed_example_survey_response_data_v1
+      - transformed_example_suvrey_response_data_v2
+    output_tables:
+      output_survey_table: unioned_survey_responses
+
+  visit_transformations:
+    output_tables:
+      output_survey_table: visit_transformed_responses
+
+  lab_transformations:
+    input_tables:
+      swab_lookup_table:
+    output_tables:
+      output_survey_table: lab_transformed_responses
+
+  covid_transformations:
+    output_tables:
+      output_survey_table: covid_transformed_responses
+
+  validate_survey_responses:
+    duplicate_count_column_name: complete_duplicate_count
+    validation_failure_flag_column: survey_responses_validation_failures
+    id_column: visit_id
+    output_tables:
+      output_survey_table: valid_survey_responses
+      invalid_survey_responses_table: invalid_survey_responses
+      valid_validation_failures_table: validation_check_failures_valid_data
+      invalid_validation_failures_table: validation_check_failures_invalid_data
+
+  # Aggregation
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #
+  report:
+    unique_id_column: unique_participant_response_id
+    validation_failure_flag_column: survey_responses_validation_failures
+    duplicate_count_column_name: complete_duplicate_count
+    input_tables:
+      valid_survey_responses_table: valid_survey_responses
+      invalid_survey_responses_table: invalid_survey_responses
+      valid_survey_responses_errors_table: validation_check_failures_valid_data
+      invalid_survey_responses_errors_table: validation_check_failures_invalid_data
+    output_directory:
+    error_priority_map:
+      swab_sample_barcode should match '^(ON([SWCN]0|S2|S7)[0-9]{7})$': 1
+      the date in visit_datetime should be before the date in file_date when both swab_sample_barcode and blood_sample_barcode are null: 2
+      participant_id, visit_datetime, participant_visit_status should be unique: 3
+      blood_sample_barcode should match '^(ON([SWCN]0|S2|S7)[0-9]{7})$': 4
+    tables_to_count:
+      - raw_survey_responses_v1
+      - raw_survey_responses_v2
+      - transformed_survey_responses_v1
+      - transformed_survey_responses_v2
+      - extracted_survey_responses_v1
+      - extracted_survey_responses_v2
+
+  survey_responses_proving:
+    function: tables_to_csv
+    category_map: iqvia_raw_category_map
+    tables_to_csv_config_file: hdfs:///dapsen/workspace_zone/covserolink/cishouseholds/uat/configs/uat_survey_responses_tables_to_csv_config.yaml
+    outgoing_directory: hdfs:///dapsen/workspace_zone/covserolink/cishouseholds/uat/outputs
+
+  compare_valid_survey_responses:
+    function: compare_tables
+    base_table_name: valid_survey_responses_20221109_205446
+    table_name_to_compare: valid_survey_responses
+    counts_df_table_name: valid_survey_responses_compare
+    diff_samples_table_name: valid_survey_responses_compare_samples
+
+storage:
+  database: example_db
+  write_mode: overwrite
+  checkpoint_directory: example_files/checkpoints
+  record_editing_config_file: raw_value_editing_config.csv
+  record_extraction_config_file: raw_record_filtering_config.yaml
+
+sample_directory: example_files/sample
+imputation_log_directory:
+pyspark_session_size: xs
